@@ -12,7 +12,7 @@ redirect_from:
 You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en) profile.
 
 ## **PREPRINTS**
-*
+
 
 ## **PEER-REVIEWED**
 1. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda,<br />
