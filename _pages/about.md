@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kangqiao LIU"
+title: "Kangqiao LIU 刘康桥"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,4 +14,13 @@ Prof. Masahito Ueda's group
 
 Department of Physics, The University of Tokyo, 
 
-7-3-1 Hongo, Bunkyo-ku, Tokyo
+7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan
+
+
+
+
+東京大学理学系研究科物理学専攻
+
+上田研究室
+
+113-0033 日本東京都文京区本郷7-3-1
