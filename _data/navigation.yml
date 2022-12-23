@@ -10,10 +10,19 @@ main:
     url: /publications/
 
   - title: "Presentations"
-    url: /talks/    
+    url: /talks/
+  
+  - title: "履历"
+    url: /cv_zh/    
 
+  - title: "研究方向"
+    url: /research_zh/ 
 
-    
+  - title: "学术成果"
+    url: /publications_zh/ 
+   
+  - title: "学术报告"
+    url: /talks_zh/ 
 #   - title: "Portfolio"
 #     url: /portfolio/
         
