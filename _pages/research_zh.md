@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "研究方向"
-permalink: /research/
+permalink: /research_zh/
 author_profile: true
 redirect_from:
   - /resume
