@@ -83,11 +83,12 @@ author:
   name             : "Kangqiao LIU"
   avatar           : "IMG_6440-min.jpeg"
   bio              : "Ph.D  Student in Physics"
-  location         : "Department of Physics, The University of Tokyo, Japan"
+  location         : "Department of Physics,"
+  bilibili         : "The University of Tokyo, Japan"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en"
-  email            : "kqliu_at_cat.phys.s.u-tokyo.ac.jp"
+  email            : "kqliu@cat.phys.s.u-tokyo.ac.jp"
   researchgate     :  "https://www.researchgate.net/profile/Kangqiao-Liu"
   uri              :
   bitbucket        :
