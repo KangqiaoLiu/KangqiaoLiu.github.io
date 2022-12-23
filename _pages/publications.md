@@ -26,7 +26,7 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
    selected for **Spotlight** (5% of all submissions)<br />
    [[arXiv:2102.05375]](https://arxiv.org/abs/2102.05375).
    
-3. **Kangqiao Liu**\*, Liu Ziyin*, and Masahito Ueda, (\*equal contribution)<br />
+3. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, (\*equal contribution)<br />
    *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*,<br />
    [Proceedings of the 38th International Conference on Machine Learning, PMLR 139:7045-7056, 2021 (ICML 2021)](http://proceedings.mlr.press/v139/liu21ad.html)<br />
    [[arXiv:2012.03636]](https://arxiv.org/abs/2012.03636).
