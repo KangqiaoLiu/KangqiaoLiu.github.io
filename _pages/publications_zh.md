@@ -19,7 +19,7 @@ redirect_from:
    (IF = 9.185，中科院1区)<br />
    [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797)
    
-2. **Kangqiao Liu**\*, Liu Ziyin*, and Masahito Ueda, (\*equal contribution)<br />
+2. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, (\*equal contribution)<br />
    *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*,<br />
    [Proceedings of the 38th International Conference on Machine Learning, PMLR 139:7045-7056, 2021 (ICML 2021)](http://proceedings.mlr.press/v139/liu21ad.html)<br />
    (接收率 = 21.5%，CCF A类，机器学习顶会)<br />
