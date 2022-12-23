@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "学术成果"
-permalink: /publications/
+permalink: /publications_zh/
 author_profile: true
 redirect_from:
   - /resume
