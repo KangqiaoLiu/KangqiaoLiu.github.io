@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## **EMPLOYMENT**
+## **Employment**
 * Apr. 2023 - Mar. 2025
   * **Research Fellow** of Japan Society for the Promotion of Science (JSPS) DC2
 
@@ -19,7 +19,7 @@ redirect_from:
   * **Instructor**: Prof. Haoxue Qiao
   * School of Physics and Technology, Wuhan University, China
 
-## **EDUCATION**
+## **Education**
 * Sep. 2020 - Sep. 2023 (expected)
   * **Ph.D**,  Department of Physics, the University of Tokyo, Japan
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
@@ -39,7 +39,7 @@ redirect_from:
   * [Prof. Wenxian Zhang's Group](http://jszy.whu.edu.cn/zhangwenxian/en/index.htm)
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
   
-## **AWARDS**
+## **Awards**
 * Sep. 2018, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan
 * May  2018, **Students Graduated with Honors**, Wuhan University, China
 * Apr. 2017, **First Class Fulan Scholarship**, Wuhan University, China
@@ -49,6 +49,6 @@ redirect_from:
 * Oct. 2015, **National Scholarship**, Ministry of Education of the People's Republic of China, China
 * Oct. 2015, **Tian Juan Scholarship**, Wuhan Institute of Physics and Mathematics of Chinese Academy of Sciences, China
 
-## **SERVICE**
+## **Service**
 * Reviewer
   * Physical Review Letters
