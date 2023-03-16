@@ -11,12 +11,12 @@ redirect_from:
 
 You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en) profile.
 
-## **PREPRINTS**
+## **Preprints**
 1. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
   *Maxwell's Demon for Quantum Transport*,<br />
   [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
 
-## **PEER-REVIEWED**
+## **Peer-reviewed**
 1. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda,<br />
   *Power-law escape rate of SGD*,<br />
   [Proceedings of the 39th International Conference on Machine Learning, PMLR **162**:15959-15975, 2022 (ICML 2022)](https://proceedings.mlr.press/v162/mori22a.html)<br />
