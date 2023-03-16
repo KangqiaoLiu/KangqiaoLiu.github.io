@@ -18,3 +18,6 @@ redirect_from:
   * Noise and fluctuations of the stochastic gradient descent (SGD) algorithm in deep learning with a finite learning rate.[[ICML 2021]](http://proceedings.mlr.press/v139/liu21ad.html)
   * Fundamental properties of the minibatch noise in discrete-time SGD.[[ICLR 2022 Spotlight]](https://openreview.net/forum?id=uorVGbWV5sw)
   * Stationary distribution and power-law escape rate from a local minimum for minibatch SGD.[[ICML 2022]](https://proceedings.mlr.press/v162/mori22a.html)
+
+* **Quantum thermodynamics and information thermodynamics**
+  * Construction of a new type of quantum information engine that can store useful work cumulatively and transport a quantum particle unidirectionally by harnessing purely quantum fluctuations with the aid of Maxwell's demon. Maximum power and maxmum transport velocity are well-defined and optimal operation time is specified. Improved definition of the efficiency is proposed by including all possible energy flow involved in the engine cycle. Experimental implementations are possible with exsiting techiniques, especially those for cold atom systems and optical lattices.[[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326)
