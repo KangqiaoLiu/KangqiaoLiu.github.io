@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Ph.D  Student
+Ph.D.  Student
 
-Prof. Masahito Ueda's group
+[Prof. Masahito Ueda's group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
 
 Department of Physics, The University of Tokyo, 
 
@@ -21,6 +21,6 @@ Department of Physics, The University of Tokyo,
 
 東京大学理学系研究科物理学専攻
 
-上田研究室
+[上田研究室](http://cat.phys.s.u-tokyo.ac.jp/index.html)
 
 113-0033 日本東京都文京区本郷7-3-1
