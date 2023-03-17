@@ -46,7 +46,7 @@ redirect_from:
 * Oct. 2016, **Second Class Scholarship**, Wuhan University, China
 * Oct. 2016, **Song Shan Hu Scholarship**, Wuhan University, China
 * Oct. 2015, **First Class Scholarship**, Wuhan University, China
-* Oct. 2015, **National Scholarship**, Ministry of Education of the People's Republic of China, China
+* Nov. 2015, **National Scholarship**, Ministry of Education of the People's Republic of China, China
 * Oct. 2015, **Tian Juan Scholarship**, Wuhan Institute of Physics and Mathematics of Chinese Academy of Sciences, China
 
 ## **Service**
