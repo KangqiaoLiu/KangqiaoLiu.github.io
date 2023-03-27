@@ -53,3 +53,4 @@ redirect_from:
 ## **服务经历**
 * 期刊审稿人
   * 美国物理学会(APS)旗下期刊《物理评论快报》(Physical Review Letters)
+  * 机器学习顶级会议NeurIPS 2023
