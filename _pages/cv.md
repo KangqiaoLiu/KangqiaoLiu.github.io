@@ -11,7 +11,7 @@ redirect_from:
 
 ## **Employment**
 * Apr. 2023 - Mar. 2025
-  * **Grant-in-Aid Research Fellow** of Japan Society for the Promotion of Science (JSPS) DC2
+  * **Grant-in-Aid for Research Fellow** of Japan Society for the Promotion of Science (JSPS) DC2
 
 * Aug. 2017 - Jan. 2018
   * **Teaching Assistant**
