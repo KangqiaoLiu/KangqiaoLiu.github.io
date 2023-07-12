@@ -24,6 +24,7 @@ redirect_from:
 * 2020.09 - 2023.09 (预期)
   * **Physics博士**,  *Department of Physics*, 东京大学, 日本
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
+  * (毕业论文: "Theoretical Study on Information Engines for Quantum Transport")
   
 * 2018.09 - 2020.09
   * **Physics硕士**,  *Department of Physics*, 东京大学, 日本
