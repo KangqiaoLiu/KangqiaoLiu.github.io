@@ -21,14 +21,16 @@ redirect_from:
 
 ## **Education**
 * Sep. 2020 - Sep. 2023 (expected)
-  * **Ph.D**,  Department of Physics, the University of Tokyo, Japan
+  * **Ph.D.**,  Department of Physics, the University of Tokyo, Japan
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
   *  (Thesis: "Theoretical Study on Information Engines for Quantum Transport")
+  *  (Japanese translation: "量子輸送情報エンジンに関する理論的研究")
   
 * Sep. 2018 - Sep. 2020
   * **Master**,  Department of Physics, the University of Tokyo, Japan
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
   * (Thesis: "Thermodynamic Uncertainty Relations in Markovian Processes")
+  * (Japanese translation: "マルコフ過程における熱力学的不確定性関係")
 
 * Jul. 2017 - Aug. 2017
   * **Summer Research**, Department of Physics, Chinese University of Hong Kong, Hong Kong, China
