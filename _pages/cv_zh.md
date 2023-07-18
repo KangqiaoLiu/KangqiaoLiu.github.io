@@ -25,11 +25,13 @@ redirect_from:
   * **Physics博士**,  *Department of Physics*, 东京大学, 日本
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
   * (毕业论文: "Theoretical Study on Information Engines for Quantum Transport")
+  * (日语翻译: "量子輸送情報エンジンに関する理論的研究")
   
 * 2018.09 - 2020.09
   * **Physics硕士**,  *Department of Physics*, 东京大学, 日本
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
   * (毕业论文: "Thermodynamic Uncertainty Relations in Markovian Processes")
+  * (日语翻译: "マルコフ過程における熱力学的不確定性関係")
 
 * 2017.07 - 2017.08
   * **暑期科研**, *物理系*, 香港中文大学, 中国香港
