@@ -54,6 +54,6 @@ redirect_from:
 * 2015.10, **天眷奖学金**, 武汉大学
 
 ## **服务经历**
-* 期刊审稿人
-  * 美国物理学会(APS)旗下期刊《物理评论快报》(Physical Review Letters)
-  * 机器学习顶级会议NeurIPS 2023
+* 审稿人
+  * **期刊**: Physical Review Letters, Physical Review Research
+  * **会议**: NeurIPS 2023
