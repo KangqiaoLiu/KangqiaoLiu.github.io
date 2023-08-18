@@ -54,5 +54,5 @@ redirect_from:
 
 ## **Service**
 * Reviewer
-  * Physical Review Letters
-  * NeurIPS 2023 
+  * **Journal**: Physical Review Letters, Physical Review Research
+  * **Conference**: NeurIPS 2023 
