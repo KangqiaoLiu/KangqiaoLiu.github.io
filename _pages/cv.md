@@ -55,4 +55,4 @@ redirect_from:
 ## **Service**
 * Reviewer
   * **Journal**: Physical Review Letters, Physical Review Research
-  * **Conference**: NeurIPS 2023 
+  * **Conference**: NeurIPS, ICML
