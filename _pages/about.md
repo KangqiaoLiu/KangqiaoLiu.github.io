@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Ph.D.  Student
+Ph.D. in Physics
 
 [Prof. Masahito Ueda's group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
 
@@ -29,8 +29,12 @@ Department of Physics, The University of Tokyo,
 
 **Contact me at**: (replace -AT- by @)
 
-kqliu-AT-cat.phys.s.u-tokyo.ac.jp
+kangqiaoliu-AT-outlook.com (**preferred**)
 
 OR
 
-kangqiaoliu-AT-outlook.com
+kqliu-AT-cat.phys.s.u-tokyo.ac.jp (**to be abandoned soon**)
+
+
+
+
