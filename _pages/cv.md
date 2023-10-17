@@ -41,7 +41,12 @@ redirect_from:
   * **Bachelor**, School of Physics and Technology, Wuhan University, China
   * [Prof. Wenxian Zhang's Group](http://jszy.whu.edu.cn/zhangwenxian/en/index.htm)
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
-  
+
+## **Grants**
+* JSPS DC2 Grant
+  * 量子揺らぎを取り入れた情報熱力学
+  * 2023.04 - 2025.03
+
 ## **Awards**
 * Sep. 2018, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan
 * May  2018, **Students Graduated with Honors**, Wuhan University, China
