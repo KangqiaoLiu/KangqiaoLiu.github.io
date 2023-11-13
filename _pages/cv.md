@@ -59,5 +59,5 @@ redirect_from:
 
 ## **Service**
 * Reviewer
-  * **Journal**: Physical Review Letters, Physical Review Research
+  * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E
   * **Conference**: NeurIPS, ICLR
