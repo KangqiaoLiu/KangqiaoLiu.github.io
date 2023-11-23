@@ -8,33 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-Ph.D. in Physics
+**Lecturer** of Physics
 
-[Prof. Masahito Ueda's group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
+[School of Science](http://english.xhu.edu.cn/_s69/58/7e/c3521a88190/page.psp)
 
-Department of Physics, The University of Tokyo, 
+[Key Laboratory of High Performance Scientific Computation](http://english.xhu.edu.cn/_s69/58/b5/c3522a88245/page.psp)
 
-7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan
+[Xihua University](http://english.xhu.edu.cn/main.psp), Chengdu, China 610039
 
 <br />
 
+物理学**讲师**
 
-東京大学理学系研究科物理学専攻
+[西华大学](http://www.xhu.edu.cn/)[理学院](http://lxy.xhu.edu.cn/)
 
-[上田研究室](http://cat.phys.s.u-tokyo.ac.jp/index.html)
+[高性能科学计算四川省高校重点实验室](http://lxy.xhu.edu.cn/6e/ea/c8564a28394/page.htm)
 
-113-0033 日本東京都文京区本郷7-3-1
+四川成都　610039
 
 <br />
 
 **Contact me at**: (replace -AT- by @)
 
-kangqiaoliu-AT-outlook.com (**preferred**)
-
-OR
-
-kqliu-AT-cat.phys.s.u-tokyo.ac.jp (**to be abandoned soon**)
-
-
-
-
+kqliu-AT-mail.xhu.edu.cn
