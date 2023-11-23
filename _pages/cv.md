@@ -10,7 +10,11 @@ redirect_from:
 {% include base_path %}
 
 ## **Employment**
-* Apr. 2023 - Mar. 2025
+* Dec. 2023 - Now
+  * **Lecturer** of Physics
+  * School of Science, Key Laboratory of High Performance Scientific Computation, Xihua University, Chengdu, China
+
+* Apr. 2023 - Mar. 2025 (stopped as of Oct. 2023)
   * **Grant-in-Aid for Research Fellow** of Japan Society for the Promotion of Science (JSPS) DC2
 
 * Aug. 2017 - Jan. 2018
