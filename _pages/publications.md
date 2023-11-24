@@ -36,7 +36,7 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 4. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
    *Thermodynamic Uncertainty Relation for Arbitrary Initial States*, <br />
    [Physical Review Letters **125**, 140602 (2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)<br />
-   [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797)
+   [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797).
 
 
 
