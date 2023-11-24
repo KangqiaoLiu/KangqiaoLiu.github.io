@@ -17,7 +17,7 @@ redirect_from:
    *Thermodynamic Uncertainty Relation for Arbitrary Initial States*, <br />
    [Physical Review Letters **125**, 140602 (2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)<br />
    (IF = 9.185，中科院1区Top)<br />
-   [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797)
+   [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797).
    
 2. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, (\*equal contribution)<br />
    *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*,<br />
