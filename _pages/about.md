@@ -31,3 +31,5 @@ redirect_from:
 **Contact me at**: (replace -AT- by @)
 
 kqliu-AT-mail.xhu.edu.cn
+
+**Office** at 6D416
