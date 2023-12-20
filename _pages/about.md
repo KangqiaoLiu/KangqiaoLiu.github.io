@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-s
+
 **Lecturer** of Physics
 
 [School of Science](http://english.xhu.edu.cn/_s69/58/7e/c3521a88190/page.psp)
