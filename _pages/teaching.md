@@ -10,8 +10,8 @@ redirect_from:
 
 
 ## **Teaching Assistant**
-1. 2024.2 - 2024.6
-   **Course**: Classical Mechanics (C)<br />
+1. **2024.2 - 2024.7** <br />
+   **Course**: Classical Mechanics C<br />
    **Instructor**: Prof. Jia FU<br />
    **Time period**: second semester of academic year 2023-2024
 
