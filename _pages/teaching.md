@@ -13,6 +13,7 @@ redirect_from:
 1. **2024.2 - 2024.7** <br />
    **Course**: Classical Mechanics C<br />
    **Instructor**: Prof. Jia FU<br />
+   **Location**: School of Science, Xihua University
    **Time period**: second semester of academic year 2023-2024
 
 <!-- {% if site.talkmap_link == true %}
