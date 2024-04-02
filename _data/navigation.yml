@@ -11,7 +11,10 @@ main:
 
   - title: "Presentations"
     url: /talks/
-  
+    
+  - title: "Teaching"
+    url: /teaching/
+    
   - title: "履历"
     url: /cv_zh/    
 
@@ -23,6 +26,9 @@ main:
    
   - title: "学术报告"
     url: /talks_zh/ 
+
+  - title: "教学"
+    url: /teaching_zh/ 
 #   - title: "Portfolio"
 #     url: /portfolio/
         
