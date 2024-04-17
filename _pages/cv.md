@@ -24,7 +24,7 @@ redirect_from:
   * School of Physics and Technology, Wuhan University, China
 
 ## **Education**
-* Sep. 2020 - Sep. 2023 (expected)
+* Sep. 2020 - Sep. 2023
   * **Ph.D.**,  Department of Physics, the University of Tokyo, Japan
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
   *  (Thesis: "Theoretical Study on Information Engines for Quantum Transport")
@@ -47,9 +47,13 @@ redirect_from:
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **Grants**
+* Start-up Research Grant in Xihua University
+  * Theoretical study on information thermodynamics with quantum correlation
+  * 2024.04 - 2026.12
+
 * JSPS DC2 Grant
   * 量子揺らぎを取り入れた情報熱力学
-  * 2023.04 - 2025.03
+  * 2023.04 - 2025.03  (stopped as of Oct. 2023)
 
 ## **Awards**
 * Sep. 2018, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan
@@ -64,4 +68,4 @@ redirect_from:
 ## **Service**
 * Reviewer
   * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E
-  * **Conference**: NeurIPS, ICLR
+  * **Conference**: NeurIPS, ICLR, ICML
