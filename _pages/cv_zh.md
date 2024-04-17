@@ -14,7 +14,7 @@ redirect_from:
   * 物理学**讲师**
   * 西华大学理学院高性能科学计算四川省高校重点实验室
 
-* 2023.04 - 2025.03 (于2023.10起中止)
+* 2023.04 - 2025.03 (中止于2023.10)
   * **日本学术振兴会特别研究员** JSPS DC2
   * **主持**基金项目“量子揺らぎを取り入れた情報熱力学 (考虑量子涨落的信息热力学)”
 
@@ -25,7 +25,7 @@ redirect_from:
   * 武汉大学
 
 ## **教育经历**
-* 2020.09 - 2023.09 (预期)
+* 2020.09 - 2023.09
   * **Physics博士**,  *Department of Physics*, 东京大学, 日本
   * [Prof. Masahito Ueda's Group](http://cat.phys.s.u-tokyo.ac.jp/index-e.html)
   * (毕业论文: "Theoretical Study on Information Engines for Quantum Transport")
@@ -48,9 +48,13 @@ redirect_from:
   * (毕业论文: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **基金项目**
+* 西华大学人才引进基金项目 (**主持**)
+  * 项目名: 量子关联在信息热力学中作用的理论研究 
+  * 时间: 2024.04 - 2026.12
+
 * 日本学术振兴会JSPS DC2基金项目 (**主持**)
   * 项目名: 量子揺らぎを取り入れた情報熱力学 (考虑量子涨落的信息热力学)
-  * 时间: 2023.04 - 2025.03
+  * 时间: 2023.04 - 2025.03  (中止于2023.10)
   
 ## **获奖经历**
 * 2018.09, **Global Science Graduate Course (GSGC)**, 东京大学
