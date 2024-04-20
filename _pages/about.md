@@ -14,7 +14,9 @@ redirect_from:
 
 [Key Laboratory of High Performance Scientific Computation](http://english.xhu.edu.cn/_s69/58/b5/c3522a88245/page.psp)
 
-[Xihua University](http://english.xhu.edu.cn/main.psp), Chengdu, China 610039
+[Xihua University](http://english.xhu.edu.cn/main.psp)
+
+Chengdu, Sichuan, China 610039
 
 <br />
 
