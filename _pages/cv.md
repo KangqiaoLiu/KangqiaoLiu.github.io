@@ -47,7 +47,7 @@ redirect_from:
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **Grants**
-* Start-up Research Grant in Xihua University
+* Scientific Research Start-up Foundation of Xihua University 
   * Theoretical study on information thermodynamics with quantum correlation
   * 2024.04 - 2026.12
 
