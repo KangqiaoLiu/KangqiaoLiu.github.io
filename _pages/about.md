@@ -32,7 +32,7 @@ Chengdu, Sichuan, China 610039
 
 **Contact me at**: (replace -AT- by @)
 
-kqliu-AT-mail.xhu.edu.cn
+kqliu-AT-xhu.edu.cn
 
 <br />
 
