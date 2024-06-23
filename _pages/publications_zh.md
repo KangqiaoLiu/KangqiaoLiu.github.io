@@ -40,7 +40,8 @@ redirect_from:
 
 5. Jiale Yu\*, Shiyu Wang\*, **Kangqiao Liu**, Chen Zha, Yulin Wu, Fusheng Chen, Yangsen Ye, Shaowei Li, Qingling Zhu, Shaojun Guo, Haoran Qian, He-Liang Huang, Youwei Zhao, Chong Ying, Daojin Fan, Dachao Wu, Hong Su, Hui Deng, Hao Rong, Kaili Zhang, Sirui Cao, Jin Lin, Yu Xu, Cheng Guo, Na Li, Futian Liang, Yong-Heng Huo, Chao-Yang Lu, Cheng-Zhi Peng, Kae Nemoto, W. J. Munro, Xiaobo Zhu, Jian-Wei Pan, and Ming Gong,<br />
   *Experimental Demonstration of a Maxwell's Demon Quantum Battery in a Superconducting NISQ Processor*,<br />
-  [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614).
+  [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614)
+  (IF = 2.9，中科院2区).
 
    
 ## **未经同行评审**
