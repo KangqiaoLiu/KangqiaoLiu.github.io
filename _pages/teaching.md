@@ -7,7 +7,13 @@ redirect_from:
   - /resume
 ---
 ## **Instructor**
-1. **2024.2 - 2024.7** <br />
+1.  **2024.9 - 2024.12** <br />
+   **Course**: College Physics A(2) <br />
+   **Main instructor**: Lecturer Kangqiao LIU <br />
+   **Location**: School of Science, Xihua University <br />
+   **Time period**: 1st semester of academic year 2024-2025, 1st - 14th week
+
+2. **2024.2 - 2024.7** <br />
    **Course**: Case Studies and Practice in Physics (tentative) <br />
    **Main instructor**: Assoc. Prof. Yongtao LIU <br />
    **Location**: School of Science, Xihua University <br />
