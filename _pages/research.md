@@ -13,6 +13,7 @@ redirect_from:
 
 * **Stochastic thermodynamics and information thermodynamics**
   * Thermodynamics uncertainty relations for non-steady states in both continuous- and discrete-time Markov processes and applied to measurement and feedback control (Maxwell's demon).[[Phys. Rev. Lett. 125, 140602 (2020)]](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)
+  * Universal kinetic bound on the static response of a generic nonequilibrium observable to external perturbations in terms of the dynamical activity (or traffic) that quantifies the frequency of stochastic state transitions of a Markov process, named as response kinetic uncertain relation (R-KUR).[[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800)
 
 * **Deep learning theory**
   * Noise and fluctuations of the stochastic gradient descent (SGD) algorithm in deep learning with a finite learning rate.[[ICML 2021]](http://proceedings.mlr.press/v139/liu21ad.html)
