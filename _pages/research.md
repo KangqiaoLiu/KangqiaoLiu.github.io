@@ -12,7 +12,7 @@ redirect_from:
 # **Nonequilibrium Physics**
 
 * **Stochastic thermodynamics and information thermodynamics**
-  * Thermodynamics uncertainty relations for non-steady states in both continuous- and discrete-time Markov processes and applied to measurement and feedback control (Maxwell's demon).[[Phys. Rev. Lett. 125, 140602 (2020)]](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)
+  * Thermodynamics uncertainty relations for non-steady states in both continuous- and discrete-time Markov processes and applied to measurement and feedback control (Maxwell's demon).[[Phys. Rev. Lett. **125**, 140602 (2020)]](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)
   * Universal kinetic bound on the static response of a generic nonequilibrium observable to external perturbations in terms of the dynamical activity (or traffic) that quantifies the frequency of stochastic state transitions of a Markov process, named as response kinetic uncertain relation (R-KUR).[[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800)
 
 * **Deep learning theory**
@@ -22,4 +22,4 @@ redirect_from:
 
 * **Quantum thermodynamics and information thermodynamics**
   * Construction of a new type of quantum information engine that can store useful work cumulatively and transport a quantum particle unidirectionally by harnessing purely quantum fluctuations with the aid of Maxwell's demon. Maximum power and maxmum transport velocity are well-defined and optimal operation time is specified. Improved definition of the efficiency is proposed by including all possible energy flow involved in the engine cycle. Experimental implementations are possible with exsiting techiniques, especially those for cold atom systems and optical lattices.[[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326)
-  * Experimental realization of Maxwell's demon using a 62-qubit superconducting quantum processor. The first experiment using an isolated quantum many-body system. [[Physical Review A 109, 062614 (2024)]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614)
+  * Experimental realization of Maxwell's demon using a 62-qubit superconducting quantum processor. The first experiment using an isolated quantum many-body system. [[Phys. Rev. A **109**, 062614 (2024)]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614)
