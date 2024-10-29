@@ -49,6 +49,10 @@ redirect_from:
    *Maxwell's Demon for Quantum Transport*, <br />
    [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
 
+2. **Kangqiao Liu** and Jie Gu,<br />
+  *Dynamical activity universally bounds precision of response*,<br />
+  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
+
 
 
 
