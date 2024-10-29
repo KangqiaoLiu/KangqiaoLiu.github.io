@@ -13,7 +13,11 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 The symbol \* represents the equal contribution.
 
 ## **Preprints**
-1. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
+1. **Kangqiao Liu** and Jie Gu,<br />
+  *Dynamical activity universally bounds precision of response*,<br />
+  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
+  
+2. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
   *Maxwell's Demon for Quantum Transport*,<br />
   [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
 
