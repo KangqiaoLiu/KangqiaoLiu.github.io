@@ -29,6 +29,7 @@ The symbol \* represents the equal contribution.
 2. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda,<br />
   *Power-law escape rate of SGD*,<br />
   [Proceedings of the 39th International Conference on Machine Learning, PMLR **162**:15959-15975, 2022 (ICML 2022)](https://proceedings.mlr.press/v162/mori22a.html)<br />
+  selected for **Spotlight** <br />
   [[arXiv:2105.09557]](https://arxiv.org/abs/2105.09557).
 
 3. Liu Ziyin\*, **Kangqiao Liu**\*, Takashi Mori, and Masahito Ueda, <br />
