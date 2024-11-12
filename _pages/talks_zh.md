@@ -9,7 +9,7 @@ redirect_from:
 ## **口头**
 1. **Kangqiao Liu** and Jie Gu,<br />
   *Nonequlibrium Thermodynamics: Classical Markov dynamics, Quantum Maxwell’s demon, Deep learning algorithms*,<br />
-  invited seminar, [汤迎 教授 课题组](https://jamestang23.github.io/contact/), <br />
+  invited seminar, [机器学习与随机物理实验室](https://jamestang23.github.io/contact/), <br />
   基础与前沿研究院, 电子科技大学, 成都, 中国, 2024.11.12.
 
 2. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda,<br />
