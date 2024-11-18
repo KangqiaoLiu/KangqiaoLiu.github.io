@@ -49,7 +49,7 @@ redirect_from:
 ## **Grants**
 * Scientific Research Start-up Foundation of Xihua University 
   * Theoretical study on information thermodynamics with quantum correlation
-  * 2024.04.01 - 2026.12.31
+  * 2024.04.10 - 2026.12.31
 
 * JSPS DC2 Grant
   * 量子揺らぎを取り入れた情報熱力学
