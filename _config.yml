@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://github.com/KangqiaoLiu/KangqiaoLiu_old.github.io/blob/7af0e13fb87da158edcdc3f86ed452bd2b883407/images/IMG_6440-min.jpeg"
+  avatar           : "IMG_6440-min.jpeg"
   name             : "Kangqiao LIU 刘康桥"
   pronouns         : # example: "she/her"  
   bio              : "Lecturer of Physics"
