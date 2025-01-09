@@ -37,4 +37,3 @@ kqliu-AT-xhu.edu.cn
 <br />
 
 **Office** at 6D416
-(https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
