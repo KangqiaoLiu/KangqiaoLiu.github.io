@@ -28,7 +28,7 @@ redirect_from:
 ## **Undergraduate Dissertation**
 1. **2024.12 - 2025.05** <br />
    **Student**: Xiuxin Cao  <br />
-   **Topic**: Theoretical study on the performance of a quantum information engine based on a qubit
+   **Topic**: Theoretical study on the performance of a quantum information engine based on a qubit <br />
    **Location**: School of Science, Xihua University
 
 ## **Teaching Assistant**
