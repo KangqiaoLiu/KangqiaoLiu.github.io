@@ -54,6 +54,10 @@ redirect_from:
   *Dynamical activity universally bounds precision of response*,<br />
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800) (2024.10.28).
 
+3. **Kangqiao Liu** and Jie Gu,<br />
+  *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
+  [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
+
 
 
 
