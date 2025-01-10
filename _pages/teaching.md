@@ -25,6 +25,12 @@ redirect_from:
    **Location**: School of Science, Xihua University <br />
    **Time period**: 2nd semester of academic year 2023-2024, 2nd - 9th week **(my part: 8th week)**
 
+## **undergraduate Dissertation**
+1. **2024.12 - 2025.05** <br />
+   **Student**: Xiuxin Cao  <br />
+   **Topic**: Theoretical study on the performance of a quantum information engine based on a qubit
+   **Location**: School of Science, Xihua University
+
 ## **Teaching Assistant**
 1. **2024.09 - 2024.12** <br />
    **Course**: Quantum Mechanics <br />
