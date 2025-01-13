@@ -44,7 +44,7 @@ redirect_from:
 
 * 2014.09.01 - 2018.06.30
   * **物理学 学士**, *物理科学与技术学院弘毅班*, 武汉大学, 中国
-  * 导师: [张文献 教授](http://jszy.whu.edu.cn/zhangwenxian/en/index.htm)
+  * 导师: [张文献 教授](https://wlxy.hznu.edu.cn/c/2024-08-29/2990908.shtml)
   * (毕业论文: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **基金项目**
