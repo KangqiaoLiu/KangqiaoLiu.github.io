@@ -9,11 +9,11 @@ redirect_from:
 ## **Oral**
 1. **Kangqiao Liu**,<br />
    *Response kinetic uncertainty relations for classical and quantum Markovian processes*,<br />
-   invited seminar, Prof. Deng's [Quantum Dynamics & Control group](https://qudynamics.notion.site/541b64d4f7244012a682eaff6aa97eeb?v=3aa83ef15f9144f78338af3e77cfc060), <br />
+   **invited seminar**, Prof. Deng's [Quantum Dynamics & Control group](https://qudynamics.notion.site/541b64d4f7244012a682eaff6aa97eeb?v=3aa83ef15f9144f78338af3e77cfc060), <br />
    Shenzhen Institute of Quantum Science and Engineering, Southern University of Science and Technology, Shenzhen, China, 2025.01.23.
 2. **Kangqiao Liu** and Jie Gu,<br />
   *Nonequlibrium Thermodynamics: Classical Markov dynamics, Quantum Maxwell’s demon, Deep learning algorithms*,<br />
-  invited seminar, Prof. Tang's [Lab of Machine Learning Stochastic Physics](https://jamestang23.github.io/contact/), <br />
+  **invited seminar**, Prof. Tang's [Lab of Machine Learning Stochastic Physics](https://jamestang23.github.io/contact/), <br />
   Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China, 2024.11.12.
 
 3. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda,<br />
