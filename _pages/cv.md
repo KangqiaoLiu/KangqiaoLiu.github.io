@@ -43,7 +43,7 @@ redirect_from:
 
 * 2014.09.01 - 2018.06.30
   * **Bachelor**, School of Physics and Technology, Wuhan University, China
-  * [Prof. Wenxian Zhang's Group](http://jszy.whu.edu.cn/zhangwenxian/en/index.htm)
+  * [Prof. Wenxian Zhang's Group](https://wlxy.hznu.edu.cn/c/2024-08-29/2990908.shtml)
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **Grants**
