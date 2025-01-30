@@ -43,6 +43,11 @@ redirect_from:
   *Experimental Demonstration of a Maxwell's Demon Quantum Battery in a Superconducting NISQ Processor*,<br />
   [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614) (2024.06.20)
   (IF = 2.9，中科院2区).
+6. **Kangqiao Liu** and Jie Gu,<br />
+  *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
+  已被Communications Physics接收,<br />
+   (IF = 5.4，中科院1区Top)<br />
+  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800) (2024.10.28).
 
    
 ## **未经同行评审**
@@ -51,10 +56,6 @@ redirect_from:
    [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
 
 2. **Kangqiao Liu** and Jie Gu,<br />
-  *Dynamical activity universally bounds precision of response*,<br />
-  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800) (2024.10.28).
-
-3. **Kangqiao Liu** and Jie Gu,<br />
   *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
 
