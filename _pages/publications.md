@@ -23,7 +23,7 @@ The symbol \* represents the equal contribution.
 
 ## **Peer-reviewed**
 1. **Kangqiao Liu** and Jie Gu,<br />
-  *Dynamical activity universally bounds precision of response*,<br />
+  *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
   to appear in Communications Physics,<br />
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800) (2024.10.28).
   
