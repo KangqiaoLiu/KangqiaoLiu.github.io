@@ -45,9 +45,9 @@ redirect_from:
   (IF = 2.9，中科院2区).
 6. **Kangqiao Liu** and Jie Gu,<br />
   *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
-  已被Communications Physics接收,<br />
+   [Communications Physics **8**, 62 (2025)](https://www.nature.com/articles/s42005-025-01982-w) (2025.02.11)<br />
    (IF = 5.4，中科院1区Top)<br />
-  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800) (2024.10.28).
+  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
 
    
 ## **未经同行评审**
