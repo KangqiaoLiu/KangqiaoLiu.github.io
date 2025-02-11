@@ -24,8 +24,8 @@ The symbol \* represents the equal contribution.
 ## **Peer-reviewed**
 1. **Kangqiao Liu** and Jie Gu,<br />
   *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
-  to appear in Communications Physics,<br />
-  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800) (2024.10.28).
+  [Communications Physics **8**, 62 (2025)](https://www.nature.com/articles/s42005-025-01982-w) (2025.02.11)<br />
+  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
   
 2. Jiale Yu\*, Shiyu Wang\*, **Kangqiao Liu**, Chen Zha, Yulin Wu, Fusheng Chen, Yangsen Ye, Shaowei Li, Qingling Zhu, Shaojun Guo, Haoran Qian, He-Liang Huang, Youwei Zhao, Chong Ying, Daojin Fan, Dachao Wu, Hong Su, Hui Deng, Hao Rong, Kaili Zhang, Sirui Cao, Jin Lin, Yu Xu, Cheng Guo, Na Li, Futian Liang, Yong-Heng Huo, Chao-Yang Lu, Cheng-Zhi Peng, Kae Nemoto, W. J. Munro, Xiaobo Zhu, Jian-Wei Pan, and Ming Gong,<br />
   *Experimental Demonstration of a Maxwell's Demon Quantum Battery in a Superconducting NISQ Processor*,<br />
