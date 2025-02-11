@@ -13,7 +13,7 @@ redirect_from:
 
 * **Stochastic thermodynamics and information thermodynamics**
   * We found **thermodynamics uncertainty relations** for *non-steady states* in both continuous- and discrete-time Markov processes and applied it to *measurement and feedback control (Maxwell's demon)*.[[Phys. Rev. Lett. **125**, 140602 (2020)]](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)
-  * We found universal kinetic bound on the static response of a generic nonequilibrium observable to external perturbations in terms of the dynamical activity (or traffic) that quantifies the frequency of stochastic state transitions of a Markov process, named as **response kinetic uncertain relation (R-KUR)**.[[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800)
+  * We found universal kinetic bound on the static response of a generic nonequilibrium observable to external perturbations in terms of the dynamical activity (or traffic) that quantifies the frequency of stochastic state transitions of a Markov process, named as **response kinetic uncertain relation (R-KUR)**.[[Commun. Phys. **8**, 62 (2025)]](https://www.nature.com/articles/s42005-025-01982-w)
 
 * **Deep learning theory**
   * We derived **analytical formulae of the noise and model fluctuations** of the *stochastic gradient descent (SGD)* algorithm in deep learning with a *finite learning rate*.[[ICML 2021]](http://proceedings.mlr.press/v139/liu21ad.html)
