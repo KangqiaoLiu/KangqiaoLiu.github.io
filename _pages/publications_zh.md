@@ -22,20 +22,20 @@ redirect_from:
 2. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, (\*equal contribution)<br />
    *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*,<br />
    [Proceedings of the 38th International Conference on Machine Learning, PMLR **139**:7045-7056, 2021 (ICML 2021)](http://proceedings.mlr.press/v139/liu21ad.html) (2021.07.01)<br />
-   selected for **Spotlight** <br />
    (接收率 = 21.5%，CCF A类，机器学习顶会)<br />
    [[arXiv:2012.03636]](https://arxiv.org/abs/2012.03636).
 
 3. Liu Ziyin\*, **Kangqiao Liu**\*, Takashi Mori, and Masahito Ueda, (\*equal contribution)<br />
    *Strength of Minibatch Noise in SGD*,<br />
    [The 10th International Conference on Learning Representations (ICLR 2022)](https://openreview.net/forum?id=uorVGbWV5sw) (2022.01.29)<br />
-   selected for **Spotlight** (5% of all submissions)<br />
+   受选为**Spotlight** (5% of all submissions)<br />
    (接收率 = 32.26%, Spotlight = top 5%，清华A类，机器学习顶会)<br />
    [[arXiv:2102.05375]](https://arxiv.org/abs/2102.05375).
    
 4. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda,<br />
   *Power-law escape rate of SGD*,<br />
   [Proceedings of the 39th International Conference on Machine Learning, PMLR **162**:15959-15975, 2022 (ICML 2022)](https://proceedings.mlr.press/v162/mori22a.html) (2022.07.15)<br />
+  受选为**Spotlight** <br />
   (接收率 = 21.9%，CCF A类，机器学习顶会)<br />
   [[arXiv:2105.09557]](https://arxiv.org/abs/2105.09557).
 
