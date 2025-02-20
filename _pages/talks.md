@@ -13,11 +13,11 @@ redirect_from:
    online, China, 2025.02.22.
 2. **Kangqiao Liu**,<br />
    *Response kinetic uncertainty relations for classical and quantum Markovian processes*,<br />
-   **invited seminar**, Prof. Deng's [Quantum Dynamics & Control group](https://qudynamics.notion.site/541b64d4f7244012a682eaff6aa97eeb?v=3aa83ef15f9144f78338af3e77cfc060), <br />
+   **invited seminar**, Prof. Xiuhao Deng's [Quantum Dynamics & Control group](https://qudynamics.notion.site/541b64d4f7244012a682eaff6aa97eeb?v=3aa83ef15f9144f78338af3e77cfc060), <br />
    Shenzhen Institute of Quantum Science and Engineering, Southern University of Science and Technology, Shenzhen, China, 2025.01.23.
 3. **Kangqiao Liu** and Jie Gu,<br />
   *Nonequlibrium Thermodynamics: Classical Markov dynamics, Quantum Maxwell’s demon, Deep learning algorithms*,<br />
-  **invited seminar**, Prof. Tang's [Lab of Machine Learning Stochastic Physics](https://jamestang23.github.io/contact/), <br />
+  **invited seminar**, Prof. Ying Tang's [Lab of Machine Learning Stochastic Physics](https://jamestang23.github.io/contact/), <br />
   Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China, 2024.11.12.
 
 4. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda,<br />
@@ -38,7 +38,7 @@ redirect_from:
 7. **Kangqiao Liu**,<br />
    *Surpassing the standard thermodynamic uncertainty relation limit by feedback control*,<br />
    [GSGC Exchange Seminar](https://www.s.u-tokyo.ac.jp/GSGC/index.html),<br />
-   the University of Tokyo, 2019.10.31.
+   The University of Tokyo, 2019.10.31.
 
 
 
