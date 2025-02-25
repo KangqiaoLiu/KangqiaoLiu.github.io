@@ -26,6 +26,7 @@ The symbol \* represents the equal contribution.
   *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
   [Communications Physics **8**, 62 (2025)](https://www.nature.com/articles/s42005-025-01982-w) (2025.02.11)<br />
   see [*Behind the Paper*](https://go.nature.com/3WYFOSp) for a blog post<br />
+  [press release](https://lxy.xhu.edu.cn/63/95/c575a222101/page.htm) (in Chinese) by Department
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
   
 2. Jiale Yu\*, Shiyu Wang\*, **Kangqiao Liu**, Chen Zha, Yulin Wu, Fusheng Chen, Yangsen Ye, Shaowei Li, Qingling Zhu, Shaojun Guo, Haoran Qian, He-Liang Huang, Youwei Zhao, Chong Ying, Daojin Fan, Dachao Wu, Hong Su, Hui Deng, Hao Rong, Kaili Zhang, Sirui Cao, Jin Lin, Yu Xu, Cheng Guo, Na Li, Futian Liang, Yong-Heng Huo, Chao-Yang Lu, Cheng-Zhi Peng, Kae Nemoto, W. J. Munro, Xiaobo Zhu, Jian-Wei Pan, and Ming Gong,<br />
