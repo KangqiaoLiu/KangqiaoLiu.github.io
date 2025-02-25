@@ -48,6 +48,7 @@ redirect_from:
    [Communications Physics **8**, 62 (2025)](https://www.nature.com/articles/s42005-025-01982-w) (2025.02.11)<br />
    (IF = 5.4，中科院1区Top)<br />
    栏目撰稿[*Behind the Paper*](https://go.nature.com/3WYFOSp)<br />
+   [学院新闻](https://lxy.xhu.edu.cn/63/95/c575a222101/page.htm)<br />
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
 
    
