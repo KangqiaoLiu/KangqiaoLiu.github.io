@@ -67,5 +67,5 @@ redirect_from:
 
 ## **Service**
 * Reviewer
-  * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E
+  * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics
   * **Conference**: NeurIPS, ICLR, ICML
