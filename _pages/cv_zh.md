@@ -68,5 +68,5 @@ redirect_from:
 
 ## **服务经历**
 * 审稿人
-  * **期刊**: Physical Review Letters, Physical Review Research, Physical Review E
+  * **期刊**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics
   * **会议**: NeurIPS, ICLR, ICML
