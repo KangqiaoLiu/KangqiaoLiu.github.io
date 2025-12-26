@@ -24,7 +24,7 @@ Chengdu, Sichuan, China 610039
 
 [西华大学](http://www.xhu.edu.cn/)[理学院](http://lxy.xhu.edu.cn/)
 
-[高性能科学计算四川省高校重点实验室](http://lxy.xhu.edu.cn/6e/ea/c8564a28394/page.htm)
+[高性能科学计算四川省教育厅高校重点实验室](http://lxy.xhu.edu.cn/6e/ea/c8564a28394/page.htm)
 
 四川成都　610039
 
