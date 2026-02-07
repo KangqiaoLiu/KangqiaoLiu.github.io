@@ -16,41 +16,42 @@ The symbol \* represents the equal contribution.
 1. **Kangqiao Liu** and Jie Gu,<br />
   *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
-  
-2. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
-  *Maxwell's Demon for Quantum Transport*,<br />
-  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
 
 ## **Peer-reviewed**
-1. **Kangqiao Liu** and Jie Gu,<br />
+1. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
+  *Maxwell's Demon for Quantum Transport*,<br />
+  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/rhvv-yd6w) (2026.02.06), <br />
+  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
+  
+2. **Kangqiao Liu** and Jie Gu,<br />
   *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
   [Communications Physics **8**, 62 (2025)](https://www.nature.com/articles/s42005-025-01982-w) (2025.02.11)<br />
   see [*Behind the Paper*](https://go.nature.com/3WYFOSp) for a blog post<br />
   [press release](https://lxy.xhu.edu.cn/63/95/c575a222101/page.htm) (in Chinese) by Department<br />
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
   
-2. Jiale Yu\*, Shiyu Wang\*, **Kangqiao Liu**, Chen Zha, Yulin Wu, Fusheng Chen, Yangsen Ye, Shaowei Li, Qingling Zhu, Shaojun Guo, Haoran Qian, He-Liang Huang, Youwei Zhao, Chong Ying, Daojin Fan, Dachao Wu, Hong Su, Hui Deng, Hao Rong, Kaili Zhang, Sirui Cao, Jin Lin, Yu Xu, Cheng Guo, Na Li, Futian Liang, Yong-Heng Huo, Chao-Yang Lu, Cheng-Zhi Peng, Kae Nemoto, W. J. Munro, Xiaobo Zhu, Jian-Wei Pan, and Ming Gong,<br />
+3. Jiale Yu\*, Shiyu Wang\*, **Kangqiao Liu**, Chen Zha, Yulin Wu, Fusheng Chen, Yangsen Ye, Shaowei Li, Qingling Zhu, Shaojun Guo, Haoran Qian, He-Liang Huang, Youwei Zhao, Chong Ying, Daojin Fan, Dachao Wu, Hong Su, Hui Deng, Hao Rong, Kaili Zhang, Sirui Cao, Jin Lin, Yu Xu, Cheng Guo, Na Li, Futian Liang, Yong-Heng Huo, Chao-Yang Lu, Cheng-Zhi Peng, Kae Nemoto, W. J. Munro, Xiaobo Zhu, Jian-Wei Pan, and Ming Gong,<br />
   *Experimental Demonstration of a Maxwell's Demon Quantum Battery in a Superconducting NISQ Processor*,<br />
   [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614) (2024.06.20).
   
-3. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda,<br />
+4. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda,<br />
   *Power-law escape rate of SGD*,<br />
   [Proceedings of the 39th International Conference on Machine Learning, PMLR **162**:15959-15975, 2022 (ICML 2022)](https://proceedings.mlr.press/v162/mori22a.html) (2022.07.15)<br />
   selected for **Spotlight** <br />
   [[arXiv:2105.09557]](https://arxiv.org/abs/2105.09557).
 
-4. Liu Ziyin\*, **Kangqiao Liu**\*, Takashi Mori, and Masahito Ueda, <br />
+5. Liu Ziyin\*, **Kangqiao Liu**\*, Takashi Mori, and Masahito Ueda, <br />
    *Strength of Minibatch Noise in SGD*,<br />
    [The 10th International Conference on Learning Representations (ICLR 2022)](https://openreview.net/forum?id=uorVGbWV5sw) (2022.01.29)<br />
    selected for **Spotlight** (5% of all submissions)<br />
    [[arXiv:2102.05375]](https://arxiv.org/abs/2102.05375).
    
-5. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, <br />
+6. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, <br />
    *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*,<br />
    [Proceedings of the 38th International Conference on Machine Learning, PMLR **139**:7045-7056, 2021 (ICML 2021)](http://proceedings.mlr.press/v139/liu21ad.html) (2021.07.01)<br />
    [[arXiv:2012.03636]](https://arxiv.org/abs/2012.03636).
    
-6. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
+7. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
    *Thermodynamic Uncertainty Relation for Arbitrary Initial States*, <br />
    [Physical Review Letters **125**, 140602 (2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602) (2020.09.29)<br />
    [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797).
