@@ -50,14 +50,14 @@ redirect_from:
    栏目撰稿[*Behind the Paper*](https://go.nature.com/3WYFOSp)<br />
    [学院新闻](https://lxy.xhu.edu.cn/63/95/c575a222101/page.htm)<br />
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
-
+7. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
+  *Maxwell's Demon for Quantum Transport*,<br />
+  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/rhvv-yd6w) (2026.02.06), <br />
+  (IF = 2.9，中科院2区), <br />
+  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
    
 ## **未经同行评审**
-1. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
-   *Maxwell's Demon for Quantum Transport*, <br />
-   [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
-
-2. **Kangqiao Liu** and Jie Gu,<br />
+1. **Kangqiao Liu** and Jie Gu,<br />
   *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
 
