@@ -20,8 +20,8 @@ The symbol \* represents the equal contribution.
 ## **Peer-reviewed**
 1. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
   *Maxwell's Demon for Quantum Transport*,<br />
-  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/rhvv-yd6w) (2026.02.06), <br />
-  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
+  [Physical Review A **113**, 022436 (2026)](https://journals.aps.org/pra/abstract/10.1103/rhvv-yd6w) (2026.02.23) <br />
+  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
   
 2. **Kangqiao Liu** and Jie Gu,<br />
   *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
