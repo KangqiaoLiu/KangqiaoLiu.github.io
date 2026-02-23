@@ -52,9 +52,9 @@ redirect_from:
   [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).
 7. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
   *Maxwell's Demon for Quantum Transport*,<br />
-  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/rhvv-yd6w) (2026.02.06), <br />
+  [Physical Review A **113**, 022436 (2026)](https://journals.aps.org/pra/abstract/10.1103/rhvv-yd6w) (2026.02.23) <br />
   (IF = 2.9，中科院2区), <br />
-  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326) (2023.03.15).
+  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
    
 ## **未经同行评审**
 1. **Kangqiao Liu** and Jie Gu,<br />
