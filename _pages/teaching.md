@@ -31,8 +31,11 @@ redirect_from:
    **Time period**: 2nd semester of academic year 2023-2024, 2nd - 9th week **(my part: 8th week)**
 
 ## **Undergraduate Dissertation**
-1. **2024.12 - 2025.05** <br />
-   **Student**: Xiuxin Cao  <br />
+1. **2025.12 - 2026.05** <br />
+   **Students**: Sheng LIU & Jialong XIE  <br />
+   **Location**: School of Science, Xihua University
+2. **2024.12 - 2025.05** <br />
+   **Student**: Xiuxin CAO  <br />
    **Location**: School of Science, Xihua University
 
 ## **Teaching Assistant**
