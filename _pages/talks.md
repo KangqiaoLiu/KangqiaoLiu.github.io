@@ -8,34 +8,38 @@ redirect_from:
 ---
 ## **Oral**
 1. **Kangqiao Liu**,<br />
+   *Response kinetic uncertainty relations for classical and quantum Markov processes*,<br />
+   [The 2026 Annual Academic Meeting of the Sichuan Physical Society](https://scwlxh.cloud.hzwtech.com/home), <br />
+   Southwest University of Science and Technology，Mianyang，Sichuan, China, 2026.04.17 - 2026.04.19.
+2. **Kangqiao Liu**,<br />
    *Response kinetic uncertainty relations for classical and quantum Markovian processes*,<br />
    **invited seminar**, Statistical Physics Young Researchers Seminar, <br />
    online, China, 2025.02.22.
-2. **Kangqiao Liu**,<br />
+3. **Kangqiao Liu**,<br />
    *Response kinetic uncertainty relations for classical and quantum Markovian processes*,<br />
    **invited seminar**, Prof. Xiuhao Deng's [Quantum Dynamics & Control group](https://qudynamics.notion.site/541b64d4f7244012a682eaff6aa97eeb?v=3aa83ef15f9144f78338af3e77cfc060), <br />
-   Shenzhen Institute of Quantum Science and Engineering, Southern University of Science and Technology, Shenzhen, China, 2025.01.23.
-3. **Kangqiao Liu** and Jie Gu,<br />
+   Shenzhen Institute of Quantum Science and Engineering, Southern University of Science and Technology, Shenzhen, Guangdong, China, 2025.01.23.
+4. **Kangqiao Liu** and Jie Gu,<br />
   *Nonequlibrium Thermodynamics: Classical Markov dynamics, Quantum Maxwell’s demon, Deep learning algorithms*,<br />
   **invited seminar**, Prof. Ying Tang's [Lab of Machine Learning Stochastic Physics](https://jamestang23.github.io/contact/), <br />
-  Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China, 2024.11.12.
+  Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, Sichuan, China, 2024.11.12.
 
-4. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda,<br />
+5. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda,<br />
   *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*,<br />
   [The Thirty-eighth International Conference on Machine Learning (ICML 2021)](https://icml.cc/Conferences/2021),<br />
   online, 2021.07.18 - 2021.07.24.
 
-5. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
+6. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
    *Thermodynamic Uncertainty Relations for Arbitrary Initial States*,<br />
    [The Second Annual Workshop on Stochastic Thermodynamics (WOST II)](https://wiki.santafe.edu/index.php/Stochastic_Thermodynamics_II),<br />
    Santa Fe Institute, online, 2021.05.17 - 2021.05.21.
 
-6. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
+7. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda,<br />
    *Thermodynamic Uncertainty Relations for Arbitrary Initial States*,<br />
    [The 76th Physical Society of Japan Annual Meeting](https://www.jps.or.jp/activities/meetings/index.php),<br />
    Japan, online, 2021.03.12 - 2021.03.15.
 
-7. **Kangqiao Liu**,<br />
+8. **Kangqiao Liu**,<br />
    *Surpassing the standard thermodynamic uncertainty relation limit by feedback control*,<br />
    [GSGC Exchange Seminar](https://www.s.u-tokyo.ac.jp/GSGC/index.html),<br />
    The University of Tokyo, 2019.10.31.
