@@ -9,7 +9,7 @@ redirect_from:
 ## **口头**
 1. **Kangqiao Liu**,<br />
    *经典与量子马尔可夫过程的响应动力学不确定关系*,<br />
-   四川省物理学会2026年学术年会, <br />
+   [四川省物理学会2026年学术年会](https://scwlxh.cloud.hzwtech.com/home), <br />
    西南科技大学，绵阳，四川, 中国, 2026.04.17 - 2026.04.19.
 2. **Kangqiao Liu**,<br />
    *Response kinetic uncertainty relations for classical and quantum Markovian processes*,<br />
