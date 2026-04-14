@@ -8,7 +8,7 @@ redirect_from:
 ---
 ## **Oral**
 1. **Kangqiao Liu**,<br />
-   *Response kinetic uncertainty relations for classical and quantum Markov processes*,<br />
+   *Response kinetic uncertainty relations for classical and quantum Markovian processes*,<br />
    [The 2026 Annual Academic Meeting of the Sichuan Physical Society](https://scwlxh.cloud.hzwtech.com/home), <br />
    Southwest University of Science and Technology，Mianyang，Sichuan, China, 2026.04.17 - 2026.04.19.
 2. **Kangqiao Liu**,<br />
