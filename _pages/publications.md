@@ -13,7 +13,10 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 The symbol \* represents the equal contribution.
 
 ## **Preprints**
-1. **Kangqiao Liu** and Jie Gu,<br />
+1. Jie Gu and **Kangqiao Liu**,<br />
+  *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
+  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).
+2. **Kangqiao Liu** and Jie Gu,<br />
   *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
 
