@@ -61,6 +61,10 @@ redirect_from:
   *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
 
+2. Jie Gu and **Kangqiao Liu**,<br />
+  *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
+  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).
+
 
 
 
