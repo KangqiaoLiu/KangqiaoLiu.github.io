@@ -55,13 +55,14 @@ redirect_from:
   [Physical Review A **113**, 022436 (2026)](https://journals.aps.org/pra/abstract/10.1103/rhvv-yd6w) (2026.02.23) <br />
   (IF = 2.9，中科院2区), <br />
   [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
+8. **Kangqiao Liu** and Jie Gu,<br />
+  *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
+  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/ps1b-8l1x) (2026.06.03) <br />
+  (IF = 2.9，中科院2区), <br />
+  [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895).
    
 ## **未经同行评审**
-1. **Kangqiao Liu** and Jie Gu,<br />
-  *Response Kinetic Uncertainty Relation for Markovian Open Quantum System*,<br />
-  [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895) (2025.01.09).
-
-2. Jie Gu and **Kangqiao Liu**,<br />
+1. Jie Gu and **Kangqiao Liu**,<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).
 
