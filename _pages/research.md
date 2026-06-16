@@ -21,7 +21,7 @@ redirect_from:
   * We derived the **stationary distribution** and found a **power-law escape rate** from a local minimum for *minibatch SGD*.[[ICML 2022 Spotlight]](https://proceedings.mlr.press/v162/mori22a.html)
 
 * **Quantum thermodynamics**
-  * We derived a **quantum response kinetic uncertainty relation (QR-KUR)** for continuously monitored Markovian open quantum systems, showing that the *static response precision* of a trajectory observable is bounded by the conventional quantum dynamical activity together with a perturbation-induced inter-subspace transition term that disappears in the classical limit and is further constrained by symmetry-sector selection rules.[[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895)
+  * We derived a **quantum response kinetic uncertainty relation (QR-KUR)** for continuously monitored Markovian open quantum systems, showing that the *static response precision* of a trajectory observable is bounded by the conventional quantum dynamical activity together with a perturbation-induced inter-subspace transition term that disappears in the classical limit and is further constrained by symmetry-sector selection rules.[[Phys. Rev. A **113**, 062443 (2026)]](https://arxiv.org/abs/2501.04895)
   * We derived **finite-frequency fluctuation-response bounds** for Markovian open quantum systems in an **input-output setting**, showing that any detector’s lock-in response precision is limited by the emitted-field *quantum Fisher information* and, for dissipative coupling modulation, by calibrated *signal-channel activity*.[[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340)
 
 * **Quantum Maxwell's demon**
