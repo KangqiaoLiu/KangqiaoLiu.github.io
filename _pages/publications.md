@@ -19,8 +19,8 @@ The symbol \* represents the equal contribution.
 
 ## **Peer-reviewed**
 1. **Kangqiao Liu** and Jie Gu,<br />
-  *Response kinetic uncertainty relation for Markovian open quantum system*,<br />
-  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/ps1b-8l1x) (2026.06.03) <br />
+  *Response kinetic uncertainty relation for Markovian open quantum systems*,<br />
+  [Physical Review A **113**, 062443 (2026)](https://journals.aps.org/pra/abstract/10.1103/ps1b-8l1x) (2026.06.16) <br />
   [press release](https://lxy.xhu.edu.cn/b3/5a/c575a242522/page.htm) (in Chinese) by Department<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895).
 2. **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda,<br />
