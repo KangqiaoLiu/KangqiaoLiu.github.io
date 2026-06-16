@@ -57,8 +57,8 @@ redirect_from:
   [学院新闻](https://lxy.xhu.edu.cn/b3/66/c575a242534/page.htm)<br />
   [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).
 8. **Kangqiao Liu** and Jie Gu,<br />
-  *Response kinetic uncertainty relation for Markovian open quantum system*,<br />
-  to be published in [Physical Review A](https://journals.aps.org/pra/accepted/10.1103/ps1b-8l1x) (2026.06.03) <br />
+  *Response kinetic uncertainty relation for Markovian open quantum systems*,<br />
+  [Physical Review A **113**, 062443 (2026)](https://journals.aps.org/pra/abstract/10.1103/ps1b-8l1x) (2026.06.16) <br />
   (IF = 2.9，中科院2区), <br />
   [学院新闻](https://lxy.xhu.edu.cn/b3/5a/c575a242522/page.htm)<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895).
