@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# **Nonequilibrium Physics and Machine Learning**
+# **Theoretical Physics and Machine Learning**
 
 * **Stochastic thermodynamics and (classical) information thermodynamics**
   * We found **thermodynamics uncertainty relations** for *non-steady states* in both continuous- and discrete-time Markov processes and applied it to *measurement and feedback control (Maxwell's demon)*.[[Phys. Rev. Lett. **125**, 140602 (2020)]](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)
