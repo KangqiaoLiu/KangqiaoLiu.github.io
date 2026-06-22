@@ -41,7 +41,7 @@ redirect_from:
 
 5. Jiale Yu\*, Shiyu Wang\*, **Kangqiao Liu**, Chen Zha, Yulin Wu, Fusheng Chen, Yangsen Ye, Shaowei Li, Qingling Zhu, Shaojun Guo, Haoran Qian, He-Liang Huang, Youwei Zhao, Chong Ying, Daojin Fan, Dachao Wu, Hong Su, Hui Deng, Hao Rong, Kaili Zhang, Sirui Cao, Jin Lin, Yu Xu, Cheng Guo, Na Li, Futian Liang, Yong-Heng Huo, Chao-Yang Lu, Cheng-Zhi Peng, Kae Nemoto, W. J. Munro, Xiaobo Zhu, Jian-Wei Pan, and Ming Gong,<br />
   *Experimental demonstration of a Maxwell's demon quantum battery in a superconducting NISQ processor*,<br />
-  [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614) (2024.06.20)
+  [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614) (2024.06.20)<br />
   (IF = 2.9，中科院2区).
 6. **Kangqiao Liu** and Jie Gu,<br />
   *Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems*,<br />
@@ -62,6 +62,10 @@ redirect_from:
   (IF = 2.9，中科院2区), <br />
   [学院新闻](https://lxy.xhu.edu.cn/b3/5a/c575a242522/page.htm)<br />
   [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895).
+9. Chuang Yang, Chuanhong Gao, Deyou Chen, and **Kangqiao Liu** ,<br />
+  *Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes*,<br />
+  [The European Physical Journal C **86**, 677 (2026)](https://link.springer.com/article/10.1140/epjc/s10052-026-15894-8) (2026.06.22)<br />
+  (IF = 4.9，中科院2区).
    
 ## **未经同行评审**
 1. Jie Gu and **Kangqiao Liu**,<br />
