@@ -13,7 +13,10 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 The symbol \* represents the equal contribution.
 
 ## **Preprints**
-1. Jie Gu and **Kangqiao Liu**,<br />
+1. Deyou Chen, Chuang Yang, and **Kangqiao Liu** ,<br />
+  *Probing the chaos bound via spinning particles in Kerr-Newman-AdS spacetime*,<br />
+  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).
+2. Jie Gu and **Kangqiao Liu**,<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).
 
