@@ -67,6 +67,9 @@ redirect_from:
 1. Jie Gu and **Kangqiao Liu**,<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).
+2. Deyou Chen, Chuang Yang, and **Kangqiao Liu** ,<br />
+  *Probing the chaos bound via spinning particles in Kerr-Newman-AdS spacetime*,<br />
+  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).
 
 
 
