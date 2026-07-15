@@ -14,7 +14,7 @@ The symbol \* represents the equal contribution.
 
 ## **Preprints**
 1. Deyou Chen, Chuang Yang, and **Kangqiao Liu** ,<br />
-  *Probing the chaos bound via spinning particles in Kerr-Newman-AdS spacetime*,<br />
+  *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*,<br />
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).
 2. Jie Gu and **Kangqiao Liu**,<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
