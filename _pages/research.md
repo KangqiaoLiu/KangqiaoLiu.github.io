@@ -28,6 +28,6 @@ redirect_from:
   * We studied the **classical chaos bound** for charged spinning particles in *Kerr–Newman–AdS spacetime*. Violation is mainly controlled by the interplay of black-hole rotation, charge, AdS curvature, and particle angular momentum, with counter-rotation generally favoring violation and intrinsic spin producing smaller threshold shifts.[[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432)
   * We investigated **Lyapunov-exponent bounds** for *spinning charged particles* in *Kerr–Newman black-hole spacetimes*, showing how black-hole rotation, particle spin, charge, and angular momentum control whether the exponent exceeds the *surface-gravity/MSS scale* in both *non-extremal and extremal* regimes.[[Eur. Phys. J. C **86**, 677 (2026)]](https://doi.org/10.1140/epjc/s10052-026-15894-8)
 
- <!--
+{% comment %}
   * We showed that the conjectured **square-root bound for quantum random access codes (QRACs)** fails in the standard density-operator model because classical random access codes with private randomness form an embedded diagonal-state subclass. The resulting counterexamples fill the full asymptotic interval between the square-root curve and **Nayak's entropy bound** at every fixed compression rate, and achieve order-optimal logarithmic qubit scaling at vanishing recovery bias.[[arXiv:XXXX.XXXXX]](https://arxiv.org/abs/XXXX.XXXXX)
--->
+{% endcomment %}
