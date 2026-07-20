@@ -42,15 +42,16 @@
   transform: translateY(-3px);
 }
 
-/* Independent lower particle figure: restore the original pebble language. */
+/* Independent lower particle figure: restore the original near-vertical pebble silhouette. */
 .ai-home-particle-card {
   --field-x: 50%;
   --field-y: 50%;
   position: relative;
-  width: 100%;
-  min-height: 380px;
+  width: min(100%, 520px);
+  aspect-ratio: 0.92 / 1;
+  justify-self: center;
   border: 1px solid rgba(49, 87, 213, 0.14);
-  border-radius: 42% 58% 56% 44% / 42% 42% 58% 58%;
+  border-radius: 46% 54% 58% 42% / 40% 45% 55% 60%;
   background:
     radial-gradient(circle 180px at var(--field-x) var(--field-y), rgba(49, 87, 213, 0.15), transparent 72%),
     linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(232, 236, 250, 0.56)),
@@ -135,7 +136,7 @@
   }
 
   .ai-home-particle-card {
-    min-height: 350px;
+    width: min(100%, 500px);
   }
 }
 
@@ -154,8 +155,9 @@
   }
 
   .ai-home-particle-card {
-    min-height: 300px;
-    border-radius: 40% 60% 54% 46% / 40% 43% 57% 60%;
+    width: min(96%, 430px);
+    aspect-ratio: 0.94 / 1;
+    border-radius: 44% 56% 55% 45% / 42% 46% 54% 58%;
   }
 
   .ai-home-particle-card .ai-orbit-label {
