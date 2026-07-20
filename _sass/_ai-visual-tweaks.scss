@@ -13,6 +13,18 @@
   bottom: 15%;
 }
 
+/* Subpages use the full content width without the legacy author sidebar. */
+.is-archive-page #main {
+  display: block;
+  width: min(1180px, calc(100% - 2rem));
+}
+
+.is-archive-page .archive {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .is-cv .entry-year,
 .is-teaching .entry-year {
   display: table;
@@ -38,6 +50,10 @@
   .ai-orbit-label--three {
     right: 13%;
     bottom: 14%;
+  }
+
+  .is-archive-page #main {
+    width: min(100% - 1.1rem, 1180px);
   }
 }
 
