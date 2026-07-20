@@ -1,82 +1,76 @@
-/* Homepage portrait stacked above the interactive research field. */
+/* Two fully independent homepage visuals: portrait above, particle field below. */
 
 .ai-hero__visual {
   display: flex;
-  min-height: 680px;
-  padding: clamp(1.35rem, 3vw, 2rem);
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
   flex-direction: column;
-  align-items: center;
-  gap: clamp(1.25rem, 3vw, 1.8rem);
+  align-items: stretch;
+  gap: clamp(1.35rem, 3vw, 2rem);
+  overflow: visible;
+  isolation: auto;
+  transform: none;
 }
 
-/* The legacy orbital pseudo-elements belonged to the entire visual card.
-   Move them to the lower field so the portrait and particle stage stay separate. */
 .ai-hero__visual::before,
 .ai-hero__visual::after {
   display: none;
 }
 
+/* Independent upper photograph. */
 .ai-home-portrait {
   position: relative;
-  z-index: 4;
-  width: clamp(158px, 38%, 214px);
-  flex: 0 0 auto;
+  width: 100%;
   margin: 0;
   padding: 6px;
-  border: 1px solid rgba(49, 87, 213, 0.22);
+  border: 1px solid rgba(49, 87, 213, 0.20);
   border-radius: 30px;
   background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(230, 235, 251, 0.82)) padding-box,
-    linear-gradient(135deg, rgba(49, 87, 213, 0.45), rgba(114, 87, 216, 0.24)) border-box;
+    linear-gradient(145deg, rgba(255, 255, 255, 0.97), rgba(232, 236, 250, 0.88)) padding-box,
+    linear-gradient(135deg, rgba(49, 87, 213, 0.40), rgba(114, 87, 216, 0.20)) border-box;
   box-shadow:
-    0 22px 50px rgba(24, 38, 73, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.78);
-  transition: transform 260ms ease, box-shadow 260ms ease;
-  isolation: isolate;
+    0 20px 46px rgba(24, 38, 73, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.82);
+  overflow: hidden;
+  transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
 .ai-home-portrait::before {
-  position: absolute;
-  z-index: -1;
-  width: 124%;
-  height: 124%;
-  top: -12%;
-  left: -12%;
-  border-radius: 42%;
-  background: radial-gradient(circle, rgba(49, 87, 213, 0.16), rgba(114, 87, 216, 0.06) 42%, transparent 70%);
-  content: "";
-  filter: blur(8px);
-  pointer-events: none;
+  display: none;
 }
 
 .ai-home-portrait img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 10;
   border-radius: 24px;
   object-fit: cover;
-  object-position: center 30%;
-  filter: saturate(0.96) contrast(1.025);
+  object-position: center center;
+  filter: saturate(0.97) contrast(1.02);
 }
 
 .ai-home-portrait:hover {
   box-shadow:
-    0 28px 62px rgba(24, 38, 73, 0.23),
-    inset 0 1px 0 rgba(255, 255, 255, 0.88);
+    0 26px 58px rgba(24, 38, 73, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.90);
   transform: translateY(-3px);
 }
 
+/* Independent lower particle figure. */
 .ai-home-field {
   position: relative;
-  z-index: 1;
   width: 100%;
-  min-height: 315px;
-  flex: 1 1 auto;
-  border: 1px solid rgba(49, 87, 213, 0.10);
-  border-radius: 30px;
+  min-height: 355px;
+  border: 1px solid rgba(49, 87, 213, 0.14);
+  border-radius: 32px;
   background:
-    radial-gradient(circle at 50% 42%, rgba(49, 87, 213, 0.08), transparent 58%),
-    rgba(255, 255, 255, 0.18);
+    linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(232, 236, 250, 0.52)),
+    radial-gradient(circle at 48% 42%, rgba(49, 87, 213, 0.13), transparent 58%);
+  box-shadow: 0 20px 48px rgba(24, 38, 73, 0.13);
   overflow: hidden;
   isolation: isolate;
 }
@@ -92,18 +86,18 @@
 }
 
 .ai-home-field::before {
-  width: 74%;
-  height: 74%;
-  top: 13%;
-  left: 13%;
+  width: 72%;
+  height: 72%;
+  top: 14%;
+  left: 14%;
   animation: ai-orbit 22s linear infinite;
 }
 
 .ai-home-field::after {
-  width: 44%;
-  height: 44%;
-  top: 28%;
-  left: 28%;
+  width: 42%;
+  height: 42%;
+  top: 29%;
+  left: 29%;
   border-style: dashed;
   animation: ai-orbit-reverse 15s linear infinite;
 }
@@ -118,52 +112,48 @@
 
 .ai-home-field .ai-orbit-label--one {
   top: 13%;
-  right: 9%;
+  right: 8%;
 }
 
 .ai-home-field .ai-orbit-label--two {
-  bottom: 19%;
-  left: 8%;
+  bottom: 16%;
+  left: 7%;
 }
 
 .ai-home-field .ai-orbit-label--three {
-  right: 8%;
-  bottom: 8%;
+  right: 7%;
+  bottom: 7%;
 }
 
 @media (max-width: 960px) {
   .ai-hero__visual {
-    min-height: 650px;
-  }
-
-  .ai-home-portrait {
-    width: clamp(150px, 28vw, 190px);
+    width: min(100%, 720px);
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .ai-home-field {
-    min-height: 300px;
+    min-height: 390px;
   }
 }
 
 @media (max-width: 640px) {
   .ai-hero__visual {
-    min-height: 570px;
-    padding: 1.05rem;
     gap: 1rem;
   }
 
   .ai-home-portrait {
-    width: 142px;
-    padding: 5px;
-    border-radius: 25px;
+    padding: 4px;
+    border-radius: 24px;
   }
 
   .ai-home-portrait img {
+    aspect-ratio: 4 / 3;
     border-radius: 20px;
   }
 
   .ai-home-field {
-    min-height: 280px;
+    min-height: 310px;
     border-radius: 24px;
   }
 
@@ -173,36 +163,37 @@
   }
 
   .ai-home-field .ai-orbit-label--one {
-    top: 11%;
+    top: 12%;
     right: 5%;
   }
 
   .ai-home-field .ai-orbit-label--two {
-    bottom: 18%;
+    bottom: 16%;
     left: 5%;
   }
 
   .ai-home-field .ai-orbit-label--three {
-    right: 6%;
+    right: 5%;
     bottom: 5%;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .ai-home-portrait {
-    border-color: rgba(141, 166, 255, 0.28);
+    border-color: rgba(141, 166, 255, 0.25);
     background:
-      linear-gradient(145deg, rgba(31, 40, 58, 0.96), rgba(18, 25, 39, 0.88)) padding-box,
-      linear-gradient(135deg, rgba(141, 166, 255, 0.52), rgba(178, 156, 255, 0.27)) border-box;
+      linear-gradient(145deg, rgba(31, 40, 58, 0.97), rgba(18, 25, 39, 0.90)) padding-box,
+      linear-gradient(135deg, rgba(141, 166, 255, 0.48), rgba(178, 156, 255, 0.24)) border-box;
     box-shadow:
-      0 26px 62px rgba(0, 0, 0, 0.44),
-      inset 0 1px 0 rgba(255, 255, 255, 0.12);
+      0 24px 56px rgba(0, 0, 0, 0.38),
+      inset 0 1px 0 rgba(255, 255, 255, 0.11);
   }
 
   .ai-home-field {
-    border-color: rgba(141, 166, 255, 0.12);
+    border-color: rgba(141, 166, 255, 0.18);
     background:
-      radial-gradient(circle at 50% 42%, rgba(141, 166, 255, 0.10), transparent 58%),
-      rgba(13, 19, 31, 0.16);
+      linear-gradient(145deg, rgba(25, 34, 51, 0.88), rgba(13, 19, 31, 0.72)),
+      radial-gradient(circle at 48% 42%, rgba(141, 166, 255, 0.16), transparent 58%);
+    box-shadow: 0 24px 58px rgba(0, 0, 0, 0.32);
   }
 }
