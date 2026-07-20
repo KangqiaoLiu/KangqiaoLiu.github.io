@@ -1,0 +1,68 @@
+/* Stronger mode changes for the Research-page scientific field. */
+
+/* Keep the original field as a faint structural underlay. */
+.research-field {
+  opacity: 0.24;
+}
+
+.research-field-boost {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.82;
+  pointer-events: none;
+}
+
+.research-field__indicator.is-switching {
+  animation: research-indicator-switch 620ms cubic-bezier(0.16, 0.75, 0.2, 1);
+}
+
+.research-field__indicator.is-switching .research-field__pulse {
+  animation: research-pulse-switch 620ms cubic-bezier(0.16, 0.75, 0.2, 1);
+}
+
+@keyframes research-indicator-switch {
+  0% { transform: translateY(0) scale(1); }
+  32% { transform: translateY(-5px) scale(1.07); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+@keyframes research-pulse-switch {
+  0% { transform: scale(1); }
+  35% { transform: scale(2.1); }
+  100% { transform: scale(1); }
+}
+
+@media (max-width: 760px) {
+  .research-field {
+    opacity: 0.16;
+  }
+
+  .research-field-boost {
+    opacity: 0.48;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .research-field-boost {
+    opacity: 0.70;
+    mix-blend-mode: screen;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .research-field {
+    opacity: 0.15;
+  }
+
+  .research-field-boost {
+    opacity: 0.32;
+  }
+
+  .research-field__indicator.is-switching,
+  .research-field__indicator.is-switching .research-field__pulse {
+    animation: none;
+  }
+}
