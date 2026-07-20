@@ -50,10 +50,12 @@ redirect_from:
         <figure class="ai-home-portrait">
           <img src="{{ '/images/IMG_6440-min.jpeg' | relative_url }}" alt="Portrait of Kangqiao Liu" loading="eager" fetchpriority="high" decoding="async" />
         </figure>
-        <canvas id="ai-research-canvas" aria-hidden="true"></canvas>
-        <span class="ai-orbit-label ai-orbit-label--one" aria-hidden="true">Dynamics</span>
-        <span class="ai-orbit-label ai-orbit-label--two" aria-hidden="true">Information</span>
-        <span class="ai-orbit-label ai-orbit-label--three" aria-hidden="true">Fluctuations</span>
+        <div class="ai-home-field" aria-hidden="true">
+          <canvas id="ai-research-canvas"></canvas>
+          <span class="ai-orbit-label ai-orbit-label--one">Dynamics</span>
+          <span class="ai-orbit-label ai-orbit-label--two">Information</span>
+          <span class="ai-orbit-label ai-orbit-label--three">Fluctuations</span>
+        </div>
       </div>
     </section>
   </div>
