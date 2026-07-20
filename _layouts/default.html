@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="site-body{% if page.url == '/' %} is-home{% endif %}{% if page.url contains '/research' %} is-research{% endif %}{% if page.url contains '/publications' %} is-publications{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
