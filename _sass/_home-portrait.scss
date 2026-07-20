@@ -1,0 +1,134 @@
+/* Homepage portrait layered above the interactive research field. */
+
+.ai-home-portrait {
+  position: absolute;
+  z-index: 4;
+  width: clamp(154px, 36%, 210px);
+  top: clamp(1.35rem, 4vw, 2.35rem);
+  left: 50%;
+  margin: 0;
+  padding: 6px;
+  border: 1px solid rgba(49, 87, 213, 0.22);
+  border-radius: 30px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(230, 235, 251, 0.82)) padding-box,
+    linear-gradient(135deg, rgba(49, 87, 213, 0.45), rgba(114, 87, 216, 0.24)) border-box;
+  box-shadow:
+    0 24px 55px rgba(24, 38, 73, 0.19),
+    inset 0 1px 0 rgba(255, 255, 255, 0.78);
+  transform: translateX(-50%);
+  transition: transform 260ms ease, box-shadow 260ms ease;
+  isolation: isolate;
+}
+
+.ai-home-portrait::before {
+  position: absolute;
+  z-index: -1;
+  width: 128%;
+  height: 128%;
+  top: -14%;
+  left: -14%;
+  border-radius: 42%;
+  background: radial-gradient(circle, rgba(49, 87, 213, 0.18), rgba(114, 87, 216, 0.07) 42%, transparent 70%);
+  content: "";
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.ai-home-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 24px;
+  object-fit: cover;
+  object-position: center 30%;
+  filter: saturate(0.96) contrast(1.025);
+}
+
+.ai-home-portrait:hover {
+  box-shadow:
+    0 30px 68px rgba(24, 38, 73, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.88);
+  transform: translateX(-50%) translateY(-3px);
+}
+
+/* Keep the three concepts visible as a constellation below the portrait. */
+.ai-hero__visual .ai-orbit-label--one {
+  top: 58%;
+  right: 8%;
+}
+
+.ai-hero__visual .ai-orbit-label--two {
+  bottom: 18%;
+  left: 8%;
+}
+
+.ai-hero__visual .ai-orbit-label--three {
+  right: 9%;
+  bottom: 7%;
+}
+
+@media (min-width: 961px) {
+  .ai-hero__visual {
+    min-height: 590px;
+  }
+}
+
+@media (max-width: 960px) {
+  .ai-hero__visual {
+    min-height: 510px;
+  }
+
+  .ai-home-portrait {
+    width: clamp(150px, 28vw, 190px);
+  }
+}
+
+@media (max-width: 640px) {
+  .ai-hero__visual {
+    min-height: 430px;
+  }
+
+  .ai-home-portrait {
+    width: 142px;
+    top: 1.05rem;
+    padding: 5px;
+    border-radius: 25px;
+  }
+
+  .ai-home-portrait img {
+    border-radius: 20px;
+  }
+
+  .ai-hero__visual .ai-orbit-label {
+    padding: 0.32rem 0.52rem;
+    font-size: 0.58rem;
+  }
+
+  .ai-hero__visual .ai-orbit-label--one {
+    top: 58%;
+    right: 5%;
+  }
+
+  .ai-hero__visual .ai-orbit-label--two {
+    bottom: 17%;
+    left: 5%;
+  }
+
+  .ai-hero__visual .ai-orbit-label--three {
+    right: 6%;
+    bottom: 5%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ai-home-portrait {
+    border-color: rgba(141, 166, 255, 0.28);
+    background:
+      linear-gradient(145deg, rgba(31, 40, 58, 0.96), rgba(18, 25, 39, 0.88)) padding-box,
+      linear-gradient(135deg, rgba(141, 166, 255, 0.52), rgba(178, 156, 255, 0.27)) border-box;
+    box-shadow:
+      0 26px 62px rgba(0, 0, 0, 0.44),
+      inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  }
+}
