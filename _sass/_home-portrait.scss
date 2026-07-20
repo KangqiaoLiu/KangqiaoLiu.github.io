@@ -1,11 +1,26 @@
-/* Homepage portrait layered above the interactive research field. */
+/* Homepage portrait stacked above the interactive research field. */
+
+.ai-hero__visual {
+  display: flex;
+  min-height: 680px;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1.25rem, 3vw, 1.8rem);
+}
+
+/* The legacy orbital pseudo-elements belonged to the entire visual card.
+   Move them to the lower field so the portrait and particle stage stay separate. */
+.ai-hero__visual::before,
+.ai-hero__visual::after {
+  display: none;
+}
 
 .ai-home-portrait {
-  position: absolute;
+  position: relative;
   z-index: 4;
-  width: clamp(154px, 36%, 210px);
-  top: clamp(1.35rem, 4vw, 2.35rem);
-  left: 50%;
+  width: clamp(158px, 38%, 214px);
+  flex: 0 0 auto;
   margin: 0;
   padding: 6px;
   border: 1px solid rgba(49, 87, 213, 0.22);
@@ -14,9 +29,8 @@
     linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(230, 235, 251, 0.82)) padding-box,
     linear-gradient(135deg, rgba(49, 87, 213, 0.45), rgba(114, 87, 216, 0.24)) border-box;
   box-shadow:
-    0 24px 55px rgba(24, 38, 73, 0.19),
+    0 22px 50px rgba(24, 38, 73, 0.18),
     inset 0 1px 0 rgba(255, 255, 255, 0.78);
-  transform: translateX(-50%);
   transition: transform 260ms ease, box-shadow 260ms ease;
   isolation: isolate;
 }
@@ -24,12 +38,12 @@
 .ai-home-portrait::before {
   position: absolute;
   z-index: -1;
-  width: 128%;
-  height: 128%;
-  top: -14%;
-  left: -14%;
+  width: 124%;
+  height: 124%;
+  top: -12%;
+  left: -12%;
   border-radius: 42%;
-  background: radial-gradient(circle, rgba(49, 87, 213, 0.18), rgba(114, 87, 216, 0.07) 42%, transparent 70%);
+  background: radial-gradient(circle, rgba(49, 87, 213, 0.16), rgba(114, 87, 216, 0.06) 42%, transparent 70%);
   content: "";
   filter: blur(8px);
   pointer-events: none;
@@ -47,51 +61,99 @@
 
 .ai-home-portrait:hover {
   box-shadow:
-    0 30px 68px rgba(24, 38, 73, 0.24),
+    0 28px 62px rgba(24, 38, 73, 0.23),
     inset 0 1px 0 rgba(255, 255, 255, 0.88);
-  transform: translateX(-50%) translateY(-3px);
+  transform: translateY(-3px);
 }
 
-/* Keep the three concepts visible as a constellation below the portrait. */
-.ai-hero__visual .ai-orbit-label--one {
-  top: 58%;
-  right: 8%;
+.ai-home-field {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 315px;
+  flex: 1 1 auto;
+  border: 1px solid rgba(49, 87, 213, 0.10);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(49, 87, 213, 0.08), transparent 58%),
+    rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+  isolation: isolate;
 }
 
-.ai-hero__visual .ai-orbit-label--two {
-  bottom: 18%;
+.ai-home-field::before,
+.ai-home-field::after {
+  position: absolute;
+  z-index: 0;
+  border: 1px solid rgba(49, 87, 213, 0.16);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+
+.ai-home-field::before {
+  width: 74%;
+  height: 74%;
+  top: 13%;
+  left: 13%;
+  animation: ai-orbit 22s linear infinite;
+}
+
+.ai-home-field::after {
+  width: 44%;
+  height: 44%;
+  top: 28%;
+  left: 28%;
+  border-style: dashed;
+  animation: ai-orbit-reverse 15s linear infinite;
+}
+
+.ai-home-field #ai-research-canvas {
+  z-index: 1;
+}
+
+.ai-home-field .ai-orbit-label {
+  z-index: 2;
+}
+
+.ai-home-field .ai-orbit-label--one {
+  top: 13%;
+  right: 9%;
+}
+
+.ai-home-field .ai-orbit-label--two {
+  bottom: 19%;
   left: 8%;
 }
 
-.ai-hero__visual .ai-orbit-label--three {
-  right: 9%;
-  bottom: 7%;
-}
-
-@media (min-width: 961px) {
-  .ai-hero__visual {
-    min-height: 590px;
-  }
+.ai-home-field .ai-orbit-label--three {
+  right: 8%;
+  bottom: 8%;
 }
 
 @media (max-width: 960px) {
   .ai-hero__visual {
-    min-height: 510px;
+    min-height: 650px;
   }
 
   .ai-home-portrait {
     width: clamp(150px, 28vw, 190px);
   }
+
+  .ai-home-field {
+    min-height: 300px;
+  }
 }
 
 @media (max-width: 640px) {
   .ai-hero__visual {
-    min-height: 430px;
+    min-height: 570px;
+    padding: 1.05rem;
+    gap: 1rem;
   }
 
   .ai-home-portrait {
     width: 142px;
-    top: 1.05rem;
     padding: 5px;
     border-radius: 25px;
   }
@@ -100,22 +162,27 @@
     border-radius: 20px;
   }
 
-  .ai-hero__visual .ai-orbit-label {
+  .ai-home-field {
+    min-height: 280px;
+    border-radius: 24px;
+  }
+
+  .ai-home-field .ai-orbit-label {
     padding: 0.32rem 0.52rem;
     font-size: 0.58rem;
   }
 
-  .ai-hero__visual .ai-orbit-label--one {
-    top: 58%;
+  .ai-home-field .ai-orbit-label--one {
+    top: 11%;
     right: 5%;
   }
 
-  .ai-hero__visual .ai-orbit-label--two {
-    bottom: 17%;
+  .ai-home-field .ai-orbit-label--two {
+    bottom: 18%;
     left: 5%;
   }
 
-  .ai-hero__visual .ai-orbit-label--three {
+  .ai-home-field .ai-orbit-label--three {
     right: 6%;
     bottom: 5%;
   }
@@ -130,5 +197,12 @@
     box-shadow:
       0 26px 62px rgba(0, 0, 0, 0.44),
       inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  }
+
+  .ai-home-field {
+    border-color: rgba(141, 166, 255, 0.12);
+    background:
+      radial-gradient(circle at 50% 42%, rgba(141, 166, 255, 0.10), transparent 58%),
+      rgba(13, 19, 31, 0.16);
   }
 }
