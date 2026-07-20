@@ -1,0 +1,33 @@
+/* Small visual refinements after first preview review. */
+
+.ai-hero__title .ai-name-cn {
+  color: var(--ai-text);
+  font-weight: 560;
+  letter-spacing: 0.055em;
+  opacity: 0.9;
+  -webkit-text-stroke: 0;
+}
+
+.ai-orbit-label--three {
+  right: 15%;
+  bottom: 15%;
+}
+
+@media (max-width: 640px) {
+  .ai-hero__title .ai-name-cn {
+    font-size: 0.5em;
+    letter-spacing: 0.045em;
+  }
+
+  .ai-orbit-label--three {
+    right: 13%;
+    bottom: 14%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ai-hero__title .ai-name-cn {
+    color: var(--ai-text);
+    -webkit-text-stroke: 0;
+  }
+}
