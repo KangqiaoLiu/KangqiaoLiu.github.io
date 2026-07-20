@@ -1,39 +1,144 @@
 ---
 permalink: /
 title: "Kangqiao LIU 刘康桥"
-excerpt: "About me"
-author_profile: true
+excerpt: "Theoretical physics, quantum information, and machine learning"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-**Lecturer** of Physics
+<div class="ai-home">
+  <div class="ai-container">
+    <section class="ai-hero" aria-labelledby="ai-home-title">
+      <div class="ai-hero__copy ai-reveal">
+        <p class="ai-eyebrow">Theoretical Physics · Quantum Information · Machine Learning</p>
+        <h1 class="ai-hero__title" id="ai-home-title">
+          <span>Kangqiao Liu</span>
+          <span class="ai-name-cn">刘康桥</span>
+        </h1>
+        <p class="ai-hero__lede">
+          I study fluctuations, information, response, and complexity across nonequilibrium,
+          quantum, gravitational, and learning systems.
+        </p>
 
-[School of Science](http://english.xhu.edu.cn/_s69/58/7e/c3521a88190/page.psp)
+        <div class="ai-hero__actions" aria-label="Primary links">
+          <a class="ai-button ai-button--primary" href="{{ '/research/' | relative_url }}">Explore research</a>
+          <a class="ai-button" href="{{ '/publications/' | relative_url }}">View publications</a>
+          <a class="ai-button" href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
+        </div>
 
-[Key Laboratory of High Performance Scientific Computation](http://english.xhu.edu.cn/_s69/58/b5/c3522a88245/page.psp)
+        <div class="ai-hero__meta">
+          <div>
+            <strong>Lecturer of Physics</strong>
+            School of Science, Xihua University
+          </div>
+          <div>
+            <strong>Based in Chengdu</strong>
+            Sichuan, China 610039
+          </div>
+        </div>
+      </div>
 
-[Xihua University](http://english.xhu.edu.cn/main.psp)
+      <div class="ai-hero__visual ai-reveal" aria-hidden="true">
+        <canvas id="ai-research-canvas"></canvas>
+        <span class="ai-orbit-label ai-orbit-label--one">Dynamics</span>
+        <span class="ai-orbit-label ai-orbit-label--two">Information</span>
+        <span class="ai-orbit-label ai-orbit-label--three">Fluctuations</span>
+      </div>
+    </section>
+  </div>
 
-Chengdu, Sichuan, China 610039
+  <section class="ai-section">
+    <div class="ai-container">
+      <div class="ai-section__head ai-reveal">
+        <div>
+          <p class="ai-section__kicker">Research landscape</p>
+          <h2 class="ai-section__title">One language across different physical systems.</h2>
+        </div>
+        <p class="ai-section__summary">
+          My work connects stochastic dynamics, quantum information, gravitation, and learning
+          through response bounds, fluctuations, transport, and instability.
+        </p>
+      </div>
 
-<br />
+      <div class="ai-research-grid">
+        <a class="ai-research-card ai-reveal" href="{{ '/research/' | relative_url }}">
+          <span class="ai-card__index">01 / NONEQUILIBRIUM</span>
+          <span class="ai-card__title">Statistical physics and machine learning</span>
+          <span class="ai-card__text">Kinetic uncertainty relations, stochastic response, and the dynamics of finite-learning-rate SGD.</span>
+          <span class="ai-card__arrow" aria-hidden="true">→</span>
+        </a>
 
-物理学**讲师**
+        <a class="ai-research-card ai-reveal" href="{{ '/research/' | relative_url }}">
+          <span class="ai-card__index">02 / QUANTUM</span>
+          <span class="ai-card__title">Quantum information and thermodynamics</span>
+          <span class="ai-card__text">Quantum response bounds, information engines, random access codes, and Maxwell's demon.</span>
+          <span class="ai-card__arrow" aria-hidden="true">→</span>
+        </a>
 
-[西华大学](http://www.xhu.edu.cn/)[理学院](http://lxy.xhu.edu.cn/)
+        <a class="ai-research-card ai-reveal" href="{{ '/research/' | relative_url }}">
+          <span class="ai-card__index">03 / GRAVITATION</span>
+          <span class="ai-card__title">Black-hole dynamics and chaos</span>
+          <span class="ai-card__text">Lyapunov-exponent bounds and spinning-particle dynamics in Kerr–Newman spacetimes.</span>
+          <span class="ai-card__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-[高性能科学计算四川省教育厅高校重点实验室](http://lxy.xhu.edu.cn/6e/ea/c8564a28394/page.htm)
+  <section class="ai-section">
+    <div class="ai-container">
+      <div class="ai-section__head ai-reveal">
+        <div>
+          <p class="ai-section__kicker">Recent work</p>
+          <h2 class="ai-section__title">Current research, directly accessible.</h2>
+        </div>
+        <p class="ai-section__summary">
+          Selected recent results. The complete record, journal links, preprints, PDFs, and
+          supplements are available on the publications page.
+        </p>
+      </div>
 
-四川成都　610039
+      <div class="ai-work-grid">
+        <a class="ai-work-card ai-reveal" href="https://arxiv.org/abs/2607.15617" target="_blank" rel="noopener">
+          <span class="ai-card__index">2026 · QUANTUM INFORMATION</span>
+          <span class="ai-card__title">Classical codes violate the conjectured square-root bound for quantum random access codes</span>
+          <span class="ai-card__arrow" aria-hidden="true">↗</span>
+        </a>
 
-<br />
+        <a class="ai-work-card ai-reveal" href="https://doi.org/10.1140/epjc/s10052-026-15894-8" target="_blank" rel="noopener">
+          <span class="ai-card__index">2026 · GRAVITATION</span>
+          <span class="ai-card__title">Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes</span>
+          <span class="ai-card__arrow" aria-hidden="true">↗</span>
+        </a>
 
-**Contact me at**: (replace -AT- by @)
+        <a class="ai-work-card ai-reveal" href="https://journals.aps.org/pra/abstract/10.1103/ps1b-8l1x" target="_blank" rel="noopener">
+          <span class="ai-card__index">2026 · OPEN QUANTUM SYSTEMS</span>
+          <span class="ai-card__title">Response kinetic uncertainty relation for Markovian open quantum systems</span>
+          <span class="ai-card__arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-kqliu-AT-xhu.edu.cn
-
-<br />
-
-**Office** at 6D416
+  <section class="ai-section">
+    <div class="ai-container">
+      <div class="ai-contact-panel ai-reveal">
+        <div>
+          <p class="ai-section__kicker">Affiliation</p>
+          <h2 class="ai-section__title">Xihua University</h2>
+          <p><a href="http://english.xhu.edu.cn/_s69/58/7e/c3521a88190/page.psp">School of Science</a></p>
+          <p><a href="http://english.xhu.edu.cn/_s69/58/b5/c3522a88245/page.psp">Key Laboratory of High Performance Scientific Computation</a></p>
+          <p>物理学讲师 · 西华大学理学院</p>
+        </div>
+        <div>
+          <p class="ai-section__kicker">Contact</p>
+          <p><strong>Email</strong><br />kqliu-AT-xhu.edu.cn <small>(replace -AT- by @)</small></p>
+          <p><strong>Office</strong><br />6D416</p>
+          <p><strong>Address</strong><br />Chengdu, Sichuan, China 610039</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
