@@ -1,20 +1,20 @@
-/* Two independent homepage visuals: photograph above, particle field below. */
+/* Two independent homepage visuals: rectangular photograph above, pebble particle field below. */
 
 .ai-home-media {
   display: grid;
   min-width: 0;
   align-self: center;
-  gap: clamp(1.25rem, 3vw, 1.8rem);
+  gap: clamp(1.35rem, 3vw, 2rem);
 }
 
-/* Independent upper photograph. */
+/* Independent upper photograph: conventional horizontal card, not a pebble. */
 .ai-home-photo-card {
   position: relative;
   width: 100%;
   margin: 0;
   padding: 6px;
   border: 1px solid rgba(49, 87, 213, 0.20);
-  border-radius: 28px;
+  border-radius: 24px;
   background:
     linear-gradient(145deg, rgba(255, 255, 255, 0.97), rgba(232, 236, 250, 0.88)) padding-box,
     linear-gradient(135deg, rgba(49, 87, 213, 0.40), rgba(114, 87, 216, 0.20)) border-box;
@@ -29,7 +29,7 @@
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
-  border-radius: 22px;
+  border-radius: 18px;
   object-fit: cover;
   object-position: center center;
   filter: saturate(0.97) contrast(1.02);
@@ -42,28 +42,29 @@
   transform: translateY(-3px);
 }
 
-/* Independent lower particle figure. */
+/* Independent lower particle figure: restore the original pebble language. */
 .ai-home-particle-card {
   --field-x: 50%;
   --field-y: 50%;
   position: relative;
   width: 100%;
-  min-height: 340px;
+  min-height: 380px;
   border: 1px solid rgba(49, 87, 213, 0.14);
-  border-radius: 30px;
+  border-radius: 42% 58% 56% 44% / 42% 42% 58% 58%;
   background:
     radial-gradient(circle 180px at var(--field-x) var(--field-y), rgba(49, 87, 213, 0.15), transparent 72%),
     linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(232, 236, 250, 0.56)),
     radial-gradient(circle at 48% 42%, rgba(49, 87, 213, 0.13), transparent 58%);
-  box-shadow: 0 18px 44px rgba(24, 38, 73, 0.13);
+  box-shadow: 0 22px 58px rgba(24, 38, 73, 0.15);
   overflow: hidden;
   isolation: isolate;
   transition: border-color 220ms ease, box-shadow 220ms ease;
+  transform: translateZ(0);
 }
 
 .ai-home-particle-card.is-interacting {
   border-color: rgba(49, 87, 213, 0.28);
-  box-shadow: 0 24px 60px rgba(22, 35, 66, 0.17);
+  box-shadow: 0 28px 74px rgba(22, 35, 66, 0.18);
 }
 
 .ai-home-particle-card::before,
@@ -134,7 +135,7 @@
   }
 
   .ai-home-particle-card {
-    min-height: 330px;
+    min-height: 350px;
   }
 }
 
@@ -145,16 +146,16 @@
 
   .ai-home-photo-card {
     padding: 5px;
-    border-radius: 24px;
+    border-radius: 20px;
   }
 
   .ai-home-photo-card img {
-    border-radius: 19px;
+    border-radius: 15px;
   }
 
   .ai-home-particle-card {
-    min-height: 285px;
-    border-radius: 24px;
+    min-height: 300px;
+    border-radius: 40% 60% 54% 46% / 40% 43% 57% 60%;
   }
 
   .ai-home-particle-card .ai-orbit-label {
