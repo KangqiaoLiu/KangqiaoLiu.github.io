@@ -31,6 +31,25 @@
   display: none;
 }
 
+/* Only the direct italic child is an entry title. */
+.is-publications .archive > ol > li > em,
+.is-talks .archive > ol > li > em {
+  margin-top: 0.3rem;
+  margin-bottom: 0.08rem;
+}
+
+/* Inline emphasis inside links, such as Behind the Paper, remains inline copy. */
+.is-publications .archive > ol > li a > em {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: inherit;
+  letter-spacing: normal;
+  line-height: inherit;
+}
+
 /* Refined publication action buttons. */
 .is-publications .archive .btn {
   position: relative;
