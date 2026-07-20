@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+ 
 {% include base_path %}
 
 [[Google Scholar]](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en)
