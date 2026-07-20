@@ -1,0 +1,136 @@
+name: Import publication PDFs
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/import-publication-pdfs.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import-pdfs:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download publication files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p files/papers
+
+          fetch_pdf() {
+            local destination="$1"
+            local url="$2"
+            echo "Downloading ${destination}"
+            curl --fail --location --retry 4 --retry-all-errors \
+              --connect-timeout 30 --max-time 300 \
+              --user-agent "Mozilla/5.0 publication-archive" \
+              --output "files/papers/${destination}" "${url}"
+            test "$(head -c 5 "files/papers/${destination}")" = "%PDF-"
+          }
+
+          fetch_pdf "liu-2026-qrac-counterexample.pdf" \
+            "https://arxiv.org/pdf/2607.15617"
+          fetch_pdf "chen-yang-liu-2026-kerr-newman-ads-chaos.pdf" \
+            "https://arxiv.org/pdf/2607.00432v2"
+          fetch_pdf "gu-liu-2026-finite-frequency-response-bounds.pdf" \
+            "https://arxiv.org/pdf/2605.03340v1"
+          fetch_pdf "yang-gao-chen-liu-2026-epjc-lyapunov.pdf" \
+            "https://link.springer.com/content/pdf/10.1140/epjc/s10052-026-15894-8.pdf"
+          fetch_pdf "liu-gu-2026-response-kur.pdf" \
+            "https://journals.aps.org/pra/pdf/10.1103/ps1b-8l1x"
+          fetch_pdf "liu-nakagawa-ueda-2026-maxwell-demon-transport.pdf" \
+            "https://journals.aps.org/pra/pdf/10.1103/rhvv-yd6w"
+          fetch_pdf "liu-gu-2025-communications-physics-response-bound.pdf" \
+            "https://www.nature.com/articles/s42005-025-01982-w.pdf"
+          fetch_pdf "yu-et-al-2024-maxwell-demon-quantum-battery.pdf" \
+            "https://journals.aps.org/pra/pdf/10.1103/PhysRevA.109.062614"
+          fetch_pdf "mori-ziyin-liu-ueda-2022-power-law-escape.pdf" \
+            "https://proceedings.mlr.press/v162/mori22a/mori22a.pdf"
+          fetch_pdf "ziyin-liu-mori-ueda-2022-minibatch-noise.pdf" \
+            "https://openreview.net/pdf?id=uorVGbWV5sw"
+          fetch_pdf "liu-ziyin-ueda-2021-finite-learning-rate-sgd.pdf" \
+            "https://proceedings.mlr.press/v139/liu21ad/liu21ad.pdf"
+          fetch_pdf "liu-ziyin-ueda-2021-finite-learning-rate-sgd-supplements.pdf" \
+            "https://proceedings.mlr.press/v139/liu21ad/liu21ad-supp.pdf"
+          fetch_pdf "liu-gong-ueda-2020-tur-arbitrary-initial-states.pdf" \
+            "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.125.140602"
+          fetch_pdf "liu-gong-ueda-2020-tur-arbitrary-initial-states-supplements.pdf" \
+            "https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.125.140602/supplemental.pdf"
+
+      - name: Add PDF buttons without changing publication text
+        shell: python
+        run: |
+          from pathlib import Path
+
+          def buttons(pdf, supplements=None):
+              result = (
+                  f' <a href="{{{{ \'/files/papers/{pdf}\' | relative_url }}}}" '
+                  'class="btn btn--small" download>PDF</a>'
+              )
+              if supplements:
+                  result += (
+                      f' <a href="{{{{ \'/files/papers/{supplements}\' | relative_url }}}}" '
+                      'class="btn btn--small" download>Supplements</a>'
+                  )
+              return result
+
+          pages = {
+              "_pages/publications.md": [
+                  ("  [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20).", "liu-2026-qrac-counterexample.pdf", None),
+                  ("  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).", "chen-yang-liu-2026-kerr-newman-ads-chaos.pdf", None),
+                  ("  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).", "gu-liu-2026-finite-frequency-response-bounds.pdf", None),
+                  ("  [The European Physical Journal C **86**, 677 (2026)](https://link.springer.com/article/10.1140/epjc/s10052-026-15894-8) (2026.06.22)", "yang-gao-chen-liu-2026-epjc-lyapunov.pdf", None),
+                  ("  [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895).", "liu-gu-2026-response-kur.pdf", None),
+                  ("  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).", "liu-nakagawa-ueda-2026-maxwell-demon-transport.pdf", None),
+                  ("  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).", "liu-gu-2025-communications-physics-response-bound.pdf", None),
+                  ("  [Physical Review A **109**, 062614 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.062614) (2024.06.20).", "yu-et-al-2024-maxwell-demon-quantum-battery.pdf", None),
+                  ("  [[arXiv:2105.09557]](https://arxiv.org/abs/2105.09557).", "mori-ziyin-liu-ueda-2022-power-law-escape.pdf", None),
+                  ("   [[arXiv:2102.05375]](https://arxiv.org/abs/2102.05375).", "ziyin-liu-mori-ueda-2022-minibatch-noise.pdf", None),
+                  ("   [[arXiv:2012.03636]](https://arxiv.org/abs/2012.03636).", "liu-ziyin-ueda-2021-finite-learning-rate-sgd.pdf", "liu-ziyin-ueda-2021-finite-learning-rate-sgd-supplements.pdf"),
+                  ("   [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797).", "liu-gong-ueda-2020-tur-arbitrary-initial-states.pdf", "liu-gong-ueda-2020-tur-arbitrary-initial-states-supplements.pdf"),
+              ],
+              "_pages/publications_zh.md": [
+                  ("   [[arXiv:1912.11797]](https://arxiv.org/abs/1912.11797).", "liu-gong-ueda-2020-tur-arbitrary-initial-states.pdf", "liu-gong-ueda-2020-tur-arbitrary-initial-states-supplements.pdf"),
+                  ("   [[arXiv:2012.03636]](https://arxiv.org/abs/2012.03636).", "liu-ziyin-ueda-2021-finite-learning-rate-sgd.pdf", "liu-ziyin-ueda-2021-finite-learning-rate-sgd-supplements.pdf"),
+                  ("   [[arXiv:2102.05375]](https://arxiv.org/abs/2102.05375).", "ziyin-liu-mori-ueda-2022-minibatch-noise.pdf", None),
+                  ("  [[arXiv:2105.09557]](https://arxiv.org/abs/2105.09557).", "mori-ziyin-liu-ueda-2022-power-law-escape.pdf", None),
+                  ("  (IF = 2.9，中科院2区).", "yu-et-al-2024-maxwell-demon-quantum-battery.pdf", None),
+                  ("  [[arXiv:2410.20800]](https://arxiv.org/abs/2410.20800).", "liu-gu-2025-communications-physics-response-bound.pdf", None),
+                  ("  [[arXiv:2303.08326]](https://arxiv.org/abs/2303.08326).", "liu-nakagawa-ueda-2026-maxwell-demon-transport.pdf", None),
+                  ("  [[arXiv:2501.04895]](https://arxiv.org/abs/2501.04895).", "liu-gu-2026-response-kur.pdf", None),
+                  ("  (IF = 4.9，中科院2区).", "yang-gao-chen-liu-2026-epjc-lyapunov.pdf", None),
+                  ("  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).", "gu-liu-2026-finite-frequency-response-bounds.pdf", None),
+                  ("  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).", "chen-yang-liu-2026-kerr-newman-ads-chaos.pdf", None),
+                  ("  [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20).", "liu-2026-qrac-counterexample.pdf", None),
+              ],
+          }
+
+          for filename, entries in pages.items():
+              path = Path(filename)
+              text = path.read_text(encoding="utf-8")
+              for marker, pdf, supplements in entries:
+                  addition = buttons(pdf, supplements)
+                  if marker + addition in text:
+                      continue
+                  count = text.count(marker)
+                  if count != 1:
+                      raise RuntimeError(f"Expected one exact marker in {filename}, found {count}: {marker}")
+                  text = text.replace(marker, marker + addition, 1)
+              path.write_text(text, encoding="utf-8")
+
+      - name: Commit imported files and buttons
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add files/papers _pages/publications.md _pages/publications_zh.md
+          git commit -m "Add publication PDF downloads"
+          git push origin master
