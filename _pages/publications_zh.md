@@ -70,6 +70,9 @@ redirect_from:
 2. Deyou Chen, Chuang Yang, and **Kangqiao Liu** ,<br />
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*,<br />
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).
+3. **Kangqiao Liu**,<br />
+  *Classical codes violate the conjectured square-root bound for quantum random access codes*,<br />
+  [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20).
 
 
 
