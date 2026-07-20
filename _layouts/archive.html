@@ -2,28 +2,22 @@
 layout: default
 ---
 
-{% assign subpage_code = "00" %}
 {% assign subpage_label = "Academic profile" %}
 {% assign subpage_description = "Research, publications, academic experience, presentations, and teaching." %}
 
 {% if page.url contains '/research' %}
-  {% assign subpage_code = "01" %}
   {% assign subpage_label = "Research landscape" %}
   {% assign subpage_description = "Questions, methods, and results across nonequilibrium, quantum, gravitational, and learning systems." %}
 {% elsif page.url contains '/publications' %}
-  {% assign subpage_code = "02" %}
   {% assign subpage_label = "Research output" %}
   {% assign subpage_description = "Peer-reviewed articles, preprints, full-text PDFs, and supplementary materials." %}
 {% elsif page.url contains '/cv' %}
-  {% assign subpage_code = "03" %}
   {% assign subpage_label = "Academic trajectory" %}
   {% assign subpage_description = "Appointments, education, grants, awards, and professional service." %}
 {% elsif page.url contains '/talks' %}
-  {% assign subpage_code = "04" %}
   {% assign subpage_label = "Presentations and seminars" %}
   {% assign subpage_description = "Conference talks, invited seminars, and research exchanges." %}
 {% elsif page.url contains '/teaching' %}
-  {% assign subpage_code = "05" %}
   {% assign subpage_label = "Teaching and supervision" %}
   {% assign subpage_description = "Courses, student supervision, and teaching experience." %}
 {% endif %}
@@ -65,7 +59,6 @@ layout: default
       <p class="subpage-hero__description">{{ subpage_description }}</p>
       <div class="subpage-metrics" id="subpage-metrics" aria-label="Page summary"></div>
     </div>
-    <span class="subpage-hero__code" aria-hidden="true">{{ subpage_code }}</span>
   </div>
 </section>
 
