@@ -6,7 +6,7 @@
 
   if (reduceMotion || !finePointer) return;
 
-  var visual = document.querySelector(".ai-hero__visual");
+  var visual = document.querySelector(".ai-home-particle-card");
 
   if (visual) {
     var labels = Array.prototype.slice.call(visual.querySelectorAll(".ai-orbit-label"));
