@@ -1,82 +1,73 @@
-/* Two fully independent homepage visuals: portrait above, particle field below. */
+/* Two independent homepage visuals: photograph above, particle field below. */
 
-.ai-hero__visual {
-  display: flex;
-  min-height: 0;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-  flex-direction: column;
-  align-items: stretch;
-  gap: clamp(1.35rem, 3vw, 2rem);
-  overflow: visible;
-  isolation: auto;
-  transform: none;
-}
-
-.ai-hero__visual::before,
-.ai-hero__visual::after {
-  display: none;
+.ai-home-media {
+  display: grid;
+  min-width: 0;
+  align-self: center;
+  gap: clamp(1.25rem, 3vw, 1.8rem);
 }
 
 /* Independent upper photograph. */
-.ai-home-portrait {
+.ai-home-photo-card {
   position: relative;
   width: 100%;
   margin: 0;
   padding: 6px;
   border: 1px solid rgba(49, 87, 213, 0.20);
-  border-radius: 30px;
+  border-radius: 28px;
   background:
     linear-gradient(145deg, rgba(255, 255, 255, 0.97), rgba(232, 236, 250, 0.88)) padding-box,
     linear-gradient(135deg, rgba(49, 87, 213, 0.40), rgba(114, 87, 216, 0.20)) border-box;
   box-shadow:
-    0 20px 46px rgba(24, 38, 73, 0.15),
+    0 18px 42px rgba(24, 38, 73, 0.14),
     inset 0 1px 0 rgba(255, 255, 255, 0.82);
   overflow: hidden;
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
-.ai-home-portrait::before {
-  display: none;
-}
-
-.ai-home-portrait img {
+.ai-home-photo-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
-  border-radius: 24px;
+  aspect-ratio: 16 / 9;
+  border-radius: 22px;
   object-fit: cover;
   object-position: center center;
   filter: saturate(0.97) contrast(1.02);
 }
 
-.ai-home-portrait:hover {
+.ai-home-photo-card:hover {
   box-shadow:
-    0 26px 58px rgba(24, 38, 73, 0.20),
+    0 24px 54px rgba(24, 38, 73, 0.19),
     inset 0 1px 0 rgba(255, 255, 255, 0.90);
   transform: translateY(-3px);
 }
 
 /* Independent lower particle figure. */
-.ai-home-field {
+.ai-home-particle-card {
+  --field-x: 50%;
+  --field-y: 50%;
   position: relative;
   width: 100%;
-  min-height: 355px;
+  min-height: 340px;
   border: 1px solid rgba(49, 87, 213, 0.14);
-  border-radius: 32px;
+  border-radius: 30px;
   background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(232, 236, 250, 0.52)),
+    radial-gradient(circle 180px at var(--field-x) var(--field-y), rgba(49, 87, 213, 0.15), transparent 72%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(232, 236, 250, 0.56)),
     radial-gradient(circle at 48% 42%, rgba(49, 87, 213, 0.13), transparent 58%);
-  box-shadow: 0 20px 48px rgba(24, 38, 73, 0.13);
+  box-shadow: 0 18px 44px rgba(24, 38, 73, 0.13);
   overflow: hidden;
   isolation: isolate;
+  transition: border-color 220ms ease, box-shadow 220ms ease;
 }
 
-.ai-home-field::before,
-.ai-home-field::after {
+.ai-home-particle-card.is-interacting {
+  border-color: rgba(49, 87, 213, 0.28);
+  box-shadow: 0 24px 60px rgba(22, 35, 66, 0.17);
+}
+
+.ai-home-particle-card::before,
+.ai-home-particle-card::after {
   position: absolute;
   z-index: 0;
   border: 1px solid rgba(49, 87, 213, 0.16);
@@ -85,7 +76,7 @@
   pointer-events: none;
 }
 
-.ai-home-field::before {
+.ai-home-particle-card::before {
   width: 72%;
   height: 72%;
   top: 14%;
@@ -93,107 +84,104 @@
   animation: ai-orbit 22s linear infinite;
 }
 
-.ai-home-field::after {
-  width: 42%;
-  height: 42%;
-  top: 29%;
-  left: 29%;
+.ai-home-particle-card::after {
+  width: 44%;
+  height: 44%;
+  top: 28%;
+  left: 28%;
   border-style: dashed;
   animation: ai-orbit-reverse 15s linear infinite;
 }
 
-.ai-home-field #ai-research-canvas {
+.ai-home-particle-card #ai-research-canvas {
+  position: absolute;
   z-index: 1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.ai-home-field .ai-orbit-label {
+.ai-home-particle-card .ai-orbit-label {
   z-index: 2;
 }
 
-.ai-home-field .ai-orbit-label--one {
-  top: 13%;
+.ai-home-particle-card .ai-orbit-label--one {
+  top: 14%;
   right: 8%;
 }
 
-.ai-home-field .ai-orbit-label--two {
-  bottom: 16%;
+.ai-home-particle-card .ai-orbit-label--two {
+  bottom: 17%;
   left: 7%;
 }
 
-.ai-home-field .ai-orbit-label--three {
+.ai-home-particle-card .ai-orbit-label--three {
   right: 7%;
   bottom: 7%;
 }
 
+.ai-home-particle-card.is-interacting .ai-orbit-label {
+  border-color: rgba(49, 87, 213, 0.28);
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 8px 24px rgba(31, 48, 86, 0.08);
+}
+
 @media (max-width: 960px) {
-  .ai-hero__visual {
-    width: min(100%, 720px);
+  .ai-home-media {
+    width: min(620px, 100%);
     margin-right: auto;
     margin-left: auto;
   }
 
-  .ai-home-field {
-    min-height: 390px;
+  .ai-home-particle-card {
+    min-height: 330px;
   }
 }
 
 @media (max-width: 640px) {
-  .ai-hero__visual {
+  .ai-home-media {
     gap: 1rem;
   }
 
-  .ai-home-portrait {
-    padding: 4px;
+  .ai-home-photo-card {
+    padding: 5px;
     border-radius: 24px;
   }
 
-  .ai-home-portrait img {
-    aspect-ratio: 4 / 3;
-    border-radius: 20px;
+  .ai-home-photo-card img {
+    border-radius: 19px;
   }
 
-  .ai-home-field {
-    min-height: 310px;
+  .ai-home-particle-card {
+    min-height: 285px;
     border-radius: 24px;
   }
 
-  .ai-home-field .ai-orbit-label {
-    padding: 0.32rem 0.52rem;
-    font-size: 0.58rem;
-  }
-
-  .ai-home-field .ai-orbit-label--one {
-    top: 12%;
-    right: 5%;
-  }
-
-  .ai-home-field .ai-orbit-label--two {
-    bottom: 16%;
-    left: 5%;
-  }
-
-  .ai-home-field .ai-orbit-label--three {
-    right: 5%;
-    bottom: 5%;
+  .ai-home-particle-card .ai-orbit-label {
+    padding: 0.32rem 0.5rem;
+    font-size: 0.56rem;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .ai-home-portrait {
-    border-color: rgba(141, 166, 255, 0.25);
+  .ai-home-photo-card {
+    border-color: rgba(141, 166, 255, 0.28);
     background:
-      linear-gradient(145deg, rgba(31, 40, 58, 0.97), rgba(18, 25, 39, 0.90)) padding-box,
-      linear-gradient(135deg, rgba(141, 166, 255, 0.48), rgba(178, 156, 255, 0.24)) border-box;
+      linear-gradient(145deg, rgba(31, 40, 58, 0.96), rgba(18, 25, 39, 0.88)) padding-box,
+      linear-gradient(135deg, rgba(141, 166, 255, 0.52), rgba(178, 156, 255, 0.27)) border-box;
     box-shadow:
-      0 24px 56px rgba(0, 0, 0, 0.38),
-      inset 0 1px 0 rgba(255, 255, 255, 0.11);
+      0 22px 52px rgba(0, 0, 0, 0.40),
+      inset 0 1px 0 rgba(255, 255, 255, 0.12);
   }
 
-  .ai-home-field {
-    border-color: rgba(141, 166, 255, 0.18);
+  .ai-home-particle-card {
     background:
-      linear-gradient(145deg, rgba(25, 34, 51, 0.88), rgba(13, 19, 31, 0.72)),
-      radial-gradient(circle at 48% 42%, rgba(141, 166, 255, 0.16), transparent 58%);
-    box-shadow: 0 24px 58px rgba(0, 0, 0, 0.32);
+      radial-gradient(circle 180px at var(--field-x) var(--field-y), rgba(141, 166, 255, 0.16), transparent 72%),
+      linear-gradient(145deg, rgba(25, 34, 51, 0.92), rgba(13, 19, 31, 0.78)),
+      radial-gradient(circle at 48% 42%, rgba(141, 166, 255, 0.18), transparent 58%);
+  }
+
+  .ai-home-particle-card.is-interacting .ai-orbit-label {
+    background: rgba(25, 34, 51, 0.88);
   }
 }
