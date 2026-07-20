@@ -1,12 +1,12 @@
 /* Final homepage media sizing and label placement. Keep both visuals independent. */
 
 .ai-home-photo-card {
-  width: min(88%, 460px);
+  width: min(80%, 460px);
   justify-self: center;
 }
 
 .ai-home-particle-card {
-  width: min(88%, 460px);
+  width: min(80%, 460px);
 }
 
 .ai-home-particle-card .ai-orbit-label--one {
@@ -20,8 +20,8 @@
 }
 
 .ai-home-particle-card .ai-orbit-label--three {
-  right: 23%;
-  bottom: 21%;
+  right: 30%;
+  bottom: 23%;
 }
 
 @media (max-width: 640px) {
