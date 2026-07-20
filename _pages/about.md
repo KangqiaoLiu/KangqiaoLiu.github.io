@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /
 title: "Kangqiao LIU 刘康桥"
 excerpt: "Theoretical physics, quantum information, and machine learning"
