@@ -46,11 +46,12 @@ redirect_from:
         </div>
       </div>
 
-      <div class="ai-hero__visual ai-reveal">
-        <figure class="ai-home-portrait">
+      <div class="ai-home-media ai-reveal">
+        <figure class="ai-home-photo-card">
           <img src="{{ '/images/IMG_6440-min.jpeg' | relative_url }}" alt="Portrait of Kangqiao Liu" loading="eager" fetchpriority="high" decoding="async" />
         </figure>
-        <div class="ai-home-field" aria-hidden="true">
+
+        <div class="ai-home-particle-card" aria-hidden="true">
           <canvas id="ai-research-canvas"></canvas>
           <span class="ai-orbit-label ai-orbit-label--one">Dynamics</span>
           <span class="ai-orbit-label ai-orbit-label--two">Information</span>
