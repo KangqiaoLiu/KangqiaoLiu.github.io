@@ -85,13 +85,6 @@
     var themes = archive.querySelectorAll(":scope > ul > li");
     var findings = archive.querySelectorAll(":scope > ul > li > ul > li");
 
-    themes.forEach(function (item, index) {
-      var number = document.createElement("span");
-      number.className = "subpage-card-number";
-      number.textContent = String(index + 1).padStart(2, "0");
-      item.appendChild(number);
-    });
-
     addMetric(themes.length, label("research themes", "研究主题"));
     addMetric(findings.length, label("selected results", "代表性结果"));
     reveal(archive.querySelectorAll(":scope > h1:not(.page__title), :scope > ul > li"));
