@@ -19,7 +19,13 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true
+          ruby-version: '3.3'
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
 
       - name: Build site
         env:
