@@ -1,0 +1,44 @@
+/* Final homepage media sizing and label placement. Keep both visuals independent. */
+
+.ai-home-photo-card {
+  width: min(88%, 460px);
+  justify-self: center;
+}
+
+.ai-home-particle-card {
+  width: min(88%, 460px);
+}
+
+.ai-home-particle-card .ai-orbit-label--one {
+  top: 18%;
+  right: 16%;
+}
+
+.ai-home-particle-card .ai-orbit-label--two {
+  bottom: 22%;
+  left: 16%;
+}
+
+.ai-home-particle-card .ai-orbit-label--three {
+  right: 15%;
+  bottom: 13%;
+}
+
+@media (max-width: 640px) {
+  .ai-home-photo-card,
+  .ai-home-particle-card {
+    width: min(90%, 400px);
+  }
+
+  .ai-home-particle-card .ai-orbit-label--one {
+    right: 14%;
+  }
+
+  .ai-home-particle-card .ai-orbit-label--two {
+    left: 13%;
+  }
+
+  .ai-home-particle-card .ai-orbit-label--three {
+    right: 13%;
+  }
+}
