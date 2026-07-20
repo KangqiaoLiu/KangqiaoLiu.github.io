@@ -1,0 +1,50 @@
+/* Final, structure-tolerant fixes for publication and presentation entries. */
+
+/* Inline emphasis must never inherit the entry-title treatment. */
+.is-publications .archive > ol > li em,
+.is-talks .archive > ol > li em {
+  display: inline !important;
+  margin: 0 !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  font-style: italic !important;
+  font-weight: inherit !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+}
+
+/* The first direct emphasis element is the actual entry title. */
+.is-publications .archive > ol > li > em:first-of-type,
+.is-publications .archive > ol > li > p > em:first-of-type,
+.is-talks .archive > ol > li > em:first-of-type,
+.is-talks .archive > ol > li > p > em:first-of-type {
+  display: block !important;
+  margin: 0.34rem 0 0.18rem !important;
+  color: var(--ai-text) !important;
+  font-size: clamp(1rem, 1.7vw, 1.22rem) !important;
+  font-style: normal !important;
+  font-weight: 690 !important;
+  letter-spacing: -0.018em !important;
+  line-height: 1.35 !important;
+}
+
+/* A block title already creates the line break. */
+.is-publications .archive > ol > li > em:first-of-type + br,
+.is-publications .archive > ol > li > p > em:first-of-type + br,
+.is-talks .archive > ol > li > em:first-of-type + br,
+.is-talks .archive > ol > li > p > em:first-of-type + br {
+  display: none !important;
+}
+
+/* Nested emphasis in links, including Behind the Paper, remains inline. */
+.is-publications .archive > ol > li a em,
+.is-talks .archive > ol > li a em {
+  display: inline !important;
+  margin: 0 !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  font-style: italic !important;
+  font-weight: inherit !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+}
