@@ -2,6 +2,51 @@
 layout: default
 ---
 
+{% assign subpage_code = "00" %}
+{% assign subpage_label = "Academic profile" %}
+{% assign subpage_description = "Research, publications, academic experience, presentations, and teaching." %}
+
+{% if page.url contains '/research' %}
+  {% assign subpage_code = "01" %}
+  {% assign subpage_label = "Research landscape" %}
+  {% assign subpage_description = "Questions, methods, and results across nonequilibrium, quantum, gravitational, and learning systems." %}
+{% elsif page.url contains '/publications' %}
+  {% assign subpage_code = "02" %}
+  {% assign subpage_label = "Research output" %}
+  {% assign subpage_description = "Peer-reviewed articles, preprints, full-text PDFs, and supplementary materials." %}
+{% elsif page.url contains '/cv' %}
+  {% assign subpage_code = "03" %}
+  {% assign subpage_label = "Academic trajectory" %}
+  {% assign subpage_description = "Appointments, education, grants, awards, and professional service." %}
+{% elsif page.url contains '/talks' %}
+  {% assign subpage_code = "04" %}
+  {% assign subpage_label = "Presentations and seminars" %}
+  {% assign subpage_description = "Conference talks, invited seminars, and research exchanges." %}
+{% elsif page.url contains '/teaching' %}
+  {% assign subpage_code = "05" %}
+  {% assign subpage_label = "Teaching and supervision" %}
+  {% assign subpage_description = "Courses, student supervision, and teaching experience." %}
+{% endif %}
+
+{% if page.url contains '_zh' %}
+  {% if page.url contains '/research' %}
+    {% assign subpage_label = "研究版图" %}
+    {% assign subpage_description = "非平衡、量子、引力与学习系统中的问题、方法和结果。" %}
+  {% elsif page.url contains '/publications' %}
+    {% assign subpage_label = "学术成果" %}
+    {% assign subpage_description = "同行评审论文、预印本、全文 PDF 与补充材料。" %}
+  {% elsif page.url contains '/cv' %}
+    {% assign subpage_label = "学术经历" %}
+    {% assign subpage_description = "任职、教育、项目、奖励与学术服务。" %}
+  {% elsif page.url contains '/talks' %}
+    {% assign subpage_label = "报告与交流" %}
+    {% assign subpage_description = "会议报告、邀请报告与学术交流。" %}
+  {% elsif page.url contains '/teaching' %}
+    {% assign subpage_label = "教学与指导" %}
+    {% assign subpage_description = "课程教学、学生指导与助教经历。" %}
+  {% endif %}
+{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -11,6 +56,18 @@ layout: default
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
+
+<section class="subpage-hero" aria-labelledby="subpage-title">
+  <div class="subpage-hero__inner">
+    <div>
+      <p class="subpage-hero__eyebrow">{{ subpage_label }}</p>
+      <h1 class="subpage-hero__title" id="subpage-title">{{ page.title }}</h1>
+      <p class="subpage-hero__description">{{ subpage_description }}</p>
+      <div class="subpage-metrics" id="subpage-metrics" aria-label="Page summary"></div>
+    </div>
+    <span class="subpage-hero__code" aria-hidden="true">{{ subpage_code }}</span>
+  </div>
+</section>
 
 <div id="main" role="main">
   {% include sidebar.html %}
