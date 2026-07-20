@@ -38,6 +38,11 @@ redirect_from:
             Sichuan, China 610039
           </div>
         </div>
+
+        <div class="ai-home-links">
+          <p class="ai-home-links__label">Academic profiles</p>
+          {% include academic-links.html mode="hero" %}
+        </div>
       </div>
 
       <div class="ai-hero__visual ai-reveal" aria-hidden="true">
