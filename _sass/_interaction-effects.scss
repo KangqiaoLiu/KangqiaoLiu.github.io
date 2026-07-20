@@ -1,0 +1,187 @@
+/* ========================================================================== 
+   SUBTLE INTERACTION EFFECTS
+   ========================================================================== */
+
+/* Cross-document page transitions. Unsupported browsers simply ignore this. */
+@view-transition {
+  navigation: auto;
+}
+
+.masthead {
+  view-transition-name: site-masthead;
+}
+
+::view-transition-group(site-masthead) {
+  animation-duration: 1ms;
+}
+
+::view-transition-old(root) {
+  animation: ai-page-out 170ms ease both;
+}
+
+::view-transition-new(root) {
+  animation: ai-page-in 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes ai-page-out {
+  to {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes ai-page-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Interactive research field -------------------------------------------- */
+
+.ai-hero__visual {
+  --field-x: 50%;
+  --field-y: 50%;
+  background:
+    radial-gradient(circle 180px at var(--field-x) var(--field-y), rgba(49, 87, 213, 0.17), transparent 72%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(232, 236, 250, 0.54)),
+    radial-gradient(circle at 38% 34%, rgba(49, 87, 213, 0.22), transparent 42%);
+  transition: border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.ai-hero__visual.is-interacting {
+  border-color: rgba(49, 87, 213, 0.26);
+  box-shadow: 0 28px 82px rgba(22, 35, 66, 0.16);
+}
+
+.ai-orbit-label {
+  will-change: transform;
+  transition: border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.ai-hero__visual.is-interacting .ai-orbit-label {
+  border-color: rgba(49, 87, 213, 0.28);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 8px 24px rgba(31, 48, 86, 0.08);
+}
+
+/* Publication-card scan feedback ---------------------------------------- */
+
+.is-publications .archive > ol > li {
+  --scan-x: 50%;
+  --scan-y: 50%;
+  background:
+    radial-gradient(circle 250px at var(--scan-x) var(--scan-y), rgba(49, 87, 213, 0.045), transparent 72%),
+    linear-gradient(108deg, transparent 0%, transparent 42%, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.66) 50%, rgba(114, 87, 216, 0.08) 52%, transparent 58%, transparent 100%) -180% 0 / 230% 100% no-repeat,
+    var(--ai-surface);
+  background-position: 0 0, -180% 0, 0 0;
+  isolation: isolate;
+  overflow: hidden;
+  transition:
+    transform 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    background-position 720ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.is-publications .archive > ol > li:hover,
+.is-publications .archive > ol > li.is-pointer-active {
+  background:
+    radial-gradient(circle 250px at var(--scan-x) var(--scan-y), rgba(49, 87, 213, 0.13), transparent 72%),
+    linear-gradient(108deg, transparent 0%, transparent 42%, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.66) 50%, rgba(114, 87, 216, 0.08) 52%, transparent 58%, transparent 100%) 180% 0 / 230% 100% no-repeat,
+    var(--ai-surface-solid);
+  background-position: 0 0, 180% 0, 0 0;
+}
+
+.is-publications .archive > ol > li::before,
+.is-publications .archive > ol > li::after {
+  transition: color 200ms ease, opacity 200ms ease, box-shadow 200ms ease, transform 200ms ease;
+}
+
+.is-publications .archive > ol > li:hover::before,
+.is-publications .archive > ol > li.is-pointer-active::before {
+  color: var(--ai-accent);
+  transform: translateY(-1px);
+}
+
+.is-publications .archive > ol > li:hover::after,
+.is-publications .archive > ol > li.is-pointer-active::after {
+  opacity: 0.72;
+  box-shadow: 0 0 16px rgba(49, 87, 213, 0.18);
+}
+
+.is-publications .archive > ol > li > em:first-of-type,
+.is-publications .archive > ol > li > p > em:first-of-type {
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.is-publications .archive > ol > li:hover > em:first-of-type,
+.is-publications .archive > ol > li:hover > p > em:first-of-type,
+.is-publications .archive > ol > li.is-pointer-active > em:first-of-type,
+.is-publications .archive > ol > li.is-pointer-active > p > em:first-of-type {
+  color: var(--ai-text) !important;
+  transform: translateY(-2px);
+}
+
+.is-publications .archive > ol > li:hover a:not(.btn),
+.is-publications .archive > ol > li.is-pointer-active a:not(.btn) {
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: rgba(49, 87, 213, 0.52);
+}
+
+/* Let the existing button sheen fire once when the whole card is examined. */
+.is-publications .archive > ol > li:hover .btn::after,
+.is-publications .archive > ol > li.is-pointer-active .btn::after {
+  left: 120%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ai-hero__visual {
+    background:
+      radial-gradient(circle 180px at var(--field-x) var(--field-y), rgba(141, 166, 255, 0.16), transparent 72%),
+      linear-gradient(145deg, rgba(25, 34, 51, 0.9), rgba(13, 19, 31, 0.76)),
+      radial-gradient(circle at 38% 34%, rgba(141, 166, 255, 0.22), transparent 42%);
+  }
+
+  .ai-hero__visual.is-interacting .ai-orbit-label {
+    background: rgba(25, 34, 51, 0.88);
+  }
+
+  .is-publications .archive > ol > li {
+    background:
+      radial-gradient(circle 250px at var(--scan-x) var(--scan-y), rgba(141, 166, 255, 0.045), transparent 72%),
+      linear-gradient(108deg, transparent 0%, transparent 42%, rgba(255, 255, 255, 0) 46%, rgba(141, 166, 255, 0.10) 50%, rgba(178, 156, 255, 0.06) 52%, transparent 58%, transparent 100%) -180% 0 / 230% 100% no-repeat,
+      var(--ai-surface);
+  }
+
+  .is-publications .archive > ol > li:hover,
+  .is-publications .archive > ol > li.is-pointer-active {
+    background:
+      radial-gradient(circle 250px at var(--scan-x) var(--scan-y), rgba(141, 166, 255, 0.12), transparent 72%),
+      linear-gradient(108deg, transparent 0%, transparent 42%, rgba(255, 255, 255, 0) 46%, rgba(141, 166, 255, 0.10) 50%, rgba(178, 156, 255, 0.06) 52%, transparent 58%, transparent 100%) 180% 0 / 230% 100% no-repeat,
+      var(--ai-surface-solid);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+
+  .ai-orbit-label {
+    transform: none !important;
+    will-change: auto;
+  }
+
+  .is-publications .archive > ol > li,
+  .is-publications .archive > ol > li:hover,
+  .is-publications .archive > ol > li.is-pointer-active {
+    background-position: 0 0, 0 0, 0 0;
+  }
+}
