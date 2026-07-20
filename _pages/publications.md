@@ -13,15 +13,18 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 The symbol \* represents the equal contribution.
 
 ## **Preprints**
-1. Deyou Chen, Chuang Yang, and **Kangqiao Liu** ,<br />
+1. **Kangqiao Liu**,<br />
+  *Classical codes violate the conjectured square-root bound for quantum random access codes*,<br />
+  [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20).
+2. Deyou Chen, Chuang Yang, and **Kangqiao Liu**,<br />
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*,<br />
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01).
-2. Jie Gu and **Kangqiao Liu**,<br />
+3. Jie Gu and **Kangqiao Liu**,<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*,<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06).
 
 ## **Peer-reviewed**
-1. Chuang Yang, Chuanhong Gao, Deyou Chen, and **Kangqiao Liu** ,<br />
+1. Chuang Yang, Chuanhong Gao, Deyou Chen, and **Kangqiao Liu**,<br />
   *Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes*,<br />
   [The European Physical Journal C **86**, 677 (2026)](https://link.springer.com/article/10.1140/epjc/s10052-026-15894-8) (2026.06.22)
 2. **Kangqiao Liu** and Jie Gu,<br />
