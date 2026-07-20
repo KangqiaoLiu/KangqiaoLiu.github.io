@@ -1,4 +1,4 @@
-/* Small visual refinements after first preview review. */
+/* Small visual refinements after preview review. */
 
 .ai-hero__title .ai-name-cn {
   color: var(--ai-text);
@@ -11,6 +11,22 @@
 .ai-orbit-label--three {
   right: 15%;
   bottom: 15%;
+}
+
+.is-cv .entry-year,
+.is-teaching .entry-year {
+  display: table;
+  margin: 0 0 0.65rem;
+}
+
+.is-cv .entry-year {
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  background: var(--ai-accent-soft);
+}
+
+.is-teaching .entry-year {
+  line-height: 1;
 }
 
 @media (max-width: 640px) {
