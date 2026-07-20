@@ -25,6 +25,12 @@
   margin-left: auto;
 }
 
+/* The title is already block-level; suppress the redundant manual line break. */
+.is-publications .archive > ol > li em + br,
+.is-talks .archive > ol > li em + br {
+  display: none;
+}
+
 /* Refined publication action buttons. */
 .is-publications .archive .btn {
   position: relative;
