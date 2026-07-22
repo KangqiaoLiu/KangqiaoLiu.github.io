@@ -6,7 +6,7 @@
 
 .ai-project-feature {
   display: block;
-  min-height: 250px;
+  min-height: 220px;
   padding: clamp(1.25rem, 2.8vw, 1.8rem);
   border-radius: var(--ai-radius);
   background:
@@ -38,18 +38,6 @@
   line-height: 1.62;
 }
 
-.ai-project-feature__workflow {
-  grid-template-columns: max-content minmax(0, 1fr);
-  align-items: center;
-  margin: 1.15rem 0 0;
-  padding: 0.82rem 0.95rem;
-  gap: 1rem;
-}
-
-.ai-project-feature__workflow code {
-  line-height: 1.55;
-}
-
 .ai-project-feature__actions {
   margin-top: 1rem;
 }
@@ -61,11 +49,6 @@
 
   .ai-project-feature .ai-card__index {
     margin-bottom: 1.8rem;
-  }
-
-  .ai-project-feature__workflow {
-    grid-template-columns: 1fr;
-    gap: 0.42rem;
   }
 }
 
