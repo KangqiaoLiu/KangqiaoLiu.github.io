@@ -154,11 +154,6 @@ redirect_from:
           inspected evidence for pre-submission and revision quality control.
         </p>
 
-        <div class="project-card__workflow ai-project-feature__workflow" aria-label="Review architecture">
-          <span>Review architecture</span>
-          <code>claim → burden of proof → inspected evidence → decision-relevant gap → bounded resolution → recommendation impact</code>
-        </div>
-
         <div class="ai-project-feature__actions">
           <a class="ai-button ai-button--primary" href="{{ '/projects/' | relative_url }}">Explore projects</a>
           <a class="ai-button" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
