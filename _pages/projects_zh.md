@@ -10,7 +10,6 @@ author_profile: true
     <div class="project-card__header">
       <div class="project-card__meta">
         <span class="project-card__category">开源 · 科研工具</span>
-        <span class="project-card__status">候选发布版</span>
       </div>
       <h2 class="project-card__title">Scientific Manuscript Audit</h2>
       <p class="project-card__lede">
