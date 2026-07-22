@@ -22,10 +22,21 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: false
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install --jobs 4 --retry 3
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          python -m pip install Pillow
+
+      - name: Generate publication thumbnails
+        run: python scripts/generate_publication_thumbnails.py
 
       - name: Build site
         env:
