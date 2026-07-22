@@ -90,6 +90,15 @@
     reveal(archive.querySelectorAll(":scope > h1:not(.page__title), :scope > ul > li"));
   }
 
+  if (body.classList.contains("is-projects")) {
+    var projectItems = archive.querySelectorAll(":scope > .project-list > .project-card");
+    var publicRepositories = archive.querySelectorAll(":scope > .project-list a[href*='github.com']");
+
+    addMetric(projectItems.length, label("featured projects", "精选项目"));
+    addMetric(publicRepositories.length, label("public repositories", "公开仓库"));
+    reveal(projectItems);
+  }
+
   if (body.classList.contains("is-publications")) {
     var publicationLists = archive.querySelectorAll(":scope > ol");
     var publicationItems = archive.querySelectorAll(":scope > ol > li");

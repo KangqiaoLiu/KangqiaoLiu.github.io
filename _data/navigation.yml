@@ -11,14 +11,14 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Projects"
-    url: /projects/
-
   - title: "Publications"
     url: /publications/
 
   - title: "Presentations"
     url: /talks/
+
+  - title: "Projects"
+    url: /projects/
 
   - title: "Teaching"
     url: /teaching/
@@ -29,14 +29,14 @@ main:
   - title: "研究方向"
     url: /research_zh/
 
-  - title: "项目"
-    url: /projects_zh/
-
   - title: "学术成果"
     url: /publications_zh/
 
   - title: "学术报告"
     url: /talks_zh/
+
+  - title: "项目"
+    url: /projects_zh/
 
   - title: "教学"
     url: /teaching_zh/

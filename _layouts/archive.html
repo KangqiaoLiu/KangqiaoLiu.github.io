@@ -8,6 +8,9 @@ layout: default
 {% if page.url contains '/research' %}
   {% assign subpage_label = "Research landscape" %}
   {% assign subpage_description = "Questions, methods, and results across nonequilibrium, quantum, gravitational, and learning systems." %}
+{% elsif page.url contains '/projects' %}
+  {% assign subpage_label = "Open projects" %}
+  {% assign subpage_description = "Open-source tools, software, and research-derived projects for rigorous scientific and practical work." %}
 {% elsif page.url contains '/publications' %}
   {% assign subpage_label = "Research output" %}
   {% assign subpage_description = "Peer-reviewed articles, preprints, full-text PDFs, and supplementary materials." %}
@@ -26,6 +29,9 @@ layout: default
   {% if page.url contains '/research' %}
     {% assign subpage_label = "研究版图" %}
     {% assign subpage_description = "非平衡、量子、引力与学习系统中的问题、方法和结果。" %}
+  {% elsif page.url contains '/projects' %}
+    {% assign subpage_label = "开放项目" %}
+    {% assign subpage_description = "服务于严谨科研与实际应用的开源工具、软件和研究衍生项目。" %}
   {% elsif page.url contains '/publications' %}
     {% assign subpage_label = "学术成果" %}
     {% assign subpage_description = "同行评审论文、预印本、全文 PDF 与补充材料。" %}
