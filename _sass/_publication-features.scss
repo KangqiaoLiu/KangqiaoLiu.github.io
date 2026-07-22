@@ -1,0 +1,138 @@
+/* Publication field tags, representative figures, and concise summaries. */
+
+.is-publications .pub-extra {
+  display: block;
+  margin-top: 0.9rem;
+}
+
+.is-publications .pub-tags {
+  display: flex;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+}
+
+.is-publications .pub-tag {
+  display: inline-flex;
+  min-height: 25px;
+  padding: 0.3rem 0.58rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  align-items: center;
+  font-family: $sans-serif;
+  font-size: 0.61rem;
+  font-weight: 760;
+  letter-spacing: 0.055em;
+  line-height: 1;
+  text-transform: lowercase;
+}
+
+.is-publications .pub-tag--stoch-therm {
+  background: rgba(213, 112, 18, 0.11);
+  color: #9a4e08;
+}
+
+.is-publications .pub-tag--quan-info {
+  background: rgba(112, 73, 207, 0.11);
+  color: #6540b7;
+}
+
+.is-publications .pub-tag--open-quant {
+  background: rgba(0, 139, 154, 0.10);
+  color: #007784;
+}
+
+.is-publications .pub-tag--ml {
+  background: rgba(34, 139, 82, 0.10);
+  color: #197744;
+}
+
+.is-publications .pub-tag--gravity {
+  background: rgba(190, 55, 91, 0.10);
+  color: #aa3156;
+}
+
+.is-publications .pub-feature {
+  display: grid;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(49, 87, 213, 0.11);
+  grid-template-columns: minmax(180px, 34%) minmax(0, 1fr);
+  gap: clamp(0.9rem, 2vw, 1.25rem);
+  align-items: center;
+}
+
+.is-publications .pub-figure-link {
+  display: flex;
+  min-height: 132px;
+  padding: 0.45rem;
+  border: 1px solid rgba(49, 87, 213, 0.12);
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(25, 40, 72, 0.07);
+  overflow: hidden;
+  text-decoration: none !important;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.is-publications .pub-figure-link:hover {
+  border-color: rgba(49, 87, 213, 0.32);
+  box-shadow: 0 13px 32px rgba(25, 40, 72, 0.12);
+  transform: translateY(-2px);
+}
+
+.is-publications .pub-figure {
+  display: block;
+  width: 100%;
+  height: 148px;
+  margin: 0;
+  object-fit: contain;
+  object-position: center;
+}
+
+.is-publications .pub-summary {
+  display: block;
+  margin: 0;
+  color: var(--ai-muted);
+  font-size: 0.82rem;
+  line-height: 1.72;
+}
+
+@media (max-width: 720px) {
+  .is-publications .pub-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .is-publications .pub-figure-link {
+    min-height: 150px;
+  }
+
+  .is-publications .pub-figure {
+    height: 170px;
+  }
+}
+
+@media (max-width: 520px) {
+  .is-publications .archive > ol > li {
+    padding-right: 1rem;
+    padding-left: 4.2rem;
+  }
+
+  .is-publications .pub-figure {
+    height: 148px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .is-publications .pub-tag--stoch-therm { color: #f1ad65; background: rgba(213, 112, 18, 0.15); }
+  .is-publications .pub-tag--quan-info { color: #c2a8ff; background: rgba(112, 73, 207, 0.17); }
+  .is-publications .pub-tag--open-quant { color: #70d6df; background: rgba(0, 139, 154, 0.17); }
+  .is-publications .pub-tag--ml { color: #79d79d; background: rgba(34, 139, 82, 0.17); }
+  .is-publications .pub-tag--gravity { color: #f08aa7; background: rgba(190, 55, 91, 0.17); }
+
+  .is-publications .pub-figure-link {
+    border-color: rgba(141, 166, 255, 0.18);
+    background: #f7f8fc;
+  }
+}
