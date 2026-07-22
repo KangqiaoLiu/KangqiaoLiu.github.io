@@ -10,7 +10,6 @@ author_profile: true
     <div class="project-card__header">
       <div class="project-card__meta">
         <span class="project-card__category">Open source · Research tooling</span>
-        <span class="project-card__status">Release candidate</span>
       </div>
       <h2 class="project-card__title">Scientific Manuscript Audit</h2>
       <p class="project-card__lede">
