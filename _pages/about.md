@@ -134,6 +134,50 @@ redirect_from:
     </div>
   </section>
 
+  <section class="ai-section ai-projects-section">
+    <div class="ai-container">
+      <div class="ai-section__head ai-reveal">
+        <div>
+          <p class="ai-section__kicker">Open projects</p>
+          <h2 class="ai-section__title">Tools built around rigorous scientific work.</h2>
+        </div>
+        <p class="ai-section__summary">
+          Open-source tools and research-derived systems that turn demanding scientific workflows
+          into reusable, inspectable, and responsible infrastructure.
+        </p>
+      </div>
+
+      <article class="ai-project-feature ai-reveal">
+        <div class="ai-project-feature__copy">
+          <div class="ai-project-feature__meta">
+            <span>Open source</span>
+            <span>Research tooling</span>
+            <span>Release candidate</span>
+          </div>
+          <h3>Scientific Manuscript Audit</h3>
+          <p>
+            An author-side manuscript audit skill for Codex and Claude Code. It links central claims
+            to inspected evidence, separates correctness from novelty and significance, and keeps
+            recommendations consistent with the issues that actually matter.
+          </p>
+          <div class="ai-project-feature__actions">
+            <a class="ai-button ai-button--primary" href="{{ '/projects/' | relative_url }}">Explore projects</a>
+            <a class="ai-button" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="ai-project-feature__architecture" aria-label="Scientific Manuscript Audit review architecture">
+          <span>Claim</span>
+          <span>Burden of proof</span>
+          <span>Inspected evidence</span>
+          <span>Decision-relevant gap</span>
+          <span>Bounded resolution</span>
+          <span>Recommendation impact</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <section class="ai-section">
     <div class="ai-container">
       <div class="ai-contact-panel ai-reveal">
