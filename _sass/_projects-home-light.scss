@@ -1,0 +1,78 @@
+/* Lighter homepage Projects feature; subpage project cards remain unchanged. */
+
+.ai-projects-section .ai-section__summary {
+  max-width: 34rem;
+}
+
+.ai-project-feature {
+  display: block;
+  min-height: 250px;
+  padding: clamp(1.25rem, 2.8vw, 1.8rem);
+  border-radius: var(--ai-radius);
+  background:
+    radial-gradient(circle at 100% 0, var(--ai-accent-soft), transparent 16rem),
+    var(--ai-surface);
+  box-shadow: 0 13px 38px rgba(25, 40, 72, 0.05);
+}
+
+.ai-project-feature::before {
+  display: none;
+}
+
+.ai-project-feature .ai-card__index {
+  margin-bottom: 2.5rem;
+}
+
+.ai-project-feature h3 {
+  max-width: 48rem;
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+  letter-spacing: -0.025em;
+  line-height: 1.18;
+}
+
+.ai-project-feature > p {
+  max-width: 48rem;
+  margin: 0.8rem 0 0;
+  color: var(--ai-muted);
+  font-size: 0.86rem;
+  line-height: 1.62;
+}
+
+.ai-project-feature__workflow {
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  margin: 1.15rem 0 0;
+  padding: 0.82rem 0.95rem;
+  gap: 1rem;
+}
+
+.ai-project-feature__workflow code {
+  line-height: 1.55;
+}
+
+.ai-project-feature__actions {
+  margin-top: 1rem;
+}
+
+@media (max-width: 720px) {
+  .ai-project-feature {
+    min-height: 0;
+  }
+
+  .ai-project-feature .ai-card__index {
+    margin-bottom: 1.8rem;
+  }
+
+  .ai-project-feature__workflow {
+    grid-template-columns: 1fr;
+    gap: 0.42rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ai-project-feature {
+    background:
+      radial-gradient(circle at 100% 0, var(--ai-accent-soft), transparent 16rem),
+      var(--ai-surface);
+  }
+}

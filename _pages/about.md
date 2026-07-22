@@ -142,37 +142,26 @@ redirect_from:
           <h2 class="ai-section__title">Tools built around rigorous scientific work.</h2>
         </div>
         <p class="ai-section__summary">
-          Open-source tools and research-derived systems that turn demanding scientific workflows
-          into reusable, inspectable, and responsible infrastructure.
+          Open-source tools and research-derived systems for reusable scientific workflows.
         </p>
       </div>
 
       <article class="ai-project-feature ai-reveal">
-        <div class="ai-project-feature__copy">
-          <div class="ai-project-feature__meta">
-            <span>Open source</span>
-            <span>Research tooling</span>
-            <span>Release candidate</span>
-          </div>
-          <h3>Scientific Manuscript Audit</h3>
-          <p>
-            An author-side manuscript audit skill for Codex and Claude Code. It links central claims
-            to inspected evidence, separates correctness from novelty and significance, and keeps
-            recommendations consistent with the issues that actually matter.
-          </p>
-          <div class="ai-project-feature__actions">
-            <a class="ai-button ai-button--primary" href="{{ '/projects/' | relative_url }}">Explore projects</a>
-            <a class="ai-button" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
-          </div>
+        <span class="ai-card__index">OPEN SOURCE · RESEARCH TOOLING</span>
+        <h3>Scientific Manuscript Audit</h3>
+        <p>
+          An author-side manuscript audit skill for Codex and Claude Code, linking central claims to
+          inspected evidence for pre-submission and revision quality control.
+        </p>
+
+        <div class="project-card__workflow ai-project-feature__workflow" aria-label="Review architecture">
+          <span>Review architecture</span>
+          <code>claim → burden of proof → inspected evidence → decision-relevant gap → bounded resolution → recommendation impact</code>
         </div>
 
-        <div class="ai-project-feature__architecture" aria-label="Scientific Manuscript Audit review architecture">
-          <span>Claim</span>
-          <span>Burden of proof</span>
-          <span>Inspected evidence</span>
-          <span>Decision-relevant gap</span>
-          <span>Bounded resolution</span>
-          <span>Recommendation impact</span>
+        <div class="ai-project-feature__actions">
+          <a class="ai-button ai-button--primary" href="{{ '/projects/' | relative_url }}">Explore projects</a>
+          <a class="ai-button" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
         </div>
       </article>
     </div>
