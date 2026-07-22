@@ -1,0 +1,131 @@
+qrac:
+  tags: ["quan.info"]
+  image: "/assets/images/publications/qrac.jpg"
+  pdf: "/publications/qrac_counterexample.pdf"
+  alt_en: "Success-probability bounds for random access codes"
+  alt_zh: "随机访问码成功概率边界比较"
+  summary_en: >-
+    Classical random-access codes with private randomness already lie inside the unrestricted QRAC model and violate the conjectured square-root bound. The asymptotic worst-case boundary is instead set by Nayak's entropy curve.
+  summary_zh: >-
+    带私有随机性的经典随机访问码本身就是一般 QRAC 模型的子类，并可突破猜想中的平方根界。一般模型的渐近最坏情形边界实际由 Nayak 熵界决定。
+
+gravity_ads:
+  tags: ["gravity"]
+  image: "/assets/images/publications/gravity-ads.jpg"
+  pdf: "/publications/2607.00432v2.pdf"
+  alt_en: "Chaos-bound phase maps in Kerr-Newman-AdS spacetime"
+  alt_zh: "Kerr-Newman-AdS 时空中的混沌界相图"
+  summary_en: >-
+    Numerical phase maps locate where the particle Lyapunov exponent exceeds the black-hole surface gravity in Kerr-Newman-AdS spacetime. Rotation direction, charge, and the cosmological constant jointly reshape the violation region.
+  summary_zh: >-
+    数值相图刻画了 Kerr-Newman-AdS 时空中粒子 Lyapunov 指数超过黑洞表面引力的参数区域。旋转方向、电荷与宇宙学常数共同重塑混沌界的违背窗口。
+
+open_frequency:
+  tags: ["open.quant", "stoch.therm"]
+  image: "/assets/images/publications/open-frequency.jpg"
+  pdf: "/publications/2605.03340v1.pdf"
+  alt_en: "Finite-frequency fluctuation-response bound for a cat resonator"
+  alt_zh: "猫态谐振腔的有限频率涨落响应界"
+  summary_en: >-
+    A frequency-resolved input-output inequality bounds any measured lock-in response by fluctuations in the emitted field, with a detector-independent ceiling set by quantum Fisher information and channel activity. Driven-qubit and cat-resonator examples test the bound across frequency.
+  summary_zh: >-
+    本文建立了频率分辨的输入—输出涨落响应不等式：任意探测方案测得的锁相响应都受输出场涨落限制，其探测器无关的上限由量子 Fisher 信息与通道活性给出。驱动二能级系统和猫态谐振腔的算例验证了这一频域约束。
+
+gravity_kn:
+  tags: ["gravity"]
+  image: "/assets/images/publications/gravity-kn.jpg"
+  pdf: "/publications/s10052-026-15894-8.pdf"
+  alt_en: "Lyapunov exponents versus particle spin in Kerr-Newman spacetime"
+  alt_zh: "Kerr-Newman 时空中 Lyapunov 指数随粒子自旋的变化"
+  summary_en: >-
+    The particle Lyapunov exponent can exceed the surface-gravity scale once rotation, spin, charge, or total angular momentum crosses an orientation-dependent threshold. Counter-rotating configurations and the extremal limit expose the strongest violations.
+  summary_zh: >-
+    当旋转、粒子自旋、电荷或总角动量跨越依赖取向的阈值时，粒子的 Lyapunov 指数可以超过表面引力尺度。反向旋转构型与极端黑洞极限表现出更显著的违背。
+
+open_rkur:
+  tags: ["open.quant", "stoch.therm"]
+  image: "/assets/images/publications/open-rkur.jpg"
+  pdf: "/publications/ps1b-8l1x.pdf"
+  alt_en: "Activity and intertransition sectors in the response kinetic uncertainty relation"
+  alt_zh: "响应动力学不确定性关系中的活性与跨跃迁扇区"
+  summary_en: >-
+    The response kinetic uncertainty relation splits the precision cost into a jump-activity contribution and an intertransition quantum term. The two pieces dominate different perturbations, yielding a unified bound for monitored Markovian quantum dynamics.
+  summary_zh: >-
+    响应动力学不确定性关系把响应精度的代价分解为跃迁活性项与跨跃迁量子项。两部分在不同扰动下分别占主导，从而为受监测的 Markov 量子动力学给出统一上界。
+
+quantum_transport:
+  tags: ["quan.info"]
+  image: "/assets/images/publications/quantum-transport.jpg"
+  pdf: "/publications/PRA_113_022436_2026_Published_Article.pdf"
+  alt_en: "Measurement-and-feedback protocol for uphill quantum transport"
+  alt_zh: "测量反馈驱动的上坡量子输运协议"
+  summary_en: >-
+    Repeated position measurements and feedback turn coherent hopping on a tilted lattice into directed uphill transport, storing potential energy without a thermal bias. The work quantifies the speed, power, efficiency, and robustness of this quantum information engine.
+  summary_zh: >-
+    重复位置测量与反馈控制把倾斜晶格中的相干跃迁转化为定向上坡输运，从而在无热偏置条件下储存势能。本文系统分析了该量子信息引擎的速度、功率、效率与鲁棒性。
+
+stoch_response:
+  tags: ["stoch.therm"]
+  image: "/assets/images/publications/stoch-response.jpg"
+  pdf: "/publications/s42005-025-01982-w.pdf"
+  alt_en: "Perturbed and unperturbed current trajectories during relaxation"
+  alt_zh: "弛豫过程中受扰与未受扰的流轨迹"
+  summary_en: >-
+    For Markovian nonequilibrium processes, response precision is universally limited by dynamical activity—the total rate of state changes—rather than dissipation alone. The bound remains valid during relaxation and can be tighter than response thermodynamic uncertainty relations.
+  summary_zh: >-
+    对 Markov 非平衡过程，响应精度受到动力学活性（系统状态改变的总速率）的普适限制，而不仅由耗散决定。该界同样适用于弛豫过程，并可比响应热力学不确定性关系更紧。
+
+quantum_battery:
+  tags: ["quan.info"]
+  image: "/assets/images/publications/quantum-battery.jpg"
+  pdf: "/publications/PhysRevA.109.062614.pdf"
+  alt_en: "Superconducting-qubit Maxwell-demon quantum-battery protocol"
+  alt_zh: "超导量子比特上的 Maxwell 妖量子电池协议"
+  summary_en: >-
+    A superconducting NISQ processor implements measurement-based Maxwell-demon feedback to steer excitations from one qubit subsystem into another. The experiment demonstrates directional charging and tracks the accompanying entropy and ergodicity dynamics.
+  summary_zh: >-
+    超导 NISQ 处理器通过基于测量结果的 Maxwell 妖反馈，把激发定向输运到目标量子比特子系统。实验展示了量子电池的定向充电，并测量了相应的熵与遍历性动力学。
+
+ml_escape:
+  tags: ["ml"]
+  image: "/assets/images/publications/ml-escape.jpg"
+  pdf: "/publications/mori22a.pdf"
+  alt_en: "Power-law stationary distribution and first-passage scaling of SGD"
+  alt_zh: "SGD 的幂律稳态分布与首达时间标度"
+  summary_en: >-
+    When SGD noise scales with the loss, its stationary distribution develops heavy power-law tails and escape from minima follows a power law rather than an Arrhenius exponential. Theory and neural-network experiments recover the predicted first-passage scaling.
+  summary_zh: >-
+    当 SGD 噪声强度随损失函数变化时，稳态分布呈现重尾幂律，逃离局部极小值的速率也由幂律而非 Arrhenius 指数律控制。理论预测与神经网络数值实验给出了相符的首达时间标度。
+
+ml_minibatch:
+  tags: ["ml"]
+  image: "/assets/images/publications/ml-minibatch.jpg"
+  pdf: "/publications/4355_strength_of_minibatch_noise_in.pdf"
+  alt_en: "Finite-learning-rate minibatch-noise theory versus experiments"
+  alt_zh: "有限学习率 minibatch 噪声理论与实验比较"
+  summary_en: >-
+    A discrete-time theory gives the minibatch-noise strength and parameter fluctuations at finite learning rate, including their divergence threshold. It explains why continuous-time approximations fail at large learning rates and predicts stability across batch size, width, and regularization.
+  summary_zh: >-
+    本文建立有限学习率下 minibatch 噪声强度与参数涨落的离散时间理论，并给出方差发散阈值。该框架解释了大步长下连续时间近似的失效，并预测批量大小、模型宽度与正则化共同决定的稳定性。
+
+ml_finite_lr:
+  tags: ["ml"]
+  image: "/assets/images/publications/ml-finite-lr.jpg"
+  pdf: "/publications/liu21ad.pdf"
+  alt_en: "Discrete-time and continuous-time predictions for SGD fluctuations"
+  alt_zh: "SGD 涨落的离散时间与连续时间预测"
+  summary_en: >-
+    Finite learning rates make SGD intrinsically discrete: its stationary covariance, stability boundary, and escape efficiency differ from continuous-time Langevin predictions. The discrete theory remains accurate up to the edge of instability for both white and minibatch noise.
+  summary_zh: >-
+    有限学习率使 SGD 本质上成为离散动力学，其稳态协方差、稳定边界与逃逸效率均不同于连续时间 Langevin 近似。离散理论在白噪声和 minibatch 噪声下都能一直准确到失稳边缘。
+
+stoch_tur:
+  tags: ["stoch.therm"]
+  image: "/assets/images/publications/stoch-tur.jpg"
+  pdf: "/publications/PhysRevLett.125.140602.pdf"
+  alt_en: "Transient-current bounds for arbitrary initial states"
+  alt_zh: "任意初态下的瞬态流边界"
+  summary_en: >-
+    A thermodynamic uncertainty relation valid for arbitrary initial states replaces the steady-state current by the final instantaneous current. It remains valid during transient relaxation where conventional TURs can fail and extends naturally to measurement-and-feedback protocols.
+  summary_zh: >-
+    本文提出适用于任意初态的热力学不确定性关系，以末态瞬时流取代稳态假设中的平均流。该关系在传统 TUR 可能失效的瞬态弛豫过程中仍成立，并可自然推广到测量反馈协议。
