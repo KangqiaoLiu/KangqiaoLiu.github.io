@@ -5,22 +5,46 @@ permalink: /projects_zh/
 author_profile: true
 ---
 
-{% include base_path %}
+<ol class="project-list" aria-label="开放项目">
+  <li class="project-card">
+    <div class="project-card__header">
+      <div class="project-card__meta">
+        <span class="project-card__category">开源 · 科研工具</span>
+        <span class="project-card__status">候选发布版</span>
+      </div>
+      <h2 class="project-card__title">Scientific Manuscript Audit</h2>
+      <p class="project-card__lede">
+        面向作者的科研稿件审查技能，可在 Codex 与 Claude Code 中使用，服务于严格的投稿前检查与修订质量控制。
+      </p>
+    </div>
 
-本页面集中介绍具有开放价值、工程价值或行业意义的开源工具、软件与研究衍生项目。项目首先以简洁条目形式展示；当某个项目积累了足够多的内容后，再为其建立独立详情页。
+    <div class="project-card__content">
+      <p>
+        该技能会重构论文的中心主张，将其映射到实际证据，区分技术正确性、创新性与科学意义，
+        并依据问题的可修复性校准严重程度。最终投稿建议始终与主要发现直接对应，而不是脱离分析过程给出孤立结论。
+      </p>
 
-[English version](/projects/)
+      <div class="project-card__workflow" aria-label="审查结构">
+        <span>审查结构</span>
+        <code>主张 → 证明责任 → 已检查证据 → 决策相关缺口 → 有边界的解决方案 → 对投稿建议的影响</code>
+      </div>
 
-## Scientific Manuscript Audit
+      <ul class="project-card__features">
+        <li>可追踪的主张—证据分析</li>
+        <li>合成评测案例与自动化校验</li>
+        <li>Codex 与 Claude Code 分发包</li>
+        <li>明确的保密性与负责任使用保护</li>
+      </ul>
 
-**Scientific Manuscript Audit** 是一个面向作者的开源科研稿件审查技能，可在 Codex 与 Claude Code 中使用。它把严格的投稿前检查和修订审查组织为一条可追踪的分析链：
+      <p class="project-card__scope">
+        本项目用于作者自有、已经公开或已明确授权处理的材料，不替代人类同行评审或编辑判断。
+      </p>
+    </div>
 
-```text
-主张 → 证明责任 → 已检查证据 → 决策相关缺口 → 有边界的解决方案 → 对投稿建议的影响
-```
-
-该技能会重构论文的中心主张，将主张映射到实际证据，区分技术正确性、创新性与科学意义，依据问题的可修复性校准严重程度，并确保最终投稿建议与主要发现保持一致。仓库还包括合成评测案例、Codex 与 Claude Code 分发包，以及针对保密性和负责任使用的明确保护规则。
-
-本项目用于作者自有、已经公开或已明确授权处理的材料，不替代人类同行评审或编辑判断。
-
-[在 GitHub 上查看项目](https://github.com/KangqiaoLiu/scientific-manuscript-audit){: .btn .btn--primary }
+    <div class="project-card__actions">
+      <a class="ai-button ai-button--primary" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">
+        GitHub 仓库 <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </li>
+</ol>
