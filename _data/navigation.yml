@@ -5,33 +5,38 @@
 # prevent it from being included in the site.
 
 main:
-main:
   - title: "CV"
     url: /cv/
-    
+
   - title: "Research"
-    url: /research/    
-    
+    url: /research/
+
+  - title: "Projects"
+    url: /projects/
+
   - title: "Publications"
     url: /publications/
 
   - title: "Presentations"
     url: /talks/
-    
+
   - title: "Teaching"
     url: /teaching/
-    
+
   - title: "履历"
-    url: /cv_zh/    
+    url: /cv_zh/
 
   - title: "研究方向"
-    url: /research_zh/ 
+    url: /research_zh/
+
+  - title: "项目"
+    url: /projects_zh/
 
   - title: "学术成果"
-    url: /publications_zh/ 
-   
+    url: /publications_zh/
+
   - title: "学术报告"
-    url: /talks_zh/ 
+    url: /talks_zh/
 
   - title: "教学"
-    url: /teaching_zh/ 
+    url: /teaching_zh/
