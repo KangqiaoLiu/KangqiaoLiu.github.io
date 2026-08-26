@@ -47,18 +47,20 @@ redirect_from:
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **Grants**
-* **National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C)** — Principal Investigator
+* **National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C)** (**Principal Investigator**)
   * *Current Precision and Response Bounds with Kinetic Costs in Coherent Quantum Transport and Open Quantum Systems*
   * Grant No. **12605079**; CNY 300,000
   * 2027.01.01 - 2029.12.31
 
-* Scientific Research Start-up Foundation of Xihua University 
-  * Theoretical study on information thermodynamics with quantum correlation
+* **Scientific Research Start-up Foundation of Xihua University** (**Principal Investigator**)
+  * *Theoretical study on information thermodynamics with quantum correlation*
+  * Grant No. **Z241064**
   * 2024.04.10 - 2026.12.31
 
-* JSPS DC2 Grant
-  * 量子揺らぎを取り入れた情報熱力学
-  * 2023.04.01 - 2025.03.31  (stopped as of 2023.09.30)
+* **JSPS DC2 Grant** (**Principal Investigator**)
+  * *量子揺らぎを取り入れた情報熱力学*
+  * Grant No. **JP22H01152**
+  * 2023.04.01 - 2025.03.31 (stopped as of 2023.09.30)
 
 ## **Awards**
 * 2018.09, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan
