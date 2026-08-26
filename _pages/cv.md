@@ -47,6 +47,11 @@ redirect_from:
   * (Thesis: "Spectrum in Multi-Electron Silicon Double Quantum Dot")
 
 ## **Grants**
+* **National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C)** — Principal Investigator
+  * *Current Precision and Response Bounds with Kinetic Costs in Coherent Quantum Transport and Open Quantum Systems*
+  * Grant No. **12605079**; CNY 300,000
+  * 2027.01.01 - 2029.12.31
+
 * Scientific Research Start-up Foundation of Xihua University 
   * Theoretical study on information thermodynamics with quantum correlation
   * 2024.04.10 - 2026.12.31
