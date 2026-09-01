@@ -62,6 +62,9 @@ redirect_from:
   *Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes*<br />
   [The European Physical Journal C **86**, 677 (2026)](https://link.springer.com/article/10.1140/epjc/s10052-026-15894-8) (2026.06.22)<br />
   (IF = 4.9，中科院2区). <a href="{{ '/publications/s10052-026-15894-8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_kn" lang="zh" %}
+10. **Kangqiao Liu** and Deyou Chen<br />
+  *Maximal-velocity deficit under a finite-support constraint in hard-wall half-line continuous-time quantum walk*<br />
+  [To be published in Physical Review A](https://journals.aps.org/pra/accepted/10.1103/dyyr-z1k8) (2026.09.01). <a href="{{ '/publications/AQ12647.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
    
 ## **未经同行评审**
 1. Jie Gu and **Kangqiao Liu**<br />
