@@ -2,7 +2,7 @@
 """Generate publication thumbnails from the paper PDFs used by the site.
 
 The crop boxes are in PDF points and select one representative figure from
-all twelve papers. The script is deterministic and runs before Jekyll builds.
+all thirteen papers. The script is deterministic and runs before Jekyll builds.
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ SCALE = DPI / 72.0
 
 # slug: (PDF filename, one-based page number, crop box in PDF points)
 FIGURES = {
+    "hardwall-ctqw": ("AQ12647.pdf", 8, (318, 40, 575, 190)),
     "qrac": ("qrac_counterexample.pdf", 9, (70, 45, 545, 432)),
     "gravity-ads": ("2607.00432v2.pdf", 12, (78, 145, 515, 428)),
     "open-frequency": ("2605.03340v1.pdf", 11, (88, 45, 520, 255)),
