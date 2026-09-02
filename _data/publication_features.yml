@@ -1,3 +1,14 @@
+hardwall_ctqw:
+  tags: ["quan.info"]
+  image: "/assets/images/publications/hardwall-ctqw.jpg"
+  pdf: "/publications/AQ12647.pdf"
+  alt_en: "Convergence of the rescaled maximal-velocity deficit to π²/4"
+  alt_zh: "重标度最大速度亏损收敛到 π²/4"
+  summary_en: >-
+    Restricting a hard-wall half-line quantum walk to initial support on the first M sites turns the best achievable ballistic drift into a principal-eigenvalue problem. The resulting velocity deficit scales as π²J/(4M²), with the coefficient emerging from a continuum Fourier-window variational problem.
+  summary_zh: >-
+    将硬墙半无限链量子行走的初态限制在前 M 个格点后，最优弹道漂移可化为主特征值问题。最大速度亏损按 π²J/(4M²) 衰减，其系数来自连续 Fourier 窗口中的 Dirichlet 变分问题。
+
 qrac:
   tags: ["quan.info"]
   image: "/assets/images/publications/qrac.jpg"
