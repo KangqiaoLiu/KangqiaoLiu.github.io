@@ -26,7 +26,7 @@ The symbol \* represents the equal contribution.
 ## **Peer-reviewed**
 1. **Kangqiao Liu** and Deyou Chen<br />
   *Maximal-velocity deficit under a finite-support constraint in hard-wall half-line continuous-time quantum walk*<br />
-  [To be published in Physical Review A](https://journals.aps.org/pra/accepted/10.1103/dyyr-z1k8) (2026.09.01)<br />
+  [Physical Review A **114** (2026)](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) (2026.09.15)<br />
   [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/AQ12647.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="en" %}
 2. Chuang Yang, Chuanhong Gao, Deyou Chen, and **Kangqiao Liu**<br />
   *Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes*<br />
