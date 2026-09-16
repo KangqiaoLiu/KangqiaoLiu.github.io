@@ -21,9 +21,9 @@ The symbol \* represents the equal contribution.
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="en" %}
 
 ## **Peer-reviewed**
-1. Jie Gu and **Kangqiao Liu**<br />
+1. <span class="entry-year">2026</span> Jie Gu and **Kangqiao Liu**<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*<br />
-  To be published in Quantum Science and Technology (2026)<br />
+  To be published in Quantum Science and Technology<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="en" %}
 2. **Kangqiao Liu** and Deyou Chen<br />
   *Maximal-velocity deficit under a finite-support constraint in a hard-wall half-line continuous-time quantum walk*<br />
