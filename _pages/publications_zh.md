@@ -67,15 +67,17 @@ redirect_from:
   [Physical Review A **114**, 032434 (2026)](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) (2026.09.15)<br />
   (IF = 3.0，中科院2区)<br />
   [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
+11. Jie Gu and **Kangqiao Liu**<br />
+  *Finite-frequency fluctuation-response bounds for open quantum systems*<br />
+  To be published in Quantum Science and Technology<br />
+  (IF = 4.9，中科院2区Top)<br />
+  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
    
 ## **未经同行评审**
-1. Jie Gu and **Kangqiao Liu**<br />
-  *Finite-frequency fluctuation-response bounds for open quantum systems*<br />
-  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340) (2026.05.06). <a href="{{ '/publications/2605.03340v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
-2. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
+1. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="zh" %}
-3. **Kangqiao Liu**<br />
+2. **Kangqiao Liu**<br />
   *Classical codes violate the conjectured square-root bound for quantum random access codes*<br />
   [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20). <a href="{{ '/publications/qrac_counterexample.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="qrac" lang="zh" %}
 
