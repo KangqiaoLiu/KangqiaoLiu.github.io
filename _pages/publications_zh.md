@@ -66,7 +66,7 @@ redirect_from:
   *Maximal-velocity deficit under a finite-support constraint in a hard-wall half-line continuous-time quantum walk*<br />
   [Physical Review A **114**, 032434 (2026)](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) (2026.09.15)<br />
   (IF = 3.0，中科院2区)<br />
-  [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/AQ12647.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
+  [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
    
 ## **未经同行评审**
 1. Jie Gu and **Kangqiao Liu**<br />
