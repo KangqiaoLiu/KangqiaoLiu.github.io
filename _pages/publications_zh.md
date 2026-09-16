@@ -69,7 +69,7 @@ redirect_from:
   [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
 11. Jie Gu and **Kangqiao Liu**<br />
   *Finite-frequency fluctuation-response bounds for open quantum systems*<br />
-  To be published in Quantum Science and Technology<br />
+  To be published in Quantum Science and Technology (2026)<br />
   (IF = 4.9，中科院2区Top)<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
    
