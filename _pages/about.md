@@ -113,6 +113,12 @@ redirect_from:
       </div>
 
       <div class="ai-work-grid">
+        <a class="ai-work-card ai-reveal" href="https://arxiv.org/abs/2609.18143" target="_blank" rel="noopener">
+          <span class="ai-card__index">2026 · GRAVITATION</span>
+          <span class="ai-card__title">Horizon–orbit scale competition in chaos bound violation for spinning particles in the black-bounce–Kerr–Newman spacetime</span>
+          <span class="ai-card__arrow" aria-hidden="true">↗</span>
+        </a>
+
         <a class="ai-work-card ai-reveal" href="https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8" target="_blank" rel="noopener">
           <span class="ai-card__index">2026 · QUANTUM DYNAMICS</span>
           <span class="ai-card__title">Maximal-velocity deficit under a finite-support constraint in a hard-wall half-line continuous-time quantum walk</span>
@@ -122,12 +128,6 @@ redirect_from:
         <a class="ai-work-card ai-reveal" href="https://arxiv.org/abs/2607.15617" target="_blank" rel="noopener">
           <span class="ai-card__index">2026 · QUANTUM INFORMATION</span>
           <span class="ai-card__title">Classical codes violate the conjectured square-root bound for quantum random access codes</span>
-          <span class="ai-card__arrow" aria-hidden="true">↗</span>
-        </a>
-
-        <a class="ai-work-card ai-reveal" href="https://doi.org/10.1140/epjc/s10052-026-15894-8" target="_blank" rel="noopener">
-          <span class="ai-card__index">2026 · GRAVITATION</span>
-          <span class="ai-card__title">Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes</span>
           <span class="ai-card__arrow" aria-hidden="true">↗</span>
         </a>
       </div>
