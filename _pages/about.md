@@ -115,7 +115,7 @@ redirect_from:
       <div class="ai-work-grid">
         <a class="ai-work-card ai-reveal" href="https://arxiv.org/abs/2609.18143" target="_blank" rel="noopener">
           <span class="ai-card__index">2026 · GRAVITATION</span>
-          <span class="ai-card__title">Horizon–orbit scale competition in chaos bound violation for spinning particles in the black-bounce–Kerr–Newman spacetime</span>
+          <span class="ai-card__title">Horizon–orbit scale competition underlying chaos bound violation for spinning particles</span>
           <span class="ai-card__arrow" aria-hidden="true">↗</span>
         </a>
 
