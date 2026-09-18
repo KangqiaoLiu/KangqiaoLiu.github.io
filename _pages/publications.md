@@ -14,8 +14,8 @@ The symbol \* represents the equal contribution.
 
 ## **Preprints**
 1. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
-  *Horizon–orbit scale competition in chaos bound violation for spinning particles in the black-bounce–Kerr–Newman spacetime*<br />
-  [[arXiv:2609.18143]](https://arxiv.org/abs/2609.18143) (2026.09.16). <a href="{{ '/publications/2609.18143v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_blackbounce" lang="en" %}
+  *Horizon–orbit scale competition underlying chaos bound violation for spinning particles*<br />
+  [[arXiv:2609.18143]](https://arxiv.org/abs/2609.18143) (2026.09.16). <a href="{{ '/publications/2609.18143v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_blackbounce" lang="en" %}
 2. **Kangqiao Liu**<br />
   *Classical codes violate the conjectured square-root bound for quantum random access codes*<br />
   [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20). <a href="{{ '/publications/qrac_counterexample.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="qrac" lang="en" %}
