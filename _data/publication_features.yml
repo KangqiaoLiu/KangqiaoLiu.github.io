@@ -5,9 +5,9 @@ gravity_blackbounce:
   alt_en: "Lyapunov-exponent and surface-gravity scales crossing under black-bounce deformation"
   alt_zh: "black-bounce 形变下 Lyapunov 指数与表面引力尺度的交叉"
   summary_en: >-
-    Black-bounce deformation can trigger chaos-bound violation by suppressing the surface-gravity scale faster than the orbital Lyapunov exponent, even while the orbit becomes less unstable. At fixed background, particle angular momentum instead drives the crossing, with spin and charge shifting the threshold in a branch-dependent way.
+    Black-bounce deformation can trigger chaos-bound violation by suppressing the surface-gravity scale faster than the orbital Lyapunov exponent, even while the orbit becomes less unstable. At fixed background, within the parameter ranges considered, total angular momentum provides the dominant variation of the local radial instability and can drive the crossing, while spin and charge shift the threshold in a branch-dependent way.
   summary_zh: >-
-    black-bounce 形变可以在轨道局域不稳定性本身减弱时仍触发混沌界违反，因为表面引力尺度下降得更快。固定背景后，跨越阈值则主要由粒子总角动量驱动，自旋与电荷以分支依赖的方式进一步移动临界条件。
+    black-bounce 形变可以在轨道局域不稳定性本身减弱时仍触发混沌界违反，因为表面引力尺度下降得更快。固定背景后，在本文考察的参数范围内，总角动量提供局域径向不稳定性的主要变化并可驱动跨越阈值，自旋与电荷则以分支依赖的方式移动临界条件。
 
 hardwall_ctqw:
   tags: ["quan.info"]
