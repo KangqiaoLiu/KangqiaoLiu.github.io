@@ -5,9 +5,9 @@ collective_engine:
   alt_en: "Collective work-per-information advantage versus tilt and particle number"
   alt_zh: "集体量子信息热机的单位记录信息做功优势随倾斜和粒子数的变化"
   summary_en: >-
-    Recording only the leftmost particle gives the feedback its minimal record, while each barrier move lifts the whole fermion cloud. This yields 44% more work per recorded nat than optimized independent single-particle engines at the calibrated operating point, before Pauli blocking suppresses the gain.
+    A minimal record of the leftmost particle lets one feedback action lift the whole fermion cloud, yielding a 44% work-per-information advantage before Pauli blocking sets in.
   summary_zh: >-
-    只记录最左粒子位置即可实现反馈所需的最小记录，而每次壁垒推进都会抬升整个费米粒子云。在标定工作点，单位记录信息产生的功较最优独立单粒子引擎提高 44%，这一优势最终受 Pauli 阻塞限制。
+    只记录最左粒子位置即可让一次反馈抬升整个费米粒子云，在标定工作点获得 44% 的单位信息做功优势，并最终受 Pauli 阻塞限制。
 
 gravity_blackbounce:
   tags: ["gravity"]
@@ -16,9 +16,9 @@ gravity_blackbounce:
   alt_en: "Lyapunov-exponent and surface-gravity scales crossing under black-bounce deformation"
   alt_zh: "black-bounce 形变下 Lyapunov 指数与表面引力尺度的交叉"
   summary_en: >-
-    Black-bounce deformation can trigger chaos-bound violation by suppressing the surface-gravity scale faster than the orbital Lyapunov exponent, even while the orbit becomes less unstable. At fixed background, within the parameter ranges considered, total angular momentum provides the dominant variation of the local radial instability and can drive the crossing, while spin and charge shift the threshold in a branch-dependent way.
+    Chaos-bound violation is governed by competition between surface gravity and orbital instability: black-bounce deformation can suppress the former faster, while particle parameters shift the crossing at fixed background.
   summary_zh: >-
-    black-bounce 形变可以在轨道局域不稳定性本身减弱时仍触发混沌界违反，因为表面引力尺度下降得更快。固定背景后，在本文考察的参数范围内，总角动量提供局域径向不稳定性的主要变化并可驱动跨越阈值，自旋与电荷则以分支依赖的方式移动临界条件。
+    混沌界违反由表面引力与轨道不稳定尺度的竞争控制：black-bounce 形变可更快压低前者，而固定背景下粒子参数则移动跨界阈值。
 
 hardwall_ctqw:
   tags: ["quan.info"]
