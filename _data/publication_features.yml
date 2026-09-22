@@ -12,7 +12,7 @@ collective_engine:
 gravity_blackbounce:
   tags: ["gravity"]
   image: "/assets/images/publications/gravity-blackbounce.jpg"
-  pdf: "/publications/2609.18143v2.pdf"
+  pdf: "/publications/2609.18143v3.pdf"
   alt_en: "Lyapunov-exponent and surface-gravity scales crossing under black-bounce deformation"
   alt_zh: "black-bounce 形变下 Lyapunov 指数与表面引力尺度的交叉"
   summary_en: >-
