@@ -5,9 +5,9 @@ collective_engine:
   alt_en: "Collective work-per-information advantage versus tilt and particle number"
   alt_zh: "集体量子信息热机的单位记录信息做功优势随倾斜和粒子数的变化"
   summary_en: >-
-    Recording the leftmost occupied site—the order statistic that fixes the wall—gives the feedback its minimal record. The measurement-energy input is bounded by 2J independently of particle number, which drives the record-entropy ceiling downward with filling, while each barrier move lifts the whole fermion cloud. At the calibrated operating point this yields 44% more work per recorded nat than optimized independent single-particle engines before Pauli blocking suppresses the gain.
+    Recording only the leftmost particle gives the feedback its minimal record, while each barrier move lifts the whole fermion cloud. This yields 44% more work per recorded nat than optimized independent single-particle engines at the calibrated operating point, before Pauli blocking suppresses the gain.
   summary_zh: >-
-    记录决定壁垒位置的最左占据格点这一序统计量，即可实现反馈所需的最小记录。测量注入能量具有与粒子数无关的 2J 上界，使记录熵上界随填充增加而下降；同时每次壁垒推进都会抬升整个费米粒子云。在标定工作点，单位记录信息产生的功较最优独立单粒子引擎提高 44%，这一集体优势最终受到 Pauli 阻塞限制。
+    只记录最左粒子位置即可实现反馈所需的最小记录，而每次壁垒推进都会抬升整个费米粒子云。在标定工作点，单位记录信息产生的功较最优独立单粒子引擎提高 44%，这一优势最终受 Pauli 阻塞限制。
 
 gravity_blackbounce:
   tags: ["gravity"]
