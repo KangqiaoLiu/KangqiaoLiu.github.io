@@ -13,13 +13,16 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 The symbol \* represents the equal contribution.
 
 ## **Preprints**
-1. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
+1. **Kangqiao Liu**, Jie Gu, and Deyou Chen<br />
+  *Collective advantage from a minimal record in a quantum information engine*<br />
+  [[arXiv:2609.24558]](https://arxiv.org/abs/2609.24558) (2026.09.21). <a href="{{ '/publications/2609.24558v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="collective_engine" lang="en" %}
+2. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
   *Horizon–orbit scale competition underlying chaos bound violation for spinning particles*<br />
   [[arXiv:2609.18143]](https://arxiv.org/abs/2609.18143) (2026.09.16). <a href="{{ '/publications/2609.18143v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_blackbounce" lang="en" %}
-2. **Kangqiao Liu**<br />
+3. **Kangqiao Liu**<br />
   *Classical codes violate the conjectured square-root bound for quantum random access codes*<br />
   [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20). <a href="{{ '/publications/qrac_counterexample.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="qrac" lang="en" %}
-3. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
+4. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="en" %}
 
