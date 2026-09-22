@@ -16,9 +16,9 @@ The symbol \* represents the equal contribution.
 1. **Kangqiao Liu**, Jie Gu, and Deyou Chen<br />
   *Collective advantage from a minimal record in a quantum information engine*<br />
   [[arXiv:2609.24558]](https://arxiv.org/abs/2609.24558) (2026.09.21). <a href="{{ '/publications/2609.24558v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="collective_engine" lang="en" %}
-2. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
+2. Deyou Chen, Lifang Li, Chuang Yang, and **Kangqiao Liu**<br />
   *Horizon–orbit scale competition underlying chaos bound violation for spinning particles*<br />
-  [[arXiv:2609.18143]](https://arxiv.org/abs/2609.18143) (2026.09.16). <a href="{{ '/publications/2609.18143v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_blackbounce" lang="en" %}
+  [[arXiv:2609.18143]](https://arxiv.org/abs/2609.18143) (2026.09.16). <a href="{{ '/publications/2609.18143v3.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_blackbounce" lang="en" %}
 3. **Kangqiao Liu**<br />
   *Classical codes violate the conjectured square-root bound for quantum random access codes*<br />
   [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20). <a href="{{ '/publications/qrac_counterexample.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="qrac" lang="en" %}
