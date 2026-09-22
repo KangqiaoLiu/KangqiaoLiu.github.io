@@ -25,7 +25,7 @@ FIGURES = {
     "collective-engine": ("2609.24558v1.pdf", 6, (320, 47, 567, 260)),
     "hardwall-ctqw": ("AQ12647.pdf", 8, (318, 40, 575, 190)),
     "qrac": ("qrac_counterexample.pdf", 9, (70, 45, 545, 432)),
-    "gravity-blackbounce": ("2609.18143v2.pdf", 12, (118, 208, 510, 410)),
+    "gravity-blackbounce": ("2609.18143v3.pdf", 12, (118, 208, 510, 410)),
     "gravity-ads": ("2607.00432v2.pdf", 12, (78, 145, 515, 428)),
     "open-frequency": ("2605.03340v1.pdf", 11, (88, 45, 520, 255)),
     "gravity-kn": ("s10052-026-15894-8.pdf", 7, (48, 45, 547, 287)),
