@@ -12,6 +12,13 @@ redirect_from:
 You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en) profile.<br />
 The symbol \* represents the equal contribution.
 
+## **Selected machine learning work**
+My machine-learning work follows a connected line on the stochastic dynamics of SGD: finite-learning-rate fluctuations, minibatch noise, and escape from local minima.
+
+1. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*, **ICML 2021**. [[paper]](http://proceedings.mlr.press/v139/liu21ad.html)
+2. Liu Ziyin\*, **Kangqiao Liu**\*, Takashi Mori, and Masahito Ueda, *Strength of Minibatch Noise in SGD*, **ICLR 2022 Spotlight**. [[paper]](https://openreview.net/forum?id=uorVGbWV5sw)
+3. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda, *Power-law escape rate of SGD*, **ICML 2022 Spotlight**. [[paper]](https://proceedings.mlr.press/v162/mori22a.html)
+
 ## **Preprints**
 1. **Kangqiao Liu**, Jie Gu, and Deyou Chen<br />
   *Collective advantage from a minimal record in a quantum information engine*<br />
