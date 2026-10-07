@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="250" viewBox="0 0 1040 250" role="img" aria-labelledby="title desc">
+  <title id="title">Research trajectory</title>
+  <desc id="desc">A timeline from stochastic processes through SGD dynamics toward current work on reasoning and scientific AI.</desc>
+  <rect width="1040" height="250" rx="18" fill="#0d1117"/>
+  <text x="48" y="44" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f6fc">Research trajectory</text>
+  <text x="48" y="70" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">A recurring question: how do noisy dynamical systems fluctuate, escape, respond, and learn?</text>
+  <line x1="92" y1="137" x2="940" y2="137" stroke="#30363d" stroke-width="4" stroke-linecap="round"/>
+  <line x1="760" y1="137" x2="940" y2="137" stroke="#3fb950" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 9"/>
+  
+  <circle cx="100" cy="137" r="8" fill="#58a6ff"/>
+  <text x="100" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#58a6ff">2020</text>
+  <text x="100" y="171" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">Stochastic processes</text>
+  <text x="100" y="192" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">PRL · uncertainty relations</text>
+  <circle cx="285" cy="137" r="8" fill="#58a6ff"/>
+  <text x="285" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#58a6ff">2021</text>
+  <text x="285" y="171" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">Finite-rate SGD</text>
+  <text x="285" y="192" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">ICML · noise & fluctuations</text>
+  <circle cx="475" cy="137" r="8" fill="#58a6ff"/>
+  <text x="475" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#58a6ff">2022</text>
+  <text x="475" y="171" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">SGD noise & escape</text>
+  <text x="475" y="192" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">ICLR / ICML Spotlights</text>
+  <circle cx="665" cy="137" r="8" fill="#58a6ff"/>
+  <text x="665" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#58a6ff">2025–26</text>
+  <text x="665" y="171" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">Response & transport</text>
+  <text x="665" y="192" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">nonequilibrium / quantum</text>
+  <circle cx="875" cy="137" r="8" fill="#3fb950"/>
+  <text x="875" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#3fb950">Current</text>
+  <text x="875" y="171" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">Reasoning dynamics</text>
+  <text x="875" y="192" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">scientific AI / discovery</text>
+  <text x="850" y="222" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">dashed = current direction</text>
+</svg>
