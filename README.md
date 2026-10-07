@@ -8,6 +8,12 @@ A short version of the research story is:
 
 **stochastic processes → SGD dynamics → learning and reasoning dynamics → scientific discovery**
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-profile/assets/research-trajectory-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="github-profile/assets/research-trajectory-light.svg">
+  <img alt="Research trajectory from stochastic processes to learning dynamics and scientific AI" src="github-profile/assets/research-trajectory-light.svg">
+</picture>
+
 The site contains my research overview, publications, projects, academic CV, and a two-page [AI Research CV](https://kangqiaoliu.github.io/ai-cv/).
 
 ## Main links
