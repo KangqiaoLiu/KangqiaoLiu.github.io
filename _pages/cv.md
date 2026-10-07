@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+For machine-learning and AI research roles, see the [AI Research CV]({{ '/ai-cv/' | relative_url }}). The page below remains my full academic CV.
+
 ## **Employment**
 * 2023.12.01 - Now 
   * **Lecturer** of Physics
