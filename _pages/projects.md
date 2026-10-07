@@ -5,25 +5,27 @@ permalink: /projects/
 author_profile: true
 ---
 
+I use this page for research systems and tools that became useful beyond a single paper. I keep them public when the assumptions, tests, and workflow are clear enough to be reused.
+
 <ol class="project-list" aria-label="Open projects">
   <li class="project-card">
     <div class="project-card__header">
       <div class="project-card__meta">
-        <span class="project-card__category">Open source · Research tooling</span>
+        <span class="project-card__category">Research tool · Scientific workflow</span>
       </div>
       <h2 class="project-card__title">Scientific Manuscript Audit</h2>
       <p class="project-card__lede">
-        An author-side manuscript audit skill for Codex and Claude Code, built for rigorous
-        pre-submission and revision quality control.
+        A manuscript-audit workflow for Codex and Claude Code that I use to stress-test
+        claims, evidence, and revision decisions before submission.
       </p>
     </div>
 
     <div class="project-card__content">
       <p>
-        The skill reconstructs a paper's central claims, maps them to the available evidence,
-        separates technical correctness from novelty and significance, and calibrates issue
-        severity by recoverability. Its final recommendation remains explicitly tied to the
-        major findings rather than produced as an isolated verdict.
+        The workflow starts from a paper's main claims and works backward to the evidence each
+        claim actually needs. It checks technical correctness separately from novelty and
+        significance, and keeps the final recommendation tied to the issues that would genuinely
+        change a submission or revision decision.
       </p>
 
       <div class="project-card__workflow" aria-label="Review architecture">
@@ -39,8 +41,8 @@ author_profile: true
       </ul>
 
       <p class="project-card__scope">
-        Intended for author-owned, public, or explicitly authorized materials. It does not
-        replace human peer review or editorial judgment.
+        It is designed for author-owned, public, or explicitly authorized materials and is meant
+        to support, rather than stand in for, scientific judgment.
       </p>
     </div>
 

@@ -12,6 +12,13 @@ redirect_from:
 [[Google Scholar]](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en)
 [[Research Gate]](https://www.researchgate.net/profile/Kangqiao-Liu)
 
+## **机器学习代表作**
+我的机器学习工作主要围绕 SGD 的随机动力学展开：有限学习率涨落、小批量噪声以及局部极小值附近的逃逸动力学。
+
+1. **Kangqiao Liu**\*, Liu Ziyin\*, and Masahito Ueda, *Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent*, **ICML 2021**。[[论文]](http://proceedings.mlr.press/v139/liu21ad.html)
+2. Liu Ziyin\*, **Kangqiao Liu**\*, Takashi Mori, and Masahito Ueda, *Strength of Minibatch Noise in SGD*, **ICLR 2022 Spotlight**。[[论文]](https://openreview.net/forum?id=uorVGbWV5sw)
+3. Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda, *Power-law escape rate of SGD*, **ICML 2022 Spotlight**。[[论文]](https://proceedings.mlr.press/v162/mori22a.html)
+
 ## **已发表（经同行评审）**
 1. **Kangqiao Liu**, Zongping Gong, and Masahito Ueda<br />
    *Thermodynamic Uncertainty Relation for Arbitrary Initial States*<br />
