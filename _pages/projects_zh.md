@@ -5,22 +5,24 @@ permalink: /projects_zh/
 author_profile: true
 ---
 
+这里收录的是从实际科研流程中逐渐长出来、并且值得在单篇论文之外继续复用的研究系统与工具。只有当假设、测试和使用流程足够清楚时，我才会把它们公开出来。
+
 <ol class="project-list" aria-label="开放项目">
   <li class="project-card">
     <div class="project-card__header">
       <div class="project-card__meta">
-        <span class="project-card__category">开源 · 科研工具</span>
+        <span class="project-card__category">科研工具 · 科学工作流</span>
       </div>
       <h2 class="project-card__title">Scientific Manuscript Audit</h2>
       <p class="project-card__lede">
-        面向作者的科研稿件审查技能，可在 Codex 与 Claude Code 中使用，服务于严格的投稿前检查与修订质量控制。
+        一个用于 Codex 与 Claude Code 的稿件审查工作流。我主要用它在投稿前或修订时反复检查论文的主张、证据和真正影响决策的问题。
       </p>
     </div>
 
     <div class="project-card__content">
       <p>
-        该技能会重构论文的中心主张，将其映射到实际证据，区分技术正确性、创新性与科学意义，
-        并依据问题的可修复性校准严重程度。最终投稿建议始终与主要发现直接对应，而不是脱离分析过程给出孤立结论。
+        这个工作流从论文最核心的主张出发，反向检查每项主张实际需要哪些证据。技术正确性、创新性和科学意义分别处理，
+        最后的判断只落在那些真正会改变投稿或修订决定的问题上。
       </p>
 
       <div class="project-card__workflow" aria-label="审查结构">
@@ -36,7 +38,7 @@ author_profile: true
       </ul>
 
       <p class="project-card__scope">
-        本项目用于作者自有、已经公开或已明确授权处理的材料，不替代人类同行评审或编辑判断。
+        本项目用于作者自有、已经公开或已明确授权处理的材料，目标是辅助科研判断，而不是代替同行评审或编辑决定。
       </p>
     </div>
 
