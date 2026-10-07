@@ -43,6 +43,16 @@ jobs:
       - name: Generate publication thumbnails
         run: python scripts/generate_publication_thumbnails.py
 
+      - name: Build AI Research CV PDF
+        run: |
+          if ! command -v pdflatex >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-fonts-recommended
+          fi
+          mkdir -p /tmp/ai-cv-build
+          pdflatex -interaction=nonstopmode -halt-on-error -output-directory=/tmp/ai-cv-build files/Kangqiao_Liu_AI_Research_CV.tex
+          cp /tmp/ai-cv-build/Kangqiao_Liu_AI_Research_CV.pdf files/Kangqiao_Liu_AI_Research_CV.pdf
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

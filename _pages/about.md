@@ -28,6 +28,7 @@ redirect_from:
           <a class="ai-button ai-button--primary" href="{{ '/research/' | relative_url }}">Explore research</a>
           <a class="ai-button" href="{{ '/publications/' | relative_url }}">View publications</a>
           <a class="ai-button" href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
+          <a class="ai-button" href="{{ '/files/Kangqiao_Liu_AI_Research_CV.pdf' | relative_url }}" download>AI Research CV (PDF)</a>
         </div>
 
         <div class="ai-hero__meta">
