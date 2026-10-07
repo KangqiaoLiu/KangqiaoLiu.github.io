@@ -10,7 +10,7 @@ author_profile: true
 **Kangqiao Liu**  
 *Machine Learning Researcher & Theoretical Physicist*
 
-[kqliu@xhu.edu.cn](mailto:kqliu@xhu.edu.cn) · [GitHub](https://github.com/KangqiaoLiu) · [Google Scholar](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en) · [Full academic CV]({{ '/cv/' | relative_url }})
+[kqliu@xhu.edu.cn](mailto:kqliu@xhu.edu.cn) · [GitHub](https://github.com/KangqiaoLiu) · [Google Scholar](https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en) · [Full academic CV]({{ '/cv/' | relative_url }}) · [Download PDF]({{ '/files/Kangqiao_Liu_AI_Research_CV.pdf' | relative_url }})
 
 ## Research profile
 
