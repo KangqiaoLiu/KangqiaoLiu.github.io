@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 title: "Kangqiao LIU 刘康桥"
-excerpt: "Theoretical physics, quantum information, and machine learning"
+excerpt: "Machine learning, stochastic dynamics, and theoretical physics"
 author_profile: false
 redirect_from: 
   - /about/
@@ -13,14 +13,15 @@ redirect_from:
   <div class="ai-container">
     <section class="ai-hero" aria-labelledby="ai-home-title">
       <div class="ai-hero__copy ai-reveal">
-        <p class="ai-eyebrow">Theoretical Physics · Quantum Information · Machine Learning</p>
+        <p class="ai-eyebrow">Machine Learning · Stochastic Dynamics · Theoretical Physics</p>
         <h1 class="ai-hero__title" id="ai-home-title">
           <span>Kangqiao Liu</span>
           <span class="ai-name-cn">刘康桥</span>
         </h1>
         <p class="ai-hero__lede">
-          I study fluctuations, information, response, and complexity across nonequilibrium,
-          quantum, gravitational, and learning systems.
+          I study how learning and physical systems move through noisy, high-dimensional landscapes.
+          My work spans stochastic optimization, nonequilibrium physics, quantum information, and
+          complex dynamics, with current interests in reasoning and AI-assisted scientific discovery.
         </p>
 
         <div class="ai-hero__actions" aria-label="Primary links">
@@ -66,33 +67,33 @@ redirect_from:
       <div class="ai-section__head ai-reveal">
         <div>
           <p class="ai-section__kicker">Research landscape</p>
-          <h2 class="ai-section__title">One language across different physical systems.</h2>
+          <h2 class="ai-section__title">Dynamics across learning and physical systems.</h2>
         </div>
         <p class="ai-section__summary">
-          My work connects stochastic dynamics, quantum information, gravitation, and learning
-          through response bounds, fluctuations, transport, and instability.
+          The subjects have changed over time, but the questions have stayed surprisingly similar:
+          what sets fluctuations, response, escape, transport, and instability?
         </p>
       </div>
 
       <div class="ai-research-grid">
         <a class="ai-research-card ai-reveal" href="{{ '/research/' | relative_url }}">
-          <span class="ai-card__index">01 / NONEQUILIBRIUM</span>
-          <span class="ai-card__title">Statistical physics and machine learning</span>
-          <span class="ai-card__text">Kinetic uncertainty relations, stochastic response, and the dynamics of finite-learning-rate SGD.</span>
+          <span class="ai-card__index">01 / LEARNING</span>
+          <span class="ai-card__title">Stochastic learning and optimization</span>
+          <span class="ai-card__text">Finite-learning-rate SGD, minibatch noise, escape dynamics, and the stochastic structure of learning.</span>
           <span class="ai-card__arrow" aria-hidden="true">→</span>
         </a>
 
         <a class="ai-research-card ai-reveal" href="{{ '/research/' | relative_url }}">
-          <span class="ai-card__index">02 / QUANTUM</span>
-          <span class="ai-card__title">Quantum information and thermodynamics</span>
-          <span class="ai-card__text">Quantum response bounds, information engines, random access codes, and Maxwell's demon.</span>
+          <span class="ai-card__index">02 / NONEQUILIBRIUM &amp; QUANTUM</span>
+          <span class="ai-card__title">Information, response, and transport</span>
+          <span class="ai-card__text">Kinetic uncertainty relations, quantum response bounds, information engines, random access codes, and constrained transport.</span>
           <span class="ai-card__arrow" aria-hidden="true">→</span>
         </a>
 
         <a class="ai-research-card ai-reveal" href="{{ '/research/' | relative_url }}">
-          <span class="ai-card__index">03 / GRAVITATION</span>
-          <span class="ai-card__title">Black-hole dynamics and chaos</span>
-          <span class="ai-card__text">Lyapunov-exponent bounds and spinning-particle dynamics in Kerr–Newman spacetimes.</span>
+          <span class="ai-card__index">03 / COMPLEX DYNAMICS</span>
+          <span class="ai-card__title">Instability and chaos</span>
+          <span class="ai-card__text">Lyapunov bounds, competing dynamical scales, and instability in gravitating systems.</span>
           <span class="ai-card__arrow" aria-hidden="true">→</span>
         </a>
       </div>
@@ -103,25 +104,25 @@ redirect_from:
     <div class="ai-container">
       <div class="ai-section__head ai-reveal">
         <div>
-          <p class="ai-section__kicker">Recent work</p>
-          <h2 class="ai-section__title">Current research, directly accessible.</h2>
+          <p class="ai-section__kicker">Selected work</p>
+          <h2 class="ai-section__title">A few points along the research trajectory.</h2>
         </div>
         <p class="ai-section__summary">
-          Selected recent results. The complete record, journal links, preprints, PDFs, and
-          supplements are available on the publications page.
+          These papers show the thread from learning dynamics to nonequilibrium response and
+          quantum transport. The publications page contains the complete record.
         </p>
       </div>
 
       <div class="ai-work-grid">
-        <a class="ai-work-card ai-reveal" href="https://arxiv.org/abs/2609.24558" target="_blank" rel="noopener">
-          <span class="ai-card__index">2026 · QUANTUM INFORMATION</span>
-          <span class="ai-card__title">Collective advantage from a minimal record in a quantum information engine</span>
+        <a class="ai-work-card ai-reveal" href="http://proceedings.mlr.press/v139/liu21ad.html" target="_blank" rel="noopener">
+          <span class="ai-card__index">2021 · MACHINE LEARNING</span>
+          <span class="ai-card__title">Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent</span>
           <span class="ai-card__arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="ai-work-card ai-reveal" href="https://arxiv.org/abs/2609.18143" target="_blank" rel="noopener">
-          <span class="ai-card__index">2026 · GRAVITATION</span>
-          <span class="ai-card__title">Horizon–orbit scale competition underlying chaos bound violation for spinning particles</span>
+        <a class="ai-work-card ai-reveal" href="https://www.nature.com/articles/s42005-025-01982-w" target="_blank" rel="noopener">
+          <span class="ai-card__index">2025 · NONEQUILIBRIUM DYNAMICS</span>
+          <span class="ai-card__title">Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems</span>
           <span class="ai-card__arrow" aria-hidden="true">↗</span>
         </a>
 
@@ -138,11 +139,11 @@ redirect_from:
     <div class="ai-container">
       <div class="ai-section__head ai-reveal">
         <div>
-          <p class="ai-section__kicker">Open projects</p>
-          <h2 class="ai-section__title">Tools built around rigorous scientific work.</h2>
+          <p class="ai-section__kicker">Research tooling</p>
+          <h2 class="ai-section__title">Tools that grew out of actual research work.</h2>
         </div>
         <p class="ai-section__summary">
-          Open-source tools and research-derived systems for reusable scientific workflows.
+          I keep a small number of tools public when they become useful beyond a single project.
         </p>
       </div>
 
@@ -150,8 +151,8 @@ redirect_from:
         <span class="ai-card__index">OPEN SOURCE · RESEARCH TOOLING</span>
         <h3>Scientific Manuscript Audit</h3>
         <p>
-          An author-side manuscript audit skill for Codex and Claude Code, linking central claims to
-          inspected evidence for pre-submission and revision quality control.
+          A structured manuscript-audit workflow for Codex and Claude Code, built to trace claims
+          back to evidence before submission or revision.
         </p>
 
         <div class="ai-project-feature__actions">
