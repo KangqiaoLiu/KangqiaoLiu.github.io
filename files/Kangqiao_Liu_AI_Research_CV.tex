@@ -1,0 +1,131 @@
+%% Source for the two-page AI Research CV.
+%% The application PDF is maintained from this source.
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.35cm,top=1.15cm,bottom=1.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{parskip}
+\pagestyle{empty}
+\definecolor{ink}{HTML}{20242B}
+\definecolor{muted}{HTML}{5D6670}
+\definecolor{rule}{HTML}{D9DDE2}
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.5pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=1.2pt,topsep=1.5pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{-2pt}\color{rule}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\newcommand{\role}[1]{\textbf{#1}}
+\newcommand{\where}[1]{\textcolor{muted}{#1}}
+\newcommand{\paper}[1]{\textit{#1}}
+\newcommand{\link}[2]{\href{#1}{#2}}
+\begin{document}
+
+{\LARGE\bfseries Kangqiao Liu}\hfill \textcolor{muted}{Machine Learning Researcher \& Theoretical Physicist}\\[-1pt]
+\small
+\href{mailto:kqliu@xhu.edu.cn}{kqliu@xhu.edu.cn} \;|\; Chengdu, China \;|\;
+\href{https://kangqiaoliu.github.io}{kangqiaoliu.github.io} \;|\;
+\href{https://github.com/KangqiaoLiu}{GitHub} \;|\;
+\href{https://scholar.google.com/citations?user=utIJkHcAAAAJ&hl=en}{Google Scholar}
+
+\section*{Research Profile}
+I study stochastic learning dynamics and theoretical models of complex systems. My earlier machine-learning work developed finite-learning-rate theories of SGD noise, minibatch fluctuations, and escape dynamics; my recent work has focused on nonequilibrium response, quantum information, and mathematically controlled dynamical problems. I am now bringing these lines back together around reasoning dynamics, scientific AI, and verifiable autonomous discovery.
+
+\section*{Research Focus}
+\begin{itemize}
+  \item \textbf{Stochastic optimization and training dynamics:} finite-learning-rate SGD, minibatch noise, escape and rare-event dynamics.
+  \item \textbf{Reasoning and scientific AI:} dynamics of search and reasoning, verifiable scientific agents, research-grade evaluation environments.
+  \item \textbf{Theoretical modeling:} stochastic processes, nonequilibrium response, information-theoretic bounds, quantum and complex dynamics.
+\end{itemize}
+
+\section*{Selected Machine Learning Research}
+\textbf{Noise and Fluctuation of Finite Learning Rate Stochastic Gradient Descent} \hfill \textbf{ICML 2021}\\
+\where{K. Liu*, Z. Liu*, M. Ueda -- equal contribution}\\[-1pt]
+Developed a discrete-time theory of SGD at finite learning rate, deriving analytical noise and parameter-fluctuation formulas and stability boundaries beyond continuous-time Langevin approximations.\\[-1pt]
+\link{http://proceedings.mlr.press/v139/liu21ad.html}{paper} \;\; \link{https://arxiv.org/abs/2012.03636}{arXiv}
+
+\vspace{2pt}
+\textbf{Strength of Minibatch Noise in SGD} \hfill \textbf{ICLR 2022 Spotlight}\\
+\where{Z. Liu*, K. Liu*, T. Mori, M. Ueda -- equal contribution}\\[-1pt]
+Analyzed minibatch noise in discrete-time SGD and derived how noise strength and model fluctuations depend on learning rate, batch size, width, and regularization.\\[-1pt]
+\link{https://openreview.net/forum?id=uorVGbWV5sw}{paper} \;\; \link{https://arxiv.org/abs/2102.05375}{arXiv}
+
+\vspace{2pt}
+\textbf{Power-law Escape Rate of SGD} \hfill \textbf{ICML 2022 Spotlight}\\
+\where{T. Mori, Z. Liu, K. Liu, M. Ueda}\\[-1pt]
+Derived the stationary distribution around local minima and identified power-law escape dynamics for minibatch SGD, linking optimization escape to the loss-dependent structure of stochastic noise.\\[-1pt]
+\link{https://proceedings.mlr.press/v162/mori22a.html}{paper} \;\; \link{https://arxiv.org/abs/2105.09557}{arXiv}
+
+\section*{Selected Independent Research}
+\textbf{Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems} \hfill \textbf{Commun. Phys. 2025}\\
+\where{K. Liu, J. Gu} -- Established a universal kinetic bound connecting static response precision to dynamical activity in nonequilibrium Markov processes.\\[-1pt]
+\link{https://www.nature.com/articles/s42005-025-01982-w}{journal} \;\; \link{https://arxiv.org/abs/2410.20800}{arXiv}
+
+\vspace{2pt}
+\textbf{Classical codes violate the conjectured square-root bound for quantum random access codes} \hfill \textbf{2026 preprint}\\
+\where{K. Liu (sole author)} -- Constructed a family of counterexamples and characterized the asymptotic region between the conjectured square-root curve and Nayak's entropy bound.\\[-1pt]
+\link{https://arxiv.org/abs/2607.15617}{arXiv}
+
+\vspace{2pt}
+\textbf{Maximal-velocity deficit under a finite-support constraint in a hard-wall half-line continuous-time quantum walk} \hfill \textbf{PRA 2026}\\
+\where{K. Liu, D. Chen} -- Reduced an optimal transport problem to a principal-eigenvalue problem and derived the exact asymptotic velocity deficit under finite-support preparation.\\[-1pt]
+\link{https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8}{journal} \;\; \link{https://arxiv.org/abs/2609.01970}{arXiv}
+
+\section*{Current Direction and Research Tooling}
+\begin{itemize}
+  \item Developing a research program that connects stochastic-process methods with modern reasoning and agent systems: trajectory ensembles, search dynamics, verification, failure recovery, and compute allocation.
+  \item Exploring verifiable scientific-agent environments built from genuine mathematical and physical research tasks, with emphasis on mechanisms and evaluation signals that remain meaningful beyond a single model generation.
+  \item Built \textbf{Scientific Manuscript Audit}, an open-source research workflow for Codex and Claude Code with claim-to-evidence tracing, synthetic evaluation cases, automated validation, and reproducible distribution packages. \link{https://github.com/KangqiaoLiu/scientific-manuscript-audit}{GitHub}
+\end{itemize}
+
+\newpage
+
+\section*{Experience}
+\begin{tabularx}{\textwidth}{@{}p{2.8cm}X@{}}
+\textbf{2023--present} & \role{Lecturer of Physics}, School of Science, Xihua University, Chengdu, China. Independent research in nonequilibrium physics, quantum information, stochastic dynamics, and machine learning.\\[3pt]
+\textbf{2020--2023} & \role{Ph.D. in Physics}, The University of Tokyo, Japan. Advisor: Prof. Masahito Ueda. Thesis: \paper{Theoretical Study on Information Engines for Quantum Transport}.\\[3pt]
+\textbf{2018--2020} & \role{M.Sc. in Physics}, The University of Tokyo, Japan. Advisor: Prof. Masahito Ueda. Thesis: \paper{Thermodynamic Uncertainty Relations in Markovian Processes}.\\
+\end{tabularx}
+
+\section*{Selected Funding}
+\begin{itemize}
+  \item \textbf{National Natural Science Foundation of China, Young Scientists Fund (Category C)}, Principal Investigator, CNY 300,000, 2027--2029. Project on current precision and response bounds in coherent quantum transport and open quantum systems.
+  \item \textbf{Xihua University Scientific Research Start-up Foundation}, Principal Investigator, 2024--2026.
+  \item \textbf{JSPS DC2 Grant-in-Aid for Research Fellow}, Principal Investigator, 2023.
+\end{itemize}
+
+\section*{Selected Publications Beyond ML}
+\begin{itemize}
+  \item K. Liu, Z. Gong, M. Ueda, \paper{Thermodynamic Uncertainty Relation for Arbitrary Initial States}, \textbf{Physical Review Letters 125, 140602 (2020)}.
+  \item K. Liu, J. Gu, \paper{Response kinetic uncertainty relation for Markovian open quantum systems}, \textbf{Physical Review A 113, 062443 (2026)}.
+  \item K. Liu, M. Nakagawa, M. Ueda, \paper{Maxwell's demon for quantum transport}, \textbf{Physical Review A 113, 022436 (2026)}.
+  \item J. Gu, K. Liu, \paper{Finite-frequency fluctuation-response bounds for open quantum systems}, accepted in \textbf{Quantum Science and Technology (2026)}.
+\end{itemize}
+
+\section*{Technical and Research Skills}
+\begin{itemize}
+  \item \textbf{Programming / research computing:} Python, PyTorch, NumPy/SciPy, Jupyter, Git, Linux, reproducible numerical workflows.
+  \item \textbf{Research methods:} stochastic-process modeling, optimization theory, analytical derivations, numerical experiments, benchmarking and evaluation design.
+  \item \textbf{Scientific communication:} LaTeX, reproducible research packages, technical writing and peer review across machine learning and physics.
+\end{itemize}
+
+\section*{Academic Service}
+Reviewer for \textbf{NeurIPS, ICLR, ICML}; \textbf{Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics}.
+
+\section*{Selected Recognition}
+\begin{itemize}
+  \item ICLR 2022 Spotlight; ICML 2022 Spotlight.
+  \item National Scholarship, Ministry of Education of China (2015); Wuhan University Honors graduate (2018).
+\end{itemize}
+
+\vfill
+\footnotesize\textcolor{muted}{Full publication list, PDFs, and current research: \href{https://kangqiaoliu.github.io}{kangqiaoliu.github.io}}
+
+\end{document}
