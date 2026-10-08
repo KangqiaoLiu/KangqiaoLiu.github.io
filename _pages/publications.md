@@ -42,7 +42,7 @@ My machine-learning work follows a connected line on the stochastic dynamics of 
   *Maximal-velocity deficit under a finite-support constraint in a hard-wall half-line continuous-time quantum walk*<br />
   [Physical Review A **114**, 032434 (2026)](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) (2026.09.15)<br />
   [press release](https://lxy.xhu.edu.cn/c5/4c/c575a247116/page.htm) (in Chinese) by Department<br />
-  [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="en" %}
+  [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a> <a href="https://github.com/KangqiaoLiu/2026_PRA_hard_wall_half_line_quant_walk" class="btn btn--small" target="_blank" rel="noopener">code</a>{% include publication-feature.html id="hardwall_ctqw" lang="en" %}
 3. Chuang Yang, Chuanhong Gao, Deyou Chen, and **Kangqiao Liu**<br />
   *Bound on Lyapunov exponents with spinning particles in Kerr–Newman spacetimes*<br />
   [The European Physical Journal C **86**, 677 (2026)](https://link.springer.com/article/10.1140/epjc/s10052-026-15894-8) (2026.06.22) <a href="{{ '/publications/s10052-026-15894-8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_kn" lang="en" %}
