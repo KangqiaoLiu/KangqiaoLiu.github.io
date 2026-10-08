@@ -74,7 +74,7 @@ redirect_from:
   [Physical Review A **114**, 032434 (2026)](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) (2026.09.15)<br />
   (IF = 3.0，中科院2区)<br />
   [学院新闻](https://lxy.xhu.edu.cn/c5/4c/c575a247116/page.htm)<br />
-  [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
+  [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a> <a href="https://github.com/KangqiaoLiu/2026_PRA_hard_wall_half_line_quant_walk" class="btn btn--small" target="_blank" rel="noopener">code</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
 11. Jie Gu and **Kangqiao Liu**<br />
   *Finite-Frequency Fluctuation-Response Bounds for Open Quantum Systems*<br />
   [Quantum Science and Technology (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f/meta) (Accepted Manuscript online 2026.10.02)<br />
