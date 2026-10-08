@@ -27,7 +27,7 @@ FIGURES = {
     "qrac": ("qrac_counterexample.pdf", 9, (70, 45, 545, 432)),
     "gravity-blackbounce": ("2609.18143v3.pdf", 12, (118, 208, 510, 410)),
     "gravity-ads": ("2607.00432v2.pdf", 12, (78, 145, 515, 428)),
-    "open-frequency": ("2605.03340v1.pdf", 11, (88, 45, 520, 255)),
+    "open-frequency": ("2605.03340v2.pdf", 12, (105, 60, 570, 225)),
     "gravity-kn": ("s10052-026-15894-8.pdf", 7, (48, 45, 547, 287)),
     "open-rkur": ("ps1b-8l1x.pdf", 3, (45, 70, 300, 210)),
     "quantum-transport": ("PRA_113_022436_2026_Published_Article.pdf", 2, (45, 65, 297, 160)),
