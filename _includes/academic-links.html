@@ -10,6 +10,11 @@
       <i class="ai ai-arxiv ai-fw" aria-hidden="true"></i><span>arXiv</span>
     </a>
   {% endif %}
+  {% if academic_author.alphaxiv %}
+    <a href="{{ academic_author.alphaxiv }}" target="_blank" rel="noopener" aria-label="alphaXiv profile">
+      <img class="academic-links__brand-icon" src="https://www.alphaxiv.org/favicon.ico" alt="" width="16" height="16" aria-hidden="true" loading="lazy" decoding="async"><span>alphaXiv</span>
+    </a>
+  {% endif %}
   {% if academic_author.googlescholar %}
     <a href="{{ academic_author.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar profile">
       <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
