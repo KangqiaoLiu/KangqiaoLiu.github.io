@@ -56,7 +56,7 @@ gravity_ads:
 open_frequency:
   tags: ["open.quant", "stoch.therm"]
   image: "/assets/images/publications/open-frequency.jpg"
-  pdf: "/publications/2605.03340v1.pdf"
+  pdf: "/publications/2605.03340v2.pdf"
   alt_en: "Finite-frequency fluctuation-response bound for a cat resonator"
   alt_zh: "猫态谐振腔的有限频率涨落响应界"
   summary_en: >-
