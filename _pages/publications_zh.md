@@ -75,11 +75,11 @@ redirect_from:
   (IF = 3.0，中科院2区)<br />
   [学院新闻](https://lxy.xhu.edu.cn/c5/4c/c575a247116/page.htm)<br />
   [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
-11. <span class="entry-year">2026</span> Jie Gu and **Kangqiao Liu**<br />
-  *Finite-frequency fluctuation-response bounds for open quantum systems*<br />
-  To be published in Quantum Science and Technology<br />
+11. Jie Gu and **Kangqiao Liu**<br />
+  *Finite-Frequency Fluctuation-Response Bounds for Open Quantum Systems*<br />
+  [Quantum Science and Technology (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f/meta) (Accepted Manuscript online 2026.10.02)<br />
   (IF = 4.9，中科院2区Top)<br />
-  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
+  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
    
 ## **未经同行评审**
 1. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
