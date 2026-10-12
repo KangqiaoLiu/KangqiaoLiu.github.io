@@ -84,7 +84,7 @@ redirect_from:
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
   To be published in Journal of High Energy Physics<br />
   (IF = 4.9，中科院2区Top)<br />
-  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="zh" %>
+  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="zh" %}
    
 ## **未经同行评审**
 1. **Kangqiao Liu**<br />
