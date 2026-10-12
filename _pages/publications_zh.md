@@ -80,18 +80,20 @@ redirect_from:
   [Quantum Science and Technology (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f/meta) (Accepted Manuscript online 2026.10.02)<br />
   (IF = 4.9，中科院2区Top)<br />
   [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
+12. <span class="entry-year">2026</span> Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
+  *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
+  To be published in Journal of High Energy Physics<br />
+  (IF = 4.9，中科院2区Top)<br />
+  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="zh" %>
    
 ## **未经同行评审**
-1. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
-  *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
-  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432) (2026.07.01). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="zh" %}
-2. **Kangqiao Liu**<br />
+1. **Kangqiao Liu**<br />
   *Classical codes violate the conjectured square-root bound for quantum random access codes*<br />
   [[arXiv:2607.15617]](https://arxiv.org/abs/2607.15617) (2026.07.20). <a href="{{ '/publications/qrac_counterexample.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="qrac" lang="zh" %}
-3. Deyou Chen, Lifang Li, Chuang Yang, and **Kangqiao Liu**<br />
+2. Deyou Chen, Lifang Li, Chuang Yang, and **Kangqiao Liu**<br />
   *Horizon–orbit scale competition underlying chaos bound violation for spinning particles*<br />
   [[arXiv:2609.18143]](https://arxiv.org/abs/2609.18143) (2026.09.16). <a href="{{ '/publications/2609.18143v3.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_blackbounce" lang="zh" %}
-4. **Kangqiao Liu**, Jie Gu, and Deyou Chen<br />
+3. **Kangqiao Liu**, Jie Gu, and Deyou Chen<br />
   *Collective advantage from a minimal record in a quantum information engine*<br />
   [[arXiv:2609.24558]](https://arxiv.org/abs/2609.24558) (2026.09.21). <a href="{{ '/publications/2609.24558v1.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="collective_engine" lang="zh" %}
 
