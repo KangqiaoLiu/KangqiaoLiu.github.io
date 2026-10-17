@@ -7,45 +7,54 @@ redirect_from:
   - /resume
 ---
 ## **Instructor**
-1. **2025.10 - 2025.12** <br />
+1. **2026–2027 · Fall semester** <br />
+   **(Graduate) Course**: Advanced Quantum Mechanics (in English) <br />
+   **Main instructor**: Lecturer Kangqiao LIU <br />
+   **Location**: School of Science, Xihua University <br />
+   **Time period**: 1st semester of academic year 2026–2027, weeks 10–17 <br />
+   <div class="course-resource-links" aria-label="Advanced Quantum Mechanics course resources">
+     <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">Lecture notes (PDF) <span aria-hidden="true">↗</span></a>
+     <a class="ai-button" href="/courses/advanced-quantum-mechanics/companion/">Interactive companion <span aria-hidden="true">↗</span></a>
+   </div>
+2. **2025.10 - 2025.12** <br />
    **(Graduate) Course**: Advanced Quantum Mechanics (in English) <br />
    **Main instructor**: Lecturer Kangqiao LIU <br />
    **Location**: School of Science, Xihua University <br />
    **Time period**: 1st semester of academic year 2025-2026, 7th - 14th week
-2. **2024.10 - 2025.01** <br />
+3. **2024.10 - 2025.01** <br />
    **(Graduate) Course**: Advanced Quantum Mechanics (in English) <br />
    **Main instructor**: Lecturer Kangqiao LIU <br />
    **Location**: School of Science, Xihua University <br />
    **Time period**: 1st semester of academic year 2024-2025, 6th - 17th week
   
-3. **2024.09 - 2024.12** <br />
+4. **2024.09 - 2024.12** <br />
    **Course**: College Physics A(2) <br />
    **Main instructor**: Lecturer Kangqiao LIU <br />
    **Location**: School of Science, Xihua University <br />
    **Time period**: 1st semester of academic year 2024-2025, 1st - 14th week
 
-4. **2024.02 - 2024.07** <br />
+5. **2024.02 - 2024.07** <br />
    **Course**: Case Studies and Practice in Physics (tentative) <br />
    **Main instructor**: Assoc. Prof. Yongtao LIU <br />
    **Location**: School of Science, Xihua University <br />
    **Time period**: 2nd semester of academic year 2023-2024, 2nd - 9th week **(my part: 8th week)**
 
 ## **Undergraduate Dissertation**
-1. **2025.12 - 2026.05** <br />
+2. **2025.12 - 2026.05** <br />
    **Students**: Sheng LIU & Jialong XIE  <br />
    **Location**: School of Science, Xihua University
-2. **2024.12 - 2025.05** <br />
+3. **2024.12 - 2025.05** <br />
    **Student**: Xiuxin CAO  <br />
    **Location**: School of Science, Xihua University
 
 ## **Teaching Assistant**
-1. **2024.09 - 2024.12** <br />
+2. **2024.09 - 2024.12** <br />
    **Course**: Quantum Mechanics <br />
    **Instructor**: Prof. Dong DIE & Prof. Deyou CHEN <br />
    **Location**: School of Science, Xihua University <br />
    **Time period**: 1st semester of academic year 2024-2025, 3st - 12th week
   
-2. **2024.02 - 2024.07** <br />
+3. **2024.02 - 2024.07** <br />
    **Course**: Classical Mechanics C <br />
    **Instructor**: Prof. Jia FU <br />
    **Location**: School of Science, Xihua University <br />

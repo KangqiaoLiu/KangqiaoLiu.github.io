@@ -52,4 +52,45 @@ I use this page for research systems and tools that became useful beyond a singl
       </a>
     </div>
   </li>
+
+  <li class="project-card">
+    <div class="project-card__header">
+      <div class="project-card__meta">
+        <span class="project-card__category">Open course materials · Interactive physics</span>
+      </div>
+      <h2 class="project-card__title">Advanced Quantum Mechanics</h2>
+      <p class="project-card__lede">
+        English graduate lecture notes paired with a browser-based companion for independent,
+        quantitative exploration of quantum physics.
+      </p>
+    </div>
+
+    <div class="project-card__content">
+      <p>
+        The nine-chapter course develops its mathematical foundations through fully worked
+        derivations and concrete physical examples. A complementary collection of 35
+        interactive investigations connects equations to spectra, dynamics, measurement
+        probabilities, scattering, topology, and quantum learning. Each activity offers
+        explicit model assumptions, independent numerical checks, and questions that
+        students can examine further with computational tools or AI-assisted study.
+      </p>
+      <p class="project-card__scope">
+        The lecture notes and interactive materials are freely accessible in a browser.
+        The public repository provides the underlying models and course materials for
+        readers interested in inspecting the calculations or extending the exercises.
+      </p>
+    </div>
+
+    <div class="project-card__actions">
+      <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/companion/">
+        Explore the interactive course <span aria-hidden="true">↗</span>
+      </a>
+      <a class="ai-button" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">
+        Lecture notes (PDF) <span aria-hidden="true">↗</span>
+      </a>
+      <a class="ai-button" href="https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note" target="_blank" rel="noopener">
+        Public repository <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </li>
 </ol>

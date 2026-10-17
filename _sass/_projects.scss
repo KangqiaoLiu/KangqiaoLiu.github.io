@@ -382,3 +382,16 @@
       linear-gradient(135deg, rgba(22, 29, 43, 0.86), rgba(15, 21, 33, 0.82));
   }
 }
+
+/* Compact lecture resource links on the teaching pages. */
+.course-resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin: 0.65rem 0 1.15rem;
+}
+.course-resource-links .ai-button {
+  font-size: 0.82rem;
+  padding: 0.55rem 0.86rem;
+}

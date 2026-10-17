@@ -48,4 +48,41 @@ author_profile: true
       </a>
     </div>
   </li>
+
+  <li class="project-card">
+    <div class="project-card__header">
+      <div class="project-card__meta">
+        <span class="project-card__category">开放课程资源 · 交互式物理学习</span>
+      </div>
+      <h2 class="project-card__title">Advanced Quantum Mechanics · 高等量子力学</h2>
+      <p class="project-card__lede">
+        面向研究生的全英文讲义，以及支持课后自主探索的浏览器交互材料。
+      </p>
+    </div>
+
+    <div class="project-card__content">
+      <p>
+        课程涵盖九章高等量子力学内容，强调完整的数学推导和具体物理模型。
+        配套的35个交互实验将抽象公式与能谱、动力学、量子测量、散射、拓扑和量子学习中的定量结果联系起来。
+        每个实验提供明确的模型假设、独立数值检验和探索性问题，
+        便于学生结合计算工具与 AI 辅助学习进行推导复核和自主研究。
+      </p>
+      <p class="project-card__scope">
+        英文讲义与交互材料可直接在线使用。公开仓库保留相应的物理模型与课程材料，
+        便于有兴趣的读者检查计算过程并进一步探索。
+      </p>
+    </div>
+
+    <div class="project-card__actions">
+      <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/companion/">
+        交互式课程 <span aria-hidden="true">↗</span>
+      </a>
+      <a class="ai-button" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">
+        英文讲义 PDF <span aria-hidden="true">↗</span>
+      </a>
+      <a class="ai-button" href="https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note" target="_blank" rel="noopener">
+        公开仓库 <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </li>
 </ol>
