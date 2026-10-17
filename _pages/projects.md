@@ -73,6 +73,7 @@ I use this page for research systems and tools that became useful beyond a singl
         probabilities, scattering, topology, and quantum learning. Each activity offers
         explicit model assumptions, independent numerical checks, and questions that
         students can examine further with computational tools or AI-assisted study.
+        The lecture PDF also links each experiment at the relevant derivation, with a focused task for independent verification.
       </p>
       <p class="project-card__scope">
         The lecture notes and interactive materials are freely accessible in a browser.
