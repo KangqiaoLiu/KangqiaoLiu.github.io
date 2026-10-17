@@ -69,7 +69,7 @@ author_profile: true
       </p>
       <p class="project-card__scope">
         英文讲义与交互材料可直接在线使用。公开仓库保留相应的物理模型与课程材料，
-        便于有兴趣的读者检查计算过程并进一步探索。
+        便于有兴趣的读者检查计算过程并进一步探索。 使用与改编范围见<a href="https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note/blob/main/COPYRIGHT.md" target="_blank" rel="noopener">版权与许可说明</a>。
       </p>
     </div>
 

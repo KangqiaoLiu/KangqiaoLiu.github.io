@@ -77,7 +77,7 @@ I use this page for research systems and tools that became useful beyond a singl
       <p class="project-card__scope">
         The lecture notes and interactive materials are freely accessible in a browser.
         The public repository provides the underlying models and course materials for
-        readers interested in inspecting the calculations or extending the exercises.
+        readers interested in inspecting the calculations or extending the exercises. See <a href="https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note/blob/main/COPYRIGHT.md" target="_blank" rel="noopener">licenses and attribution</a>.
       </p>
     </div>
 
