@@ -163,6 +163,7 @@ exclude:
   - .asset-cache
   - .bundle
   - .github
+  - course-source
   - .jekyll-assets-cache
   - .sass-cache
   - assets/js/_main.js

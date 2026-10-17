@@ -4,6 +4,8 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  schedule:
+    - cron: '23 3 * * *'
 
 permissions:
   contents: read
@@ -20,6 +22,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+
+      - name: Read public Advanced Quantum Mechanics materials
+        uses: actions/checkout@v4
+        with:
+          repository: KangqiaoLiu/advanced-quantum-mechanics-lecture-note
+          ref: main
+          path: course-source
+          persist-credentials: false
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -60,6 +70,9 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --trace
+
+      - name: Publish linked course PDF and interactive materials
+        run: python scripts/publish_course_resources.py
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

@@ -16,6 +16,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Read public Advanced Quantum Mechanics materials
+        uses: actions/checkout@v4
+        with:
+          repository: KangqiaoLiu/advanced-quantum-mechanics-lecture-note
+          ref: main
+          path: course-source
+          persist-credentials: false
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -42,6 +50,9 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --trace
+
+      - name: Publish linked course PDF and interactive materials
+        run: python scripts/publish_course_resources.py
 
       - name: Upload built site
         uses: actions/upload-artifact@v4
