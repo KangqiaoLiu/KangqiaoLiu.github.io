@@ -7,11 +7,11 @@ redirect_from:
   - /resume
 ---
 ## **Instructor**
-1. **2026–2027 · Fall semester** <br />
+1. **2026.11 - 2027.01** <br />
    **(Graduate) Course**: Advanced Quantum Mechanics (in English) <br />
    **Main instructor**: Lecturer Kangqiao LIU <br />
    **Location**: School of Science, Xihua University <br />
-   **Time period**: 1st semester of academic year 2026–2027, weeks 10–17 <br />
+   **Time period**: 1st semester of academic year 2026-2027, 10th - 17th week <br />
    <div class="course-resource-links" aria-label="Advanced Quantum Mechanics course resources">
      <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">Lecture notes (PDF) <span aria-hidden="true">↗</span></a>
      <a class="ai-button" href="/courses/advanced-quantum-mechanics/companion/">Interactive companion <span aria-hidden="true">↗</span></a>

@@ -7,11 +7,11 @@ redirect_from:
   - /resume
 ---
 ## **授课**
-1. **2026–2027学年第一学期** <br />
-   **（研究生课）课程名**：高等量子力学（全英文） <br />
-   **主授课教师**：刘康桥 讲师 <br />
-   **课程地点**：西华大学理学院 <br />
-   **课程时期**：2026–2027学年第一学期第10–17周 <br />
+1. **2026.11 - 2027.01** <br />
+   **（研究生课）课程名**: 高等量子力学（全英文） <br />
+   **主授课教师**: 刘康桥 讲师 <br />
+   **课程地点**: 西华大学理学院 <br />
+   **课程时期**: 2026-2027学年第一学期第10-17周 <br />
    <div class="course-resource-links" aria-label="高等量子力学课程资源">
      <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">英文讲义 PDF <span aria-hidden="true">↗</span></a>
      <a class="ai-button" href="/courses/advanced-quantum-mechanics/companion/">交互式学习材料 <span aria-hidden="true">↗</span></a>

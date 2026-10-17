@@ -59,3 +59,45 @@
       var(--ai-surface);
   }
 }
+
+/* Research-tooling homepage: two equally weighted, compact work samples. */
+.ai-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.4rem);
+  align-items: stretch;
+}
+.ai-projects-grid .ai-project-feature {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.ai-projects-grid .ai-project-feature .ai-card__index {
+  margin-bottom: clamp(1.1rem, 2.5vw, 2rem);
+}
+.ai-projects-grid .ai-project-feature__actions {
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+.ai-projects-more {
+  margin: 1rem 0 0;
+  text-align: right;
+}
+.ai-projects-more a {
+  color: var(--ai-accent);
+  font-weight: 650;
+  font-size: 0.84rem;
+  text-decoration: none;
+}
+.ai-projects-more a:hover,
+.ai-projects-more a:focus-visible {
+  text-decoration: underline;
+}
+@media (max-width: 760px) {
+  .ai-projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .ai-projects-grid .ai-project-feature__actions {
+    margin-top: 0;
+  }
+}

@@ -141,26 +141,46 @@ redirect_from:
       <div class="ai-section__head ai-reveal">
         <div>
           <p class="ai-section__kicker">Research tooling</p>
-          <h2 class="ai-section__title">Tools that grew out of actual research work.</h2>
+          <h2 class="ai-section__title">Tools for examining and testing ideas.</h2>
         </div>
         <p class="ai-section__summary">
-          I keep a small number of tools public when they become useful beyond a single project.
+          Research workflows and interactive scientific resources, with the underlying methods open for inspection and reuse.
         </p>
       </div>
 
-      <article class="ai-project-feature ai-reveal">
-        <span class="ai-card__index">OPEN SOURCE · RESEARCH TOOLING</span>
-        <h3>Scientific Manuscript Audit</h3>
-        <p>
-          A structured manuscript-audit workflow for Codex and Claude Code, built to trace claims
-          back to evidence before submission or revision.
-        </p>
+      <div class="ai-projects-grid">
+        <article class="ai-project-feature ai-reveal">
+          <span class="ai-card__index">OPEN SOURCE · RESEARCH WORKFLOW</span>
+          <h3>Scientific Manuscript Audit</h3>
+          <p>
+            A structured audit workflow for Codex and Claude Code that traces scientific claims
+            to evidence and tests what matters for submission and revision.
+          </p>
 
-        <div class="ai-project-feature__actions">
-          <a class="ai-button ai-button--primary" href="{{ '/projects/' | relative_url }}">Explore projects</a>
-          <a class="ai-button" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
-        </div>
-      </article>
+          <div class="ai-project-feature__actions">
+            <a class="ai-button ai-button--primary" href="https://github.com/KangqiaoLiu/scientific-manuscript-audit" target="_blank" rel="noopener">View repository ↗</a>
+          </div>
+        </article>
+
+        <article class="ai-project-feature ai-reveal">
+          <span class="ai-card__index">OPEN SOURCE · INTERACTIVE PHYSICS</span>
+          <h3>Advanced Quantum Mechanics</h3>
+          <p>
+            Nine chapters of graduate-level lecture notes and 35 browser-based physics
+            investigations, pairing derivations with reproducible numerical checks and
+            questions for independent, AI-assisted study.
+          </p>
+
+          <div class="ai-project-feature__actions">
+            <a class="ai-button ai-button--primary" href="{{ '/courses/advanced-quantum-mechanics/companion/' | relative_url }}">Explore experiments ↗</a>
+            <a class="ai-button" href="{{ '/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf' | relative_url }}" target="_blank" rel="noopener">Lecture notes (PDF) ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="ai-projects-more">
+        <a href="{{ '/projects/' | relative_url }}">More projects and resources <span aria-hidden="true">→</span></a>
+      </p>
     </div>
   </section>
 
