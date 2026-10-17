@@ -10,6 +10,8 @@ from shutil import copy2, copytree
 import json
 import re
 import hashlib
+import subprocess
+import sys
 
 root = Path(__file__).resolve().parents[1]
 source = root / "course-source"
@@ -26,6 +28,15 @@ assert sum(item.get("category")=="featured" for item in labs) == 27
 assert sum(item.get("category")=="foundation" for item in labs) == 8
 assert sum(bool(item.get("page")) for item in labs) == 35
 assert sum(item.get("category")=="reading" for item in labs) == 27
+
+# Every live experiment must have a precisely placed clickable study guide
+# in the LaTeX notes from which the published PDF is built.
+subprocess.run(
+    [sys.executable, str(source / "scripts/check_interactive_guides.py")],
+    cwd=source,
+    check=True,
+)
+
 
 target.mkdir(parents=True, exist_ok=True)
 (target / "pdf").mkdir(parents=True, exist_ok=True)
