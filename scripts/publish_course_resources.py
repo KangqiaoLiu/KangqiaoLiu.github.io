@@ -9,6 +9,7 @@ from pathlib import Path
 from shutil import copy2, copytree
 import json
 import re
+import hashlib
 
 root = Path(__file__).resolve().parents[1]
 source = root / "course-source"
@@ -29,6 +30,8 @@ assert sum(item.get("category")=="reading" for item in labs) == 27
 target.mkdir(parents=True, exist_ok=True)
 (target / "pdf").mkdir(parents=True, exist_ok=True)
 copy2(pdf, target / "pdf/advanced-quantum-mechanics.pdf")
+assert hashlib.sha256(pdf.read_bytes()).digest() == hashlib.sha256(
+    (target / "pdf/advanced-quantum-mechanics.pdf").read_bytes()).digest(), "PDF packaging mismatch"
 copytree(companion, target / "companion", dirs_exist_ok=True,
          ignore=lambda folder,names: {"notebooks"}.intersection(names))
 
