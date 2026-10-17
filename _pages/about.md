@@ -144,7 +144,7 @@ redirect_from:
           <h2 class="ai-section__title">Tools for examining and testing ideas.</h2>
         </div>
         <p class="ai-section__summary">
-          Research workflows and interactive scientific resources, with the underlying methods open for inspection and reuse.
+          Research workflows and interactive scientific resources, with methods and examples available for inspection and independent study.
         </p>
       </div>
 
@@ -163,7 +163,7 @@ redirect_from:
         </article>
 
         <article class="ai-project-feature ai-reveal">
-          <span class="ai-card__index">OPEN SOURCE · INTERACTIVE PHYSICS</span>
+          <span class="ai-card__index">OPEN COURSE · INTERACTIVE PHYSICS</span>
           <h3>Advanced Quantum Mechanics</h3>
           <p>
             Nine chapters of graduate-level lecture notes and 35 browser-based physics
