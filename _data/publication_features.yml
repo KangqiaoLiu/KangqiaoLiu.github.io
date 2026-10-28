@@ -45,7 +45,7 @@ qrac:
 gravity_ads:
   tags: ["gravity"]
   image: "/assets/images/publications/gravity-ads.jpg"
-  pdf: "/publications/2607.00432v2.pdf"
+  pdf: "/publications/JHEP10(2026)254.pdf"
   alt_en: "Chaos-bound phase maps in Kerr-Newman-AdS spacetime"
   alt_zh: "Kerr-Newman-AdS 时空中的混沌界相图"
   summary_en: >-
@@ -56,7 +56,7 @@ gravity_ads:
 open_frequency:
   tags: ["open.quant", "stoch.therm"]
   image: "/assets/images/publications/open-frequency.jpg"
-  pdf: "/publications/2605.03340v2.pdf"
+  pdf: "/publications/Gu_2026_Quantum_Sci._Technol._11_045098.pdf"
   alt_en: "Finite-frequency fluctuation-response bound for a cat resonator"
   alt_zh: "猫态谐振腔的有限频率涨落响应界"
   summary_en: >-
