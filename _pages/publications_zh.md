@@ -75,16 +75,16 @@ redirect_from:
   (IF = 3.0，中科院2区)<br />
   [学院新闻](https://lxy.xhu.edu.cn/c5/4c/c575a247116/page.htm)<br />
   [[arXiv:2609.01970]](https://arxiv.org/abs/2609.01970). <a href="{{ '/publications/dyyr-z1k8.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a> <a href="https://github.com/KangqiaoLiu/2026_PRA_hard_wall_half_line_quant_walk" class="btn btn--small" target="_blank" rel="noopener">code</a>{% include publication-feature.html id="hardwall_ctqw" lang="zh" %}
-11. Jie Gu and **Kangqiao Liu**<br />
-  *Finite-Frequency Fluctuation-Response Bounds for Open Quantum Systems*<br />
-  [Quantum Science and Technology **11**, 045098 (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f) (2026.10.27)<br />
-  (IF = 4.9，中科院2区Top)<br />
-  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/Gu_2026_Quantum_Sci._Technol._11_045098.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
-12. <span class="entry-year">2026</span> Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
+11. Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
   [Journal of High Energy Physics **10** (2026) 254](https://link.springer.com/article/10.1007/JHEP10%282026%29254) (2026.10.26)<br />
   (IF = 4.9，中科院2区Top)<br />
   [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432). <a href="{{ '/publications/JHEP10(2026)254.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="zh" %}
+12. <span class="entry-year">2026</span> Jie Gu and **Kangqiao Liu**<br />
+  *Finite-Frequency Fluctuation-Response Bounds for Open Quantum Systems*<br />
+  [Quantum Science and Technology **11**, 045098 (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f) (2026.10.27)<br />
+  (IF = 4.9，中科院2区Top)<br />
+  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/Gu_2026_Quantum_Sci._Technol._11_045098.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="zh" %}
    
 ## **未经同行评审**
 1. **Kangqiao Liu**<br />
