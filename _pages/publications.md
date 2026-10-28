@@ -33,12 +33,12 @@ My machine-learning work follows a connected line on the stochastic dynamics of 
 ## **Peer-reviewed**
 1. <span class="entry-year">2026</span> Deyou Chen, Chuang Yang, and **Kangqiao Liu**<br />
   *Chaos bound for spinning particles in Kerr-Newman-AdS black holes*<br />
-  To be published in Journal of High Energy Physics<br />
-  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432). <a href="{{ '/publications/2607.00432v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="en" %}
+  [Journal of High Energy Physics **10** (2026) 254](https://link.springer.com/article/10.1007/JHEP10%282026%29254) (2026.10.26)<br />
+  [[arXiv:2607.00432]](https://arxiv.org/abs/2607.00432). <a href="{{ '/publications/JHEP10(2026)254.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="gravity_ads" lang="en" %}
 2. Jie Gu and **Kangqiao Liu**<br />
   *Finite-Frequency Fluctuation-Response Bounds for Open Quantum Systems*<br />
-  [Quantum Science and Technology (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f/meta) (Accepted Manuscript online 2026.10.02)<br />
-  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/2605.03340v2.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="en" %}
+  [Quantum Science and Technology **11**, 045098 (2026)](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f) (2026.10.27)<br />
+  [[arXiv:2605.03340]](https://arxiv.org/abs/2605.03340). <a href="{{ '/publications/Gu_2026_Quantum_Sci._Technol._11_045098.pdf' | relative_url }}" class="btn btn--small" target="_blank" rel="noopener">PDF</a>{% include publication-feature.html id="open_frequency" lang="en" %}
 3. **Kangqiao Liu** and Deyou Chen<br />
   *Maximal-velocity deficit under a finite-support constraint in a hard-wall half-line continuous-time quantum walk*<br />
   [Physical Review A **114**, 032434 (2026)](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) (2026.09.15)<br />
