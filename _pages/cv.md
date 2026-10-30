@@ -67,7 +67,7 @@ For machine-learning and AI research roles, see the [AI Research CV]({{ '/ai-cv/
 ## **Service**
 * Reviewer
   * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics
-  * **Conference**: NeurIPS, ICLR, ICML
+  * **Conference**: NeurIPS, ICLR, ICML, AISTATS
 
 ## **Awards**
 * 2018.09, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan

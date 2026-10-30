@@ -66,7 +66,7 @@ redirect_from:
 ## **服务经历**
 * 审稿人
   * **期刊**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics
-  * **会议**: NeurIPS, ICLR, ICML
+  * **会议**: NeurIPS, ICLR, ICML, AISTATS
 
 ## **获奖经历**
 * 2018.09, **Global Science Graduate Course (GSGC)**, 东京大学
