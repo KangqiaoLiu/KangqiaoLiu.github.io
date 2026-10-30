@@ -64,17 +64,10 @@ For machine-learning and AI research roles, see the [AI Research CV]({{ '/ai-cv/
   * Grant No. **JP22H01152**
   * 2023.04.01 - 2025.03.31 (stopped as of 2023.09.30)
 
-## **Awards**
-* 2018.09, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan
-* 2018.05, **Students Graduated with Honors**, Wuhan University, China
-* 2017.04, **First Class Fulan Scholarship**, Wuhan University, China
-* 2016.10, **Second Class Scholarship**, Wuhan University, China
-* 2016.10, **Song Shan Hu Scholarship**, Wuhan University, China
-* 2015.10, **First Class Scholarship**, Wuhan University, China
-* 2015.11, **National Scholarship**, Ministry of Education of the People's Republic of China, China
-* 2015.10, **Tian Juan Scholarship**, Wuhan Institute of Physics and Mathematics of Chinese Academy of Sciences, China
-
 ## **Service**
 * Reviewer
   * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics
   * **Conference**: NeurIPS, ICLR, ICML
+
+## **Awards**
+* 2018.09, **Global Science Graduate Course (GSGC)**, The University of Tokyo, Japan
