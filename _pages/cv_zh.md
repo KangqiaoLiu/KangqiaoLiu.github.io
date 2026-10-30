@@ -62,18 +62,11 @@ redirect_from:
   * *量子揺らぎを取り入れた情報熱力学（考虑量子涨落的信息热力学）*
   * 项目编号：**JP22H01152**
   * 执行期：2023.04.01 - 2025.03.31（中止于 2023.09.30）
-  
-## **获奖经历**
-* 2018.09, **Global Science Graduate Course (GSGC)**, 东京大学
-* 2018.05, **优秀本科毕业生**, 武汉大学
-* 2017.04, **芙兰奖学金甲等**, 武汉大学
-* 2016.10, **乙等奖学金**, 武汉大学
-* 2016.10, **松山湖奖学金**, 武汉大学
-* 2015.10, **甲等奖学金**, 武汉大学
-* 2015.11, **国家奖学金**, 武汉大学
-* 2015.10, **天眷奖学金**, 武汉大学
 
 ## **服务经历**
 * 审稿人
   * **期刊**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics
   * **会议**: NeurIPS, ICLR, ICML
+
+## **获奖经历**
+* 2018.09, **Global Science Graduate Course (GSGC)**, 东京大学
