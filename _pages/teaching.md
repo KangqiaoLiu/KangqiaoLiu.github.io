@@ -13,7 +13,7 @@ redirect_from:
    **Location**: School of Science, Xihua University <br />
    **Time period**: 1st semester of academic year 2026-2027, 10th - 17th week <br />
    <div class="course-resource-links" aria-label="Advanced Quantum Mechanics course resources">
-     <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">Lecture notes (PDF) <span aria-hidden="true">↗</span></a>
+     <a class="ai-button ai-button--primary" href="https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note/blob/main/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener">Lecture notes (PDF) <span aria-hidden="true">↗</span></a>
      <a class="ai-button" href="/courses/advanced-quantum-mechanics/companion/">Interactive companion <span aria-hidden="true">↗</span></a>
    </div>
 2. **2025.10 - 2025.12** <br />
