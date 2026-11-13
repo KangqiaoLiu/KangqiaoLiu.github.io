@@ -24,6 +24,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      # Every deployment copies the compiled course PDF directly into this site.
       - name: Read public Advanced Quantum Mechanics materials
         uses: actions/checkout@v4
         with:
