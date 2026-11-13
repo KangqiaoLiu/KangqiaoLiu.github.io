@@ -4,9 +4,9 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
-  # Refresh the independently built course PDF throughout the day.
+  # Daily refresh copies the latest course PDF into the published site.
   schedule:
-    - cron: '17 * * * *'
+    - cron: '23 3 * * *'
 
 permissions:
   contents: read
