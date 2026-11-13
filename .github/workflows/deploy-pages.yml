@@ -4,8 +4,9 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  # Refresh the independently built course PDF throughout the day.
   schedule:
-    - cron: '23 3 * * *'
+    - cron: '17 * * * *'
 
 permissions:
   contents: read
