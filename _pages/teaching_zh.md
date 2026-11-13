@@ -13,7 +13,7 @@ redirect_from:
    **课程地点**: 西华大学理学院 <br />
    **课程时期**: 2026-2027学年第一学期第10-17周 <br />
    <div class="course-resource-links" aria-label="高等量子力学课程资源">
-     <a class="ai-button ai-button--primary" href="/courses/advanced-quantum-mechanics/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener" type="application/pdf">英文讲义 PDF <span aria-hidden="true">↗</span></a>
+     <a class="ai-button ai-button--primary" href="https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note/blob/main/pdf/advanced-quantum-mechanics.pdf" target="_blank" rel="noopener">英文讲义 PDF <span aria-hidden="true">↗</span></a>
      <a class="ai-button" href="/courses/advanced-quantum-mechanics/companion/">交互式学习材料 <span aria-hidden="true">↗</span></a>
    </div>
 2. **2025.10 - 2025.12** <br />
