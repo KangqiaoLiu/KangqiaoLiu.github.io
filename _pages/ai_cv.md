@@ -73,6 +73,12 @@ Advisor: Prof. Masahito Ueda. Thesis: *Theoretical Study on Information Engines 
 **2018–2020 — M.Sc. in Physics**, The University of Tokyo, Japan  
 Advisor: Prof. Masahito Ueda. Thesis: *Thermodynamic Uncertainty Relations in Markovian Processes*.
 
+## AI-assisted physics education
+
+**Advanced Quantum Mechanics**  
+Developed a graduate-level course with nine chapters of English lecture notes and 35 browser-based numerical investigations, integrating worked derivations, independent numerical checks, and guided tasks for AI-assisted physics learning.  
+[[interactive course]](https://kangqiaoliu.github.io/courses/advanced-quantum-mechanics/companion/) [[GitHub]](https://github.com/KangqiaoLiu/advanced-quantum-mechanics-lecture-note)
+
 ## Selected funding
 
 - **National Natural Science Foundation of China, Young Scientists Fund (Category C)**, Principal Investigator, CNY 300,000, 2027–2029.
@@ -87,4 +93,4 @@ Advisor: Prof. Masahito Ueda. Thesis: *Thermodynamic Uncertainty Relations in Ma
 
 ## Academic service
 
-Reviewer for **NeurIPS, ICLR, ICML**; **Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics**.
+Reviewer for **NeurIPS, ICLR, ICML, AISTATS**; **Physical Review Letters, Physical Review Research, Physical Review A, Physical Review E, Communications Physics, IEEE Transactions on Information Theory**.
