@@ -20,9 +20,15 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       # Every deployment copies the compiled course PDF directly into this site.
       - name: Read public Advanced Quantum Mechanics materials
@@ -64,6 +70,26 @@ jobs:
           mkdir -p /tmp/ai-cv-build
           pdflatex -interaction=nonstopmode -halt-on-error -output-directory=/tmp/ai-cv-build files/Kangqiao_Liu_AI_Research_CV.tex
           cp /tmp/ai-cv-build/Kangqiao_Liu_AI_Research_CV.pdf files/Kangqiao_Liu_AI_Research_CV.pdf
+
+      # Keep the PDF in the source branch too, so branch-based Pages builds retain it.
+      - name: Synchronize generated AI Research CV PDF
+        if: github.ref == 'refs/heads/master'
+        run: |
+          pdf=files/Kangqiao_Liu_AI_Research_CV.pdf
+          tex=files/Kangqiao_Liu_AI_Research_CV.tex
+          if git ls-files --error-unmatch "$pdf" >/dev/null 2>&1; then
+            last_pdf_commit=$(git log -1 --format=%H -- "$pdf")
+            if git diff --quiet "$last_pdf_commit" HEAD -- "$tex"; then
+              exit 0
+            fi
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f "$pdf"
+          if ! git diff --cached --quiet -- "$pdf"; then
+            git commit -m "Update generated AI Research CV PDF" -- "$pdf"
+            git push origin HEAD:master
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
