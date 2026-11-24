@@ -66,7 +66,7 @@ For machine-learning and AI research roles, see the [AI Research CV]({{ '/ai-cv/
 
 ## **Service**
 * Reviewer
-  * **Journal**: Physical Review Letters, Physical Review Research, Physical Review E, Communications Physics, IEEE Transactions on Information Theory
+  * **Journal**: Physical Review Letters, Physical Review Research, Physical Review A, Physical Review E, Communications Physics, IEEE Transactions on Information Theory
   * **Conference**: NeurIPS, ICLR, ICML, AISTATS
 
 ## **Awards**
