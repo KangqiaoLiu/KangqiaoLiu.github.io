@@ -39,6 +39,23 @@ Takashi Mori, Liu Ziyin, **Kangqiao Liu**, and Masahito Ueda
 Derived the stationary distribution around local minima and identified power-law escape dynamics for minibatch SGD, linking optimization escape to the loss-dependent structure of stochastic noise.  
 [[paper]](https://proceedings.mlr.press/v162/mori22a.html) [[arXiv]](https://arxiv.org/abs/2105.09557)
 
+## Current direction and research tooling
+
+- Developing a research program that connects stochastic-process methods with modern reasoning and agent systems: trajectory ensembles, search dynamics, verification, failure recovery, and compute allocation.
+- Exploring verifiable scientific-agent environments built from genuine mathematical and physical research tasks, with emphasis on mechanisms and evaluation signals that remain meaningful beyond a single model generation.
+- Built **Scientific Manuscript Audit**, an open-source research workflow for Codex and Claude Code with claim-to-evidence tracing, synthetic evaluation cases, automated validation, and reproducible distribution packages. [[GitHub]](https://github.com/KangqiaoLiu/scientific-manuscript-audit)
+
+## Experience
+
+**2023–present — Lecturer of Physics**, School of Science, Xihua University, Chengdu, China  
+Independent research in nonequilibrium physics, quantum information, stochastic dynamics, and machine learning.
+
+**2020–2023 — Ph.D. in Physics**, The University of Tokyo, Japan  
+Advisor: Prof. Masahito Ueda. Thesis: *Theoretical Study on Information Engines for Quantum Transport*.
+
+**2018–2020 — M.Sc. in Physics**, The University of Tokyo, Japan  
+Advisor: Prof. Masahito Ueda. Thesis: *Thermodynamic Uncertainty Relations in Markovian Processes*.
+
 ## Selected independent research
 
 **Dynamical activity universally bounds precision of response in Markovian nonequilibrium systems** — **Communications Physics (2025)**  
@@ -56,22 +73,10 @@ Constructed a family of counterexamples and characterized the asymptotic region 
 Reduced an optimal transport problem to a principal-eigenvalue problem and derived the exact asymptotic velocity deficit under finite-support preparation.  
 [[journal]](https://journals.aps.org/pra/abstract/10.1103/dyyr-z1k8) [[arXiv]](https://arxiv.org/abs/2609.01970)
 
-## Current direction and research tooling
-
-- Developing a research program that connects stochastic-process methods with modern reasoning and agent systems: trajectory ensembles, search dynamics, verification, failure recovery, and compute allocation.
-- Exploring verifiable scientific-agent environments built from genuine mathematical and physical research tasks, with emphasis on mechanisms and evaluation signals that remain meaningful beyond a single model generation.
-- Built **Scientific Manuscript Audit**, an open-source research workflow for Codex and Claude Code with claim-to-evidence tracing, synthetic evaluation cases, automated validation, and reproducible distribution packages. [[GitHub]](https://github.com/KangqiaoLiu/scientific-manuscript-audit)
-
-## Experience
-
-**2023–present — Lecturer of Physics**, School of Science, Xihua University, Chengdu, China  
-Independent research in nonequilibrium physics, quantum information, stochastic dynamics, and machine learning.
-
-**2020–2023 — Ph.D. in Physics**, The University of Tokyo, Japan  
-Advisor: Prof. Masahito Ueda. Thesis: *Theoretical Study on Information Engines for Quantum Transport*.
-
-**2018–2020 — M.Sc. in Physics**, The University of Tokyo, Japan  
-Advisor: Prof. Masahito Ueda. Thesis: *Thermodynamic Uncertainty Relations in Markovian Processes*.
+- **Kangqiao Liu**, Zongping Gong, and Masahito Ueda. *Thermodynamic Uncertainty Relation for Arbitrary Initial States*. **Physical Review Letters 125, 140602 (2020)**. [[journal]](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.140602)
+- **Kangqiao Liu** and Jie Gu. *Response kinetic uncertainty relation for Markovian open quantum systems*. **Physical Review A 113, 062443 (2026)**. [[journal]](https://journals.aps.org/pra/abstract/10.1103/ps1b-8l1x)
+- **Kangqiao Liu**, Masaya Nakagawa, and Masahito Ueda. *Maxwell's demon for quantum transport*. **Physical Review A 113, 022436 (2026)**. [[journal]](https://journals.aps.org/pra/abstract/10.1103/rhvv-yd6w)
+- Jie Gu and **Kangqiao Liu**. *Finite-Frequency Fluctuation-Response Bounds for Open Quantum Systems*. **Quantum Science and Technology 11, 045098 (2026)**. [[journal]](https://iopscience.iop.org/article/10.1088/2058-9565/aeaf7f)
 
 ## AI-assisted physics education
 
